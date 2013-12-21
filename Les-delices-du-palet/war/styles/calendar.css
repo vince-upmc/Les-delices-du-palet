@@ -1,7 +1,29 @@
 @CHARSET "ISO-8859-1";
 
-.calendar-match {
+.calendar {
+	width:90%;
 	margin:auto;
-	background: #EEEEEE;
+}
+
+.calendar-item {
+	width:100%;
 	text-align:center;
+	margin-bottom:.5em;
+	padding:5px 5px 5px 5px;
+	background:#000000;
+}
+
+.game-time {
+	width:30%
+}
+
+.left-team {
+	width:35%;
+	padding:5px 5px 5px 5px;
+}
+
+
+.right-team {
+	width:35%;
+	padding:5px 5px 5px 5px;
 }

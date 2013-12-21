@@ -15,16 +15,34 @@
 		<div class="left-panel">
 			<h1>Calendar</h1>
 			<%
-				List<Match> matchs = new ArrayList<Match>();
 			
-				for (int i=0;i<5;i++) {
+				Match m1 = new Match("m1",new Date(),
+					"Les petits pédestres",
+					"Les grosses pédales",
+					0,
+					0);
+				Match m2 = new Match("m2",new Date(),
+					"Les petits pédestres qui beaucou du ronquqq",
+					"Les grosses pédales",
+					0,
+					0);
+				List<Match> matchs = new ArrayList<Match>();
+				matchs.add(m1);matchs.add(m2);
 			%>
-					<div class="calendar-match">
-						 <%="Match" + i%>
-					</div>
-			<%
-				}
-			%>
+			
+				<table class="calendar">
+				<%
+					for (Match m : matchs) {
+				%>
+						<tr class="calendar-item">
+							 <td class="game-time"><%=m.getDate().getDay() + " " + m.getDate().getMonth() %></td>
+							 <td class="left-team"><%=m.getTeam1() %></td>
+							 <td class="right-team"><%=m.getTeam2() %></td>
+						</tr>
+				<%
+					}
+				%>
+				</table>
 		</div>
 		
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>

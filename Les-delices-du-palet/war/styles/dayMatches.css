@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+#matchs .matchPanel {
+	width:80%;
+	background:#222;
+	font-family:"Comic Sans MS", cursive, sans-serif;
+	margin:auto;
+	margin-bottom:20px;
+}
+
+.team_score {
+	width:100%;
+	border:1px solid white;
+}
+
+.teamLabel {
+	float:left;
+	padding:5px 5px 5px 5px;
+	width:80%;
+}
+
+.scoreLabel {
+	padding:5px 5px 5px 5px;
+	float:right;
+}
