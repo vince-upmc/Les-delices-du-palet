@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2013-12-23 04:12:07 +0000 -->
+<league xmlns="http://feed.elasticstats.com/schema/hockey/nhl/standings-v2.0.xsd" id="fd560107-a85b-4388-ab0d-655ad022aff7" name="NHL" alias="NHL">
+  <season id="a64701af-85bb-4cc0-bf72-15f6ba69757e" year="2013" type="REG">
+    <conference id="64901512-9ca9-4bea-aa80-16dbcbdae230" name="WESTERN CONFERENCE" alias="WESTERN">
+      <division id="5e868c4d-c6a3-4901-bc3c-3b7a4509e402" name="Central" alias="CENTRAL">
+        <team id="441660ea-0f24-11e2-8525-18a905767e44" name="Blues" market="St. Louis" games_played="35" wins="24" losses="7" overtime_losses="4" win_pct="0.686" points="52" regulation_wins="21" shootout_wins="3" shootout_losses="1" goals_for="125" goals_against="81" goal_diff="44" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="2"/>
+          </streak>
+          <records>
+            <atlantic wins="7" losses="1" overtime_losses="1" win_pct="0.778"/>
+            <central wins="10" losses="0" overtime_losses="1" win_pct="0.909"/>
+            <conference wins="12" losses="5" overtime_losses="3" win_pct="0.6"/>
+            <division wins="10" losses="0" overtime_losses="1" win_pct="0.909"/>
+            <home wins="14" losses="3" overtime_losses="2" win_pct="0.737"/>
+            <last_10 wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <last_10_home wins="7" losses="2" overtime_losses="1" win_pct="0.7"/>
+            <last_10_road wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <metropolitan wins="5" losses="1" overtime_losses="0" win_pct="0.833"/>
+            <pacific wins="2" losses="5" overtime_losses="2" win_pct="0.222"/>
+            <road wins="10" losses="4" overtime_losses="2" win_pct="0.625"/>
+          </records>
+        </team>
+        <team id="4416272f-0f24-11e2-8525-18a905767e44" name="Blackhawks" market="Chicago" games_played="38" wins="25" losses="7" overtime_losses="6" win_pct="0.658" points="56" regulation_wins="21" shootout_wins="4" shootout_losses="4" goals_for="140" goals_against="105" goal_diff="35" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="1" overtime_losses="2" win_pct="0.625"/>
+            <central wins="8" losses="6" overtime_losses="1" win_pct="0.533"/>
+            <conference wins="16" losses="6" overtime_losses="4" win_pct="0.615"/>
+            <division wins="8" losses="6" overtime_losses="1" win_pct="0.533"/>
+            <home wins="12" losses="2" overtime_losses="5" win_pct="0.632"/>
+            <last_10 wins="5" losses="3" overtime_losses="2" win_pct="0.5"/>
+            <last_10_home wins="7" losses="1" overtime_losses="2" win_pct="0.7"/>
+            <last_10_road wins="8" losses="2" overtime_losses="0" win_pct="0.8"/>
+            <metropolitan wins="4" losses="0" overtime_losses="0" win_pct="1.0"/>
+            <pacific wins="8" losses="0" overtime_losses="3" win_pct="0.727"/>
+            <road wins="13" losses="5" overtime_losses="1" win_pct="0.684"/>
+          </records>
+        </team>
+        <team id="4415ce44-0f24-11e2-8525-18a905767e44" name="Avalanche" market="Colorado" games_played="35" wins="23" losses="10" overtime_losses="2" win_pct="0.657" points="48" regulation_wins="21" shootout_wins="2" shootout_losses="2" goals_for="102" goals_against="83" goal_diff="19" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="2" overtime_losses="0" win_pct="0.667"/>
+            <central wins="9" losses="4" overtime_losses="1" win_pct="0.643"/>
+            <conference wins="15" losses="7" overtime_losses="2" win_pct="0.625"/>
+            <division wins="9" losses="4" overtime_losses="1" win_pct="0.643"/>
+            <home wins="12" losses="5" overtime_losses="1" win_pct="0.667"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <last_10_road wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <metropolitan wins="4" losses="1" overtime_losses="0" win_pct="0.8"/>
+            <pacific wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <road wins="11" losses="5" overtime_losses="1" win_pct="0.647"/>
+          </records>
+        </team>
+        <team id="4416091c-0f24-11e2-8525-18a905767e44" name="Wild" market="Minnesota" games_played="38" wins="20" losses="13" overtime_losses="5" win_pct="0.526" points="45" regulation_wins="15" shootout_wins="5" shootout_losses="4" goals_for="87" goals_against="92" goal_diff="-5" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="2"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="3" overtime_losses="1" win_pct="0.556"/>
+            <central wins="8" losses="4" overtime_losses="1" win_pct="0.615"/>
+            <conference wins="11" losses="7" overtime_losses="3" win_pct="0.524"/>
+            <division wins="8" losses="4" overtime_losses="1" win_pct="0.615"/>
+            <home wins="14" losses="3" overtime_losses="2" win_pct="0.737"/>
+            <last_10 wins="5" losses="5" overtime_losses="0" win_pct="0.5"/>
+            <last_10_home wins="8" losses="2" overtime_losses="0" win_pct="0.8"/>
+            <last_10_road wins="3" losses="6" overtime_losses="1" win_pct="0.3"/>
+            <metropolitan wins="4" losses="3" overtime_losses="1" win_pct="0.5"/>
+            <pacific wins="3" losses="3" overtime_losses="2" win_pct="0.375"/>
+            <road wins="6" losses="10" overtime_losses="3" win_pct="0.316"/>
+          </records>
+        </team>
+        <team id="44157522-0f24-11e2-8525-18a905767e44" name="Stars" market="Dallas" games_played="35" wins="17" losses="12" overtime_losses="6" win_pct="0.486" points="40" regulation_wins="14" shootout_wins="3" shootout_losses="4" goals_for="101" goals_against="105" goal_diff="-4" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="2" overtime_losses="1" win_pct="0.571"/>
+            <central wins="4" losses="7" overtime_losses="3" win_pct="0.286"/>
+            <conference wins="11" losses="9" overtime_losses="5" win_pct="0.44"/>
+            <division wins="4" losses="7" overtime_losses="3" win_pct="0.286"/>
+            <home wins="7" losses="4" overtime_losses="4" win_pct="0.467"/>
+            <last_10 wins="5" losses="3" overtime_losses="2" win_pct="0.5"/>
+            <last_10_home wins="4" losses="3" overtime_losses="3" win_pct="0.4"/>
+            <last_10_road wins="5" losses="3" overtime_losses="2" win_pct="0.5"/>
+            <metropolitan wins="2" losses="1" overtime_losses="0" win_pct="0.667"/>
+            <pacific wins="7" losses="2" overtime_losses="2" win_pct="0.636"/>
+            <road wins="10" losses="8" overtime_losses="2" win_pct="0.5"/>
+          </records>
+        </team>
+        <team id="441643b7-0f24-11e2-8525-18a905767e44" name="Predators" market="Nashville" games_played="36" wins="16" losses="16" overtime_losses="4" win_pct="0.444" points="36" regulation_wins="16" shootout_wins="0" shootout_losses="3" goals_for="83" goals_against="103" goal_diff="-20" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="3"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="2" overtime_losses="1" win_pct="0.571"/>
+            <central wins="6" losses="6" overtime_losses="0" win_pct="0.5"/>
+            <conference wins="9" losses="8" overtime_losses="2" win_pct="0.474"/>
+            <division wins="6" losses="6" overtime_losses="0" win_pct="0.5"/>
+            <home wins="8" losses="7" overtime_losses="3" win_pct="0.444"/>
+            <last_10 wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_home wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_road wins="4" losses="6" overtime_losses="0" win_pct="0.4"/>
+            <metropolitan wins="3" losses="6" overtime_losses="1" win_pct="0.3"/>
+            <pacific wins="3" losses="2" overtime_losses="2" win_pct="0.429"/>
+            <road wins="8" losses="9" overtime_losses="1" win_pct="0.444"/>
+          </records>
+        </team>
+        <team id="44180e55-0f24-11e2-8525-18a905767e44" name="Jets" market="Winnipeg" games_played="38" wins="16" losses="17" overtime_losses="5" win_pct="0.421" points="37" regulation_wins="11" shootout_wins="5" shootout_losses="4" goals_for="101" goals_against="110" goal_diff="-9" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="3" overtime_losses="0" win_pct="0.571"/>
+            <central wins="3" losses="11" overtime_losses="3" win_pct="0.176"/>
+            <conference wins="6" losses="13" overtime_losses="4" win_pct="0.261"/>
+            <division wins="3" losses="11" overtime_losses="3" win_pct="0.176"/>
+            <home wins="8" losses="8" overtime_losses="4" win_pct="0.4"/>
+            <last_10 wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <last_10_home wins="4" losses="3" overtime_losses="3" win_pct="0.4"/>
+            <last_10_road wins="5" losses="5" overtime_losses="0" win_pct="0.5"/>
+            <metropolitan wins="6" losses="1" overtime_losses="1" win_pct="0.75"/>
+            <pacific wins="3" losses="2" overtime_losses="1" win_pct="0.5"/>
+            <road wins="8" losses="9" overtime_losses="1" win_pct="0.444"/>
+          </records>
+        </team>
+      </division>
+      <division id="17101b65-e8b9-4cda-a963-eea874aed81f" name="Pacific" alias="PACIFIC">
+        <team id="441862de-0f24-11e2-8525-18a905767e44" name="Ducks" market="Anaheim" games_played="38" wins="26" losses="7" overtime_losses="5" win_pct="0.684" points="57" regulation_wins="24" shootout_wins="2" shootout_losses="4" goals_for="124" goals_against="96" goal_diff="28" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="8"/>
+          </streak>
+          <records>
+            <atlantic wins="6" losses="4" overtime_losses="1" win_pct="0.545"/>
+            <central wins="6" losses="2" overtime_losses="0" win_pct="0.75"/>
+            <conference wins="13" losses="2" overtime_losses="2" win_pct="0.765"/>
+            <division wins="7" losses="0" overtime_losses="2" win_pct="0.778"/>
+            <home wins="13" losses="0" overtime_losses="2" win_pct="0.867"/>
+            <last_10 wins="8" losses="0" overtime_losses="2" win_pct="0.8"/>
+            <last_10_home wins="8" losses="0" overtime_losses="2" win_pct="0.8"/>
+            <last_10_road wins="6" losses="2" overtime_losses="2" win_pct="0.6"/>
+            <metropolitan wins="7" losses="1" overtime_losses="2" win_pct="0.7"/>
+            <pacific wins="7" losses="0" overtime_losses="2" win_pct="0.778"/>
+            <road wins="13" losses="7" overtime_losses="3" win_pct="0.565"/>
+          </records>
+        </team>
+        <team id="44151f7a-0f24-11e2-8525-18a905767e44" name="Kings" market="Los Angeles" games_played="37" wins="25" losses="8" overtime_losses="4" win_pct="0.676" points="54" regulation_wins="19" shootout_wins="6" shootout_losses="2" goals_for="104" goals_against="71" goal_diff="33" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="3"/>
+          </streak>
+          <records>
+            <atlantic wins="7" losses="1" overtime_losses="1" win_pct="0.778"/>
+            <central wins="5" losses="3" overtime_losses="1" win_pct="0.556"/>
+            <conference wins="13" losses="6" overtime_losses="2" win_pct="0.619"/>
+            <division wins="8" losses="3" overtime_losses="1" win_pct="0.667"/>
+            <home wins="13" losses="4" overtime_losses="2" win_pct="0.684"/>
+            <last_10 wins="9" losses="1" overtime_losses="0" win_pct="0.9"/>
+            <last_10_home wins="7" losses="1" overtime_losses="2" win_pct="0.7"/>
+            <last_10_road wins="8" losses="1" overtime_losses="1" win_pct="0.8"/>
+            <metropolitan wins="5" losses="1" overtime_losses="1" win_pct="0.714"/>
+            <pacific wins="8" losses="3" overtime_losses="1" win_pct="0.667"/>
+            <road wins="12" losses="4" overtime_losses="2" win_pct="0.667"/>
+          </records>
+        </team>
+        <team id="44155909-0f24-11e2-8525-18a905767e44" name="Sharks" market="San Jose" games_played="36" wins="22" losses="8" overtime_losses="6" win_pct="0.611" points="50" regulation_wins="18" shootout_wins="4" shootout_losses="5" goals_for="116" goals_against="90" goal_diff="26" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="6" losses="1" overtime_losses="1" win_pct="0.75"/>
+            <central wins="5" losses="3" overtime_losses="2" win_pct="0.5"/>
+            <conference wins="14" losses="5" overtime_losses="4" win_pct="0.609"/>
+            <division wins="9" losses="2" overtime_losses="2" win_pct="0.692"/>
+            <home wins="12" losses="1" overtime_losses="3" win_pct="0.75"/>
+            <last_10 wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <last_10_home wins="7" losses="1" overtime_losses="2" win_pct="0.7"/>
+            <last_10_road wins="4" losses="6" overtime_losses="0" win_pct="0.4"/>
+            <metropolitan wins="2" losses="2" overtime_losses="1" win_pct="0.4"/>
+            <pacific wins="9" losses="2" overtime_losses="2" win_pct="0.692"/>
+            <road wins="10" losses="7" overtime_losses="3" win_pct="0.5"/>
+          </records>
+        </team>
+        <team id="4415b0a7-0f24-11e2-8525-18a905767e44" name="Canucks" market="Vancouver" games_played="39" wins="22" losses="11" overtime_losses="6" win_pct="0.564" points="50" regulation_wins="20" shootout_wins="2" shootout_losses="4" goals_for="106" goals_against="93" goal_diff="13" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="2"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="2" overtime_losses="1" win_pct="0.571"/>
+            <central wins="5" losses="3" overtime_losses="1" win_pct="0.556"/>
+            <conference wins="10" losses="7" overtime_losses="4" win_pct="0.476"/>
+            <division wins="5" losses="4" overtime_losses="3" win_pct="0.417"/>
+            <home wins="11" losses="5" overtime_losses="3" win_pct="0.579"/>
+            <last_10 wins="8" losses="1" overtime_losses="1" win_pct="0.8"/>
+            <last_10_home wins="7" losses="1" overtime_losses="2" win_pct="0.7"/>
+            <last_10_road wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <metropolitan wins="8" losses="2" overtime_losses="1" win_pct="0.727"/>
+            <pacific wins="5" losses="4" overtime_losses="3" win_pct="0.417"/>
+            <road wins="11" losses="6" overtime_losses="3" win_pct="0.55"/>
+          </records>
+        </team>
+        <team id="44153da1-0f24-11e2-8525-18a905767e44" name="Coyotes" market="Phoenix" games_played="35" wins="19" losses="10" overtime_losses="6" win_pct="0.543" points="44" regulation_wins="15" shootout_wins="4" shootout_losses="3" goals_for="110" goals_against="108" goal_diff="2" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="1" overtime_losses="2" win_pct="0.571"/>
+            <central wins="4" losses="2" overtime_losses="2" win_pct="0.5"/>
+            <conference wins="10" losses="7" overtime_losses="4" win_pct="0.476"/>
+            <division wins="6" losses="5" overtime_losses="2" win_pct="0.462"/>
+            <home wins="10" losses="3" overtime_losses="2" win_pct="0.667"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <last_10_road wins="4" losses="3" overtime_losses="3" win_pct="0.4"/>
+            <metropolitan wins="5" losses="2" overtime_losses="0" win_pct="0.714"/>
+            <pacific wins="6" losses="5" overtime_losses="2" win_pct="0.462"/>
+            <road wins="9" losses="7" overtime_losses="4" win_pct="0.45"/>
+          </records>
+        </team>
+        <team id="44159241-0f24-11e2-8525-18a905767e44" name="Flames" market="Calgary" games_played="36" wins="13" losses="17" overtime_losses="6" win_pct="0.361" points="32" regulation_wins="11" shootout_wins="2" shootout_losses="2" goals_for="91" goals_against="115" goal_diff="-24" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="4"/>
+          </streak>
+          <records>
+            <atlantic wins="3" losses="4" overtime_losses="1" win_pct="0.375"/>
+            <central wins="2" losses="7" overtime_losses="0" win_pct="0.222"/>
+            <conference wins="6" losses="12" overtime_losses="2" win_pct="0.3"/>
+            <division wins="4" losses="5" overtime_losses="2" win_pct="0.364"/>
+            <home wins="6" losses="7" overtime_losses="3" win_pct="0.375"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_road wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <metropolitan wins="4" losses="1" overtime_losses="3" win_pct="0.5"/>
+            <pacific wins="4" losses="5" overtime_losses="2" win_pct="0.364"/>
+            <road wins="7" losses="10" overtime_losses="3" win_pct="0.35"/>
+          </records>
+        </team>
+        <team id="4415ea6c-0f24-11e2-8525-18a905767e44" name="Oilers" market="Edmonton" games_played="38" wins="11" losses="24" overtime_losses="3" win_pct="0.289" points="25" regulation_wins="9" shootout_wins="2" shootout_losses="1" goals_for="95" goals_against="133" goal_diff="-38" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="6"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <central wins="3" losses="6" overtime_losses="0" win_pct="0.333"/>
+            <conference wins="4" losses="13" overtime_losses="2" win_pct="0.211"/>
+            <division wins="1" losses="7" overtime_losses="2" win_pct="0.1"/>
+            <home wins="5" losses="11" overtime_losses="1" win_pct="0.294"/>
+            <last_10 wins="2" losses="7" overtime_losses="1" win_pct="0.2"/>
+            <last_10_home wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <last_10_road wins="3" losses="7" overtime_losses="0" win_pct="0.3"/>
+            <metropolitan wins="3" losses="6" overtime_losses="0" win_pct="0.333"/>
+            <pacific wins="1" losses="7" overtime_losses="2" win_pct="0.1"/>
+            <road wins="6" losses="13" overtime_losses="2" win_pct="0.286"/>
+          </records>
+        </team>
+      </division>
+    </conference>
+    <conference id="7ab1c9c0-4ffa-4f27-bcb6-be54d6ca6127" name="EASTERN CONFERENCE" alias="EASTERN">
+      <division id="1fad71d8-5b9e-4159-921b-9b98d0573f51" name="Atlantic" alias="ATLANTIC">
+        <team id="4416ba1a-0f24-11e2-8525-18a905767e44" name="Bruins" market="Boston" games_played="36" wins="24" losses="10" overtime_losses="2" win_pct="0.667" points="50" regulation_wins="23" shootout_wins="1" shootout_losses="2" goals_for="100" goals_against="75" goal_diff="25" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="10" losses="5" overtime_losses="0" win_pct="0.667"/>
+            <central wins="0" losses="1" overtime_losses="2" win_pct="0.0"/>
+            <conference wins="19" losses="8" overtime_losses="0" win_pct="0.704"/>
+            <division wins="10" losses="5" overtime_losses="0" win_pct="0.667"/>
+            <home wins="15" losses="3" overtime_losses="2" win_pct="0.75"/>
+            <last_10 wins="7" losses="3" overtime_losses="0" win_pct="0.7"/>
+            <last_10_home wins="9" losses="0" overtime_losses="1" win_pct="0.9"/>
+            <last_10_road wins="5" losses="5" overtime_losses="0" win_pct="0.5"/>
+            <metropolitan wins="9" losses="3" overtime_losses="0" win_pct="0.75"/>
+            <pacific wins="5" losses="1" overtime_losses="0" win_pct="0.833"/>
+            <road wins="9" losses="7" overtime_losses="0" win_pct="0.563"/>
+          </records>
+        </team>
+        <team id="4417d3cb-0f24-11e2-8525-18a905767e44" name="Lightning" market="Tampa Bay" games_played="36" wins="22" losses="11" overtime_losses="3" win_pct="0.611" points="47" regulation_wins="17" shootout_wins="5" shootout_losses="1" goals_for="100" goals_against="86" goal_diff="14" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="4"/>
+          </streak>
+          <records>
+            <atlantic wins="9" losses="3" overtime_losses="0" win_pct="0.75"/>
+            <central wins="5" losses="0" overtime_losses="1" win_pct="0.833"/>
+            <conference wins="14" losses="8" overtime_losses="1" win_pct="0.609"/>
+            <division wins="9" losses="3" overtime_losses="0" win_pct="0.75"/>
+            <home wins="14" losses="3" overtime_losses="1" win_pct="0.778"/>
+            <last_10 wins="6" losses="2" overtime_losses="2" win_pct="0.6"/>
+            <last_10_home wins="8" losses="1" overtime_losses="1" win_pct="0.8"/>
+            <last_10_road wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <metropolitan wins="5" losses="5" overtime_losses="1" win_pct="0.455"/>
+            <pacific wins="3" losses="3" overtime_losses="1" win_pct="0.429"/>
+            <road wins="8" losses="8" overtime_losses="2" win_pct="0.444"/>
+          </records>
+        </team>
+        <team id="441713b7-0f24-11e2-8525-18a905767e44" name="Canadiens" market="Montreal" games_played="38" wins="22" losses="13" overtime_losses="3" win_pct="0.579" points="47" regulation_wins="20" shootout_wins="2" shootout_losses="3" goals_for="96" goals_against="84" goal_diff="12" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="3" overtime_losses="1" win_pct="0.5"/>
+            <central wins="4" losses="4" overtime_losses="1" win_pct="0.444"/>
+            <conference wins="14" losses="5" overtime_losses="2" win_pct="0.667"/>
+            <division wins="4" losses="3" overtime_losses="1" win_pct="0.5"/>
+            <home wins="12" losses="7" overtime_losses="2" win_pct="0.571"/>
+            <last_10 wins="6" losses="4" overtime_losses="0" win_pct="0.6"/>
+            <last_10_home wins="7" losses="3" overtime_losses="0" win_pct="0.7"/>
+            <last_10_road wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <metropolitan wins="10" losses="2" overtime_losses="1" win_pct="0.769"/>
+            <pacific wins="4" losses="4" overtime_losses="0" win_pct="0.5"/>
+            <road wins="10" losses="6" overtime_losses="1" win_pct="0.588"/>
+          </records>
+        </team>
+        <team id="441730a9-0f24-11e2-8525-18a905767e44" name="Maple Leafs" market="Toronto" games_played="38" wins="18" losses="16" overtime_losses="4" win_pct="0.474" points="40" regulation_wins="13" shootout_wins="5" shootout_losses="3" goals_for="105" goals_against="111" goal_diff="-6" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="5" overtime_losses="2" win_pct="0.364"/>
+            <central wins="4" losses="4" overtime_losses="1" win_pct="0.444"/>
+            <conference wins="9" losses="9" overtime_losses="3" win_pct="0.429"/>
+            <division wins="4" losses="5" overtime_losses="2" win_pct="0.364"/>
+            <home wins="12" losses="8" overtime_losses="1" win_pct="0.571"/>
+            <last_10 wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <last_10_home wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <last_10_road wins="1" losses="6" overtime_losses="3" win_pct="0.1"/>
+            <metropolitan wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <pacific wins="5" losses="3" overtime_losses="0" win_pct="0.625"/>
+            <road wins="6" losses="8" overtime_losses="3" win_pct="0.353"/>
+          </records>
+        </team>
+        <team id="44169bb9-0f24-11e2-8525-18a905767e44" name="Red Wings" market="Detroit" games_played="38" wins="17" losses="12" overtime_losses="9" win_pct="0.447" points="43" regulation_wins="16" shootout_wins="1" shootout_losses="6" goals_for="99" goals_against="105" goal_diff="-6" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="2"/>
+          </streak>
+          <records>
+            <atlantic wins="6" losses="5" overtime_losses="3" win_pct="0.429"/>
+            <central wins="1" losses="2" overtime_losses="2" win_pct="0.2"/>
+            <conference wins="12" losses="7" overtime_losses="6" win_pct="0.48"/>
+            <division wins="6" losses="5" overtime_losses="3" win_pct="0.429"/>
+            <home wins="6" losses="9" overtime_losses="6" win_pct="0.286"/>
+            <last_10 wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_home wins="3" losses="7" overtime_losses="0" win_pct="0.3"/>
+            <last_10_road wins="6" losses="1" overtime_losses="3" win_pct="0.6"/>
+            <metropolitan wins="6" losses="2" overtime_losses="3" win_pct="0.545"/>
+            <pacific wins="4" losses="3" overtime_losses="1" win_pct="0.5"/>
+            <road wins="11" losses="3" overtime_losses="3" win_pct="0.647"/>
+          </records>
+        </team>
+        <team id="4418464d-0f24-11e2-8525-18a905767e44" name="Panthers" market="Florida" games_played="37" wins="14" losses="18" overtime_losses="5" win_pct="0.378" points="33" regulation_wins="10" shootout_wins="4" shootout_losses="4" goals_for="87" goals_against="117" goal_diff="-30" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="6" overtime_losses="1" win_pct="0.417"/>
+            <central wins="4" losses="6" overtime_losses="1" win_pct="0.364"/>
+            <conference wins="8" losses="10" overtime_losses="2" win_pct="0.4"/>
+            <division wins="5" losses="6" overtime_losses="1" win_pct="0.417"/>
+            <home wins="7" losses="7" overtime_losses="3" win_pct="0.412"/>
+            <last_10 wins="7" losses="3" overtime_losses="0" win_pct="0.7"/>
+            <last_10_home wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <last_10_road wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <metropolitan wins="3" losses="4" overtime_losses="1" win_pct="0.375"/>
+            <pacific wins="2" losses="2" overtime_losses="2" win_pct="0.333"/>
+            <road wins="7" losses="11" overtime_losses="2" win_pct="0.35"/>
+          </records>
+        </team>
+        <team id="4416f5e2-0f24-11e2-8525-18a905767e44" name="Senators" market="Ottawa" games_played="38" wins="14" losses="17" overtime_losses="7" win_pct="0.368" points="35" regulation_wins="13" shootout_wins="1" shootout_losses="5" goals_for="106" goals_against="126" goal_diff="-20" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="3"/>
+          </streak>
+          <records>
+            <atlantic wins="8" losses="3" overtime_losses="3" win_pct="0.571"/>
+            <central wins="1" losses="2" overtime_losses="1" win_pct="0.25"/>
+            <conference wins="12" losses="8" overtime_losses="4" win_pct="0.5"/>
+            <division wins="8" losses="3" overtime_losses="3" win_pct="0.571"/>
+            <home wins="7" losses="10" overtime_losses="4" win_pct="0.333"/>
+            <last_10 wins="3" losses="4" overtime_losses="3" win_pct="0.3"/>
+            <last_10_home wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_road wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <metropolitan wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <pacific wins="1" losses="7" overtime_losses="2" win_pct="0.1"/>
+            <road wins="7" losses="7" overtime_losses="3" win_pct="0.412"/>
+          </records>
+        </team>
+        <team id="4416d559-0f24-11e2-8525-18a905767e44" name="Sabres" market="Buffalo" games_played="36" wins="9" losses="24" overtime_losses="3" win_pct="0.25" points="21" regulation_wins="5" shootout_wins="4" shootout_losses="0" goals_for="64" goals_against="104" goal_diff="-40" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="10" overtime_losses="1" win_pct="0.313"/>
+            <central wins="1" losses="5" overtime_losses="0" win_pct="0.167"/>
+            <conference wins="6" losses="15" overtime_losses="2" win_pct="0.261"/>
+            <division wins="5" losses="10" overtime_losses="1" win_pct="0.313"/>
+            <home wins="6" losses="12" overtime_losses="2" win_pct="0.3"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <last_10_road wins="1" losses="8" overtime_losses="1" win_pct="0.1"/>
+            <metropolitan wins="1" losses="5" overtime_losses="1" win_pct="0.143"/>
+            <pacific wins="2" losses="4" overtime_losses="1" win_pct="0.286"/>
+            <road wins="3" losses="12" overtime_losses="1" win_pct="0.188"/>
+          </records>
+        </team>
+      </division>
+      <division id="d5ec45c4-a691-43ac-9e6d-92de92e763e7" name="Metropolitan" alias="METROPOLITAN">
+        <team id="4417b7d7-0f24-11e2-8525-18a905767e44" name="Penguins" market="Pittsburgh" games_played="38" wins="27" losses="10" overtime_losses="1" win_pct="0.711" points="55" regulation_wins="24" shootout_wins="3" shootout_losses="0" goals_for="121" goals_against="83" goal_diff="38" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="7"/>
+          </streak>
+          <records>
+            <atlantic wins="8" losses="4" overtime_losses="1" win_pct="0.615"/>
+            <central wins="2" losses="2" overtime_losses="0" win_pct="0.5"/>
+            <conference wins="20" losses="8" overtime_losses="1" win_pct="0.69"/>
+            <division wins="12" losses="4" overtime_losses="0" win_pct="0.75"/>
+            <home wins="17" losses="3" overtime_losses="0" win_pct="0.85"/>
+            <last_10 wins="9" losses="1" overtime_losses="0" win_pct="0.9"/>
+            <last_10_home wins="10" losses="0" overtime_losses="0" win_pct="1.0"/>
+            <last_10_road wins="6" losses="3" overtime_losses="1" win_pct="0.6"/>
+            <metropolitan wins="12" losses="4" overtime_losses="0" win_pct="0.75"/>
+            <pacific wins="5" losses="0" overtime_losses="0" win_pct="1.0"/>
+            <road wins="10" losses="7" overtime_losses="1" win_pct="0.556"/>
+          </records>
+        </team>
+        <team id="4417eede-0f24-11e2-8525-18a905767e44" name="Capitals" market="Washington" games_played="36" wins="19" losses="13" overtime_losses="4" win_pct="0.528" points="42" regulation_wins="11" shootout_wins="8" shootout_losses="3" goals_for="115" goals_against="109" goal_diff="6" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="4" losses="2" overtime_losses="2" win_pct="0.5"/>
+            <central wins="4" losses="4" overtime_losses="0" win_pct="0.5"/>
+            <conference wins="12" losses="7" overtime_losses="3" win_pct="0.545"/>
+            <division wins="8" losses="5" overtime_losses="1" win_pct="0.571"/>
+            <home wins="12" losses="7" overtime_losses="1" win_pct="0.6"/>
+            <last_10 wins="6" losses="2" overtime_losses="2" win_pct="0.6"/>
+            <last_10_home wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <last_10_road wins="5" losses="2" overtime_losses="3" win_pct="0.5"/>
+            <metropolitan wins="8" losses="5" overtime_losses="1" win_pct="0.571"/>
+            <pacific wins="3" losses="2" overtime_losses="1" win_pct="0.5"/>
+            <road wins="7" losses="6" overtime_losses="3" win_pct="0.438"/>
+          </records>
+        </team>
+        <team id="441781b9-0f24-11e2-8525-18a905767e44" name="Rangers" market="New York" games_played="37" wins="17" losses="18" overtime_losses="2" win_pct="0.459" points="36" regulation_wins="16" shootout_wins="1" shootout_losses="1" goals_for="86" goals_against="101" goal_diff="-15" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="6" losses="4" overtime_losses="0" win_pct="0.6"/>
+            <central wins="3" losses="3" overtime_losses="0" win_pct="0.5"/>
+            <conference wins="11" losses="10" overtime_losses="2" win_pct="0.478"/>
+            <division wins="5" losses="6" overtime_losses="2" win_pct="0.385"/>
+            <home wins="7" losses="10" overtime_losses="2" win_pct="0.368"/>
+            <last_10 wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_home wins="3" losses="5" overtime_losses="2" win_pct="0.3"/>
+            <last_10_road wins="8" losses="2" overtime_losses="0" win_pct="0.8"/>
+            <metropolitan wins="5" losses="6" overtime_losses="2" win_pct="0.385"/>
+            <pacific wins="3" losses="5" overtime_losses="0" win_pct="0.375"/>
+            <road wins="10" losses="8" overtime_losses="0" win_pct="0.556"/>
+          </records>
+        </team>
+        <team id="44179d47-0f24-11e2-8525-18a905767e44" name="Flyers" market="Philadelphia" games_played="36" wins="16" losses="16" overtime_losses="4" win_pct="0.444" points="36" regulation_wins="15" shootout_wins="1" shootout_losses="3" goals_for="89" goals_against="103" goal_diff="-14" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="6" losses="5" overtime_losses="1" win_pct="0.5"/>
+            <central wins="2" losses="3" overtime_losses="1" win_pct="0.333"/>
+            <conference wins="13" losses="10" overtime_losses="3" win_pct="0.5"/>
+            <division wins="7" losses="5" overtime_losses="2" win_pct="0.5"/>
+            <home wins="10" losses="7" overtime_losses="0" win_pct="0.588"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="8" losses="2" overtime_losses="0" win_pct="0.8"/>
+            <last_10_road wins="2" losses="6" overtime_losses="2" win_pct="0.2"/>
+            <metropolitan wins="7" losses="5" overtime_losses="2" win_pct="0.5"/>
+            <pacific wins="1" losses="3" overtime_losses="0" win_pct="0.25"/>
+            <road wins="6" losses="9" overtime_losses="4" win_pct="0.316"/>
+          </records>
+        </team>
+        <team id="44167db4-0f24-11e2-8525-18a905767e44" name="Blue Jackets" market="Columbus" games_played="36" wins="15" losses="17" overtime_losses="4" win_pct="0.417" points="34" regulation_wins="14" shootout_wins="1" shootout_losses="1" goals_for="97" goals_against="103" goal_diff="-6" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="5" overtime_losses="2" win_pct="0.417"/>
+            <central wins="1" losses="2" overtime_losses="1" win_pct="0.25"/>
+            <conference wins="11" losses="11" overtime_losses="3" win_pct="0.44"/>
+            <division wins="6" losses="6" overtime_losses="1" win_pct="0.462"/>
+            <home wins="9" losses="8" overtime_losses="2" win_pct="0.474"/>
+            <last_10 wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <last_10_home wins="6" losses="2" overtime_losses="2" win_pct="0.6"/>
+            <last_10_road wins="4" losses="5" overtime_losses="1" win_pct="0.4"/>
+            <metropolitan wins="6" losses="6" overtime_losses="1" win_pct="0.462"/>
+            <pacific wins="3" losses="4" overtime_losses="0" win_pct="0.429"/>
+            <road wins="6" losses="9" overtime_losses="2" win_pct="0.353"/>
+          </records>
+        </team>
+        <team id="44174b0c-0f24-11e2-8525-18a905767e44" name="Devils" market="New Jersey" games_played="37" wins="15" losses="15" overtime_losses="7" win_pct="0.405" points="37" regulation_wins="15" shootout_wins="0" shootout_losses="5" goals_for="90" goals_against="94" goal_diff="-4" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <win length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="5" losses="3" overtime_losses="2" win_pct="0.5"/>
+            <central wins="1" losses="3" overtime_losses="0" win_pct="0.25"/>
+            <conference wins="12" losses="9" overtime_losses="3" win_pct="0.5"/>
+            <division wins="7" losses="6" overtime_losses="1" win_pct="0.5"/>
+            <home wins="7" losses="5" overtime_losses="4" win_pct="0.438"/>
+            <last_10 wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_home wins="4" losses="4" overtime_losses="2" win_pct="0.4"/>
+            <last_10_road wins="6" losses="4" overtime_losses="0" win_pct="0.6"/>
+            <metropolitan wins="7" losses="6" overtime_losses="1" win_pct="0.5"/>
+            <pacific wins="2" losses="3" overtime_losses="4" win_pct="0.222"/>
+            <road wins="8" losses="10" overtime_losses="3" win_pct="0.381"/>
+          </records>
+        </team>
+        <team id="44182a9d-0f24-11e2-8525-18a905767e44" name="Hurricanes" market="Carolina" games_played="36" wins="14" losses="14" overtime_losses="8" win_pct="0.389" points="36" regulation_wins="13" shootout_wins="1" shootout_losses="3" goals_for="83" goals_against="101" goal_diff="-18" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="2"/>
+          </streak>
+          <records>
+            <atlantic wins="2" losses="3" overtime_losses="3" win_pct="0.25"/>
+            <central wins="2" losses="3" overtime_losses="2" win_pct="0.286"/>
+            <conference wins="9" losses="8" overtime_losses="3" win_pct="0.45"/>
+            <division wins="7" losses="5" overtime_losses="0" win_pct="0.583"/>
+            <home wins="7" losses="7" overtime_losses="4" win_pct="0.389"/>
+            <last_10 wins="4" losses="3" overtime_losses="3" win_pct="0.4"/>
+            <last_10_home wins="5" losses="4" overtime_losses="1" win_pct="0.5"/>
+            <last_10_road wins="4" losses="2" overtime_losses="4" win_pct="0.4"/>
+            <metropolitan wins="7" losses="5" overtime_losses="0" win_pct="0.583"/>
+            <pacific wins="3" losses="3" overtime_losses="3" win_pct="0.333"/>
+            <road wins="7" losses="7" overtime_losses="4" win_pct="0.389"/>
+          </records>
+        </team>
+        <team id="441766b9-0f24-11e2-8525-18a905767e44" name="Islanders" market="New York" games_played="37" wins="10" losses="20" overtime_losses="7" win_pct="0.27" points="27" regulation_wins="6" shootout_wins="4" shootout_losses="3" goals_for="93" goals_against="129" goal_diff="-36" powerplays="0" powerplay_goals="0" powerplay_pct="0.0" powerplays_against="0" powerplay_goals_against="0" penalty_killing_pct="0">
+          <streak>
+            <loss length="1"/>
+          </streak>
+          <records>
+            <atlantic wins="3" losses="3" overtime_losses="3" win_pct="0.333"/>
+            <central wins="1" losses="4" overtime_losses="0" win_pct="0.2"/>
+            <conference wins="6" losses="11" overtime_losses="6" win_pct="0.261"/>
+            <division wins="3" losses="8" overtime_losses="3" win_pct="0.214"/>
+            <home wins="5" losses="7" overtime_losses="7" win_pct="0.263"/>
+            <last_10 wins="2" losses="5" overtime_losses="3" win_pct="0.2"/>
+            <last_10_home wins="2" losses="4" overtime_losses="4" win_pct="0.2"/>
+            <last_10_road wins="2" losses="8" overtime_losses="0" win_pct="0.2"/>
+            <metropolitan wins="3" losses="8" overtime_losses="3" win_pct="0.214"/>
+            <pacific wins="3" losses="5" overtime_losses="1" win_pct="0.333"/>
+            <road wins="5" losses="13" overtime_losses="0" win_pct="0.278"/>
+          </records>
+        </team>
+      </division>
+    </conference>
+  </season>
+</league>
+<!-- Generation ended @ 2013-12-23 04:12:07 +0000 -->
