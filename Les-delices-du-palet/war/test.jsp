@@ -5,13 +5,13 @@
 <html>
 <head>
 <%@include file="WEB-INF/templates/head.jsp"%>
-<title>Les Délices du Palet - Calendrier</title>
+<title>Les Délices du Palet - Test</title>
 </head>
 <body>
 	<%@include file="WEB-INF/templates/menu.jsp"%>
 	<div id="main-content">
 		<div class="left-panel">
-			<h1>Ranking</h1>
+			<h1>Test</h1>
 			<form method="GET" action="/testdisplay">
 				<input type="submit" value="display" />
 			</form>

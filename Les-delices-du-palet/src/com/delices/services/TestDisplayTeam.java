@@ -12,6 +12,9 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Team;
+import com.delices.datastore.updaters.StandingsDataUpdaters;
+import com.delices.datastore.updaters.TeamDataUpdater;
+import com.delices.datastore.updaters.UpdateFailureException;
 
 @SuppressWarnings("serial")
 public class TestDisplayTeam extends HttpServlet {
@@ -19,13 +22,25 @@ public class TestDisplayTeam extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 
+		boolean update = false;
+		if (update) {
+			try {
+				new TeamDataUpdater().updateContent();
+				resp.getWriter().println("Team update : done");
+				new StandingsDataUpdaters().updateContent();
+				resp.getWriter().println("Standings update : done");
+			} catch (UpdateFailureException e) {
+				resp.getWriter().println("Erreur : " + e.getMessage());
+			}
+		}
+
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
 		pm.currentTransaction().begin();
 
 		Query q = pm.newQuery(Team.class);
 		for (Team t : (List<Team>) q.execute()) {
-			resp.getWriter().println(t.getName());
+			resp.getWriter().println(t);
 		}
 
 		pm.currentTransaction().commit();

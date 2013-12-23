@@ -7,8 +7,8 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.delices.datastore.TeamDataUpdater;
-import com.delices.datastore.UpdateFailureException;
+import com.delices.datastore.updaters.TeamDataUpdater;
+import com.delices.datastore.updaters.UpdateFailureException;
 
 @SuppressWarnings("serial")
 public class TestUpdateTeam extends HttpServlet {

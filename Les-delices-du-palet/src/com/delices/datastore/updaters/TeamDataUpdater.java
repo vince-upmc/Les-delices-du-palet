@@ -1,4 +1,4 @@
-package com.delices.datastore;
+package com.delices.datastore.updaters;
 
 import java.io.InputStream;
 import java.net.MalformedURLException;
@@ -8,6 +8,8 @@ import java.util.List;
 
 import javax.jdo.PersistenceManager;
 
+import com.delices.datastore.Infos;
+import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Team;
 import com.delices.datastore.jaxb.hierarchy.ConferenceType;
 import com.delices.datastore.jaxb.hierarchy.DivisionType;

@@ -1,4 +1,4 @@
-package com.delices.datastore;
+package com.delices.datastore.updaters;
 
 import java.io.InputStream;
 

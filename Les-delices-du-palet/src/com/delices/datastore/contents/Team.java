@@ -45,7 +45,6 @@ public class Team {
 	@Persistent
 	private int shoutout_losses;
 
-
 	@Persistent
 	private int overtime_losses;
 	@Persistent
@@ -185,4 +184,17 @@ public class Team {
 		return conference;
 	}
 
+	@Override
+	public String toString() {
+		return "Team [key=" + key + ", name=" + name + ", alias=" + alias
+				+ ", market=" + market + ", division=" + division
+				+ ", conference=" + conference + ", games_played="
+				+ games_played + ", wins=" + wins + ", losses=" + losses
+				+ ", points=" + points + ", win_pct=" + win_pct
+				+ ", regulation_wins=" + regulation_wins + ", shoutout_wins="
+				+ shoutout_wins + ", shoutout_losses=" + shoutout_losses
+				+ ", overtime_losses=" + overtime_losses + ", goals_for="
+				+ goals_for + ", goals_against=" + goals_against
+				+ ", goals_diff=" + goals_diff + "]";
+	}
 }
