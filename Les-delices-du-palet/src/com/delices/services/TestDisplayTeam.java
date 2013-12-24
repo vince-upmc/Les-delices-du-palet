@@ -12,8 +12,8 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Team;
-import com.delices.datastore.updaters.StandingsDataUpdaters;
-import com.delices.datastore.updaters.TeamDataUpdater;
+import com.delices.datastore.updaters.StandingsUpdater;
+import com.delices.datastore.updaters.TeamUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
 
 @SuppressWarnings("serial")
@@ -25,9 +25,9 @@ public class TestDisplayTeam extends HttpServlet {
 		boolean update = false;
 		if (update) {
 			try {
-				new TeamDataUpdater().updateContent();
+				new TeamUpdater().updateContent();
 				resp.getWriter().println("Team update : done");
-				new StandingsDataUpdaters().updateContent();
+				new StandingsUpdater().updateContent();
 				resp.getWriter().println("Standings update : done");
 			} catch (UpdateFailureException e) {
 				resp.getWriter().println("Erreur : " + e.getMessage());

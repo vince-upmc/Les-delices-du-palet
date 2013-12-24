@@ -18,5 +18,9 @@
 
 		<property name="datanucleus.appengine.datastoreReadConsistency"
 			value="STRONG" />
+
+		<property name="datanucleus.appengine.datastoreEnableXGTransactions"
+			value="true" />
+
 	</persistence-manager-factory>
 </jdoconfig>

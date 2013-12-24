@@ -42,6 +42,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>DisplaySched</servlet-name>
+		<servlet-class>com.delices.services.TestDisplaySchedule</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplaySched</servlet-name>
+		<url-pattern>/testdisplaysched</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>Update</servlet-name>
 		<servlet-class>com.delices.services.TestUpdateTeam</servlet-class>
 	</servlet>

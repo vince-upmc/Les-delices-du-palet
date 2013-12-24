@@ -1,5 +1,6 @@
 package com.delices.datastore.updaters;
 
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -19,7 +20,7 @@ import com.delices.utils.Logger;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.api.datastore.KeyFactory;
 
-public class TeamDataUpdater extends DataUpdater<LeagueType> {
+public class TeamUpdater extends DataUpdater<LeagueType> {
 
 	@Override
 	public void updateContent() throws UpdateFailureException {
@@ -31,8 +32,8 @@ public class TeamDataUpdater extends DataUpdater<LeagueType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		try (InputStream in = RequestMaker.makeRequest(s)) {
-			// try (InputStream in = new FileInputStream("hierarchy.xml")) {
+		// try (InputStream in = RequestMaker.makeRequest(s)) {
+		try (InputStream in = new FileInputStream("tmp/hierarchy.xml")) {
 			if (in != null) {
 				LeagueType league = super.unmarshallContent(in, "hierarchy");
 

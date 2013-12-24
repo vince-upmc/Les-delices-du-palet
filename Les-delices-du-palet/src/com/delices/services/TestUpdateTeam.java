@@ -7,14 +7,14 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import com.delices.datastore.updaters.TeamDataUpdater;
+import com.delices.datastore.updaters.TeamUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
 
 @SuppressWarnings("serial")
 public class TestUpdateTeam extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		try {
-			new TeamDataUpdater().updateContent();
+			new TeamUpdater().updateContent();
 			resp.getWriter().println("done");
 		} catch (UpdateFailureException e) {
 			resp.getWriter().println("Erreur : "+e.getMessage());

@@ -1,5 +1,6 @@
 package com.delices.datastore.updaters;
 
+import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -15,7 +16,7 @@ import com.delices.datastore.jaxb.standings.LeagueType.Season.Conference.Divisio
 import com.delices.datastore.jaxb.standings.TeamRecordType;
 import com.delices.utils.Logger;
 
-public class StandingsDataUpdaters extends DataUpdater<LeagueType> {
+public class StandingsUpdater extends DataUpdater<LeagueType> {
 
 	@Override
 	public void updateContent() throws UpdateFailureException {
@@ -29,8 +30,8 @@ public class StandingsDataUpdaters extends DataUpdater<LeagueType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		try (InputStream in = RequestMaker.makeRequest(s)) {
-		//try (InputStream in = new FileInputStream("standings.xml")) {
+		//try (InputStream in = RequestMaker.makeRequest(s)) {
+		try (InputStream in = new FileInputStream("tmp/standings.xml")) {
 			if (in != null) {
 				LeagueType league = super.unmarshallContent(in, "standings");
 
