@@ -51,6 +51,15 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</servlet-mapping>
 	
 	<servlet>
+		<servlet-name>Pari</servlet-name>
+		<servlet-class>com.delices.services.TestPari</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pari</servlet-name>
+		<url-pattern>/testpari</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
 		<servlet-name>Update</servlet-name>
 		<servlet-class>com.delices.services.TestUpdateTeam</servlet-class>
 	</servlet>

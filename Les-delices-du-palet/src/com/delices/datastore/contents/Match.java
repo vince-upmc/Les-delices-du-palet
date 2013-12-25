@@ -30,7 +30,7 @@ public class Match {
 	private Date startingTime;
 
 	@Persistent
-	private BoxScore boxScore;
+	private Score boxScore;
 
 	// Add boxscore?
 
@@ -41,7 +41,7 @@ public class Match {
 		this.away = visitor;
 		this.status = status;
 		this.startingTime = startDate;
-		this.boxScore = new BoxScore();
+		this.boxScore = new Score();
 	}
 
 	public String getStatus() {
@@ -52,6 +52,10 @@ public class Match {
 		this.status = status;
 	}
 
+	public Key getKey() {
+		return key;
+	}
+	
 	public String getId() {
 		return key.getName();
 	}
@@ -72,7 +76,7 @@ public class Match {
 		return title;
 	}
 
-	public BoxScore getBoxScore() {
+	public Score getBoxScore() {
 		return boxScore;
 	}
 

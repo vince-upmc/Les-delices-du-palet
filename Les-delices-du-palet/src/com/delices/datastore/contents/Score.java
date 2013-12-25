@@ -5,14 +5,12 @@ import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
-import com.google.appengine.api.datastore.Key;
-
 @PersistenceCapable
-public class BoxScore {
+public class Score {
 
 	@PrimaryKey
 	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
-	private Key key;
+	private Long id;
 
 	// Stats
 	@Persistent
@@ -23,9 +21,13 @@ public class BoxScore {
 
 	// On veut autre chose, genre stats, player qui ont marqués?
 
-	public BoxScore() {
+	public Score() {
 		this.homeScore = 0;
 		this.awayScore = 0;
+	}
+	
+	public Long getId() {
+		return id;
 	}
 
 	public int getHomeScore() {
