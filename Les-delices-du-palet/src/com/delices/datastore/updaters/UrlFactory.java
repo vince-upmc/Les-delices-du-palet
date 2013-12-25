@@ -76,6 +76,14 @@ public class UrlFactory {
 				+ VERSION + "/games/" + game_id + "/boxscore.xml?api_key="
 				+ api_key);
 	}
+	
+	public static URL createGameSummaryRequest(String game_id, String api_key)
+			throws MalformedURLException {
+
+		return new URL("http://api.sportsdatallc.org/nhl-" + ACCESSLEVEL
+				+ VERSION + "/games/" + game_id + "/summary.xml?api_key="
+				+ api_key);
+	}
 
 	public static URL createStandingsRequest(int season, NhlSeason nhl_season,
 			String api_key) throws MalformedURLException {

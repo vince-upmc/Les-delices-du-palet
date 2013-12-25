@@ -1,0 +1,606 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2013-12-10 16:52:11 +0000 -->
+<game xmlns="http://feed.elasticstats.com/schema/hockey/game-v2.0.xsd" id="c488998b-bc50-4d70-8f14-d0b5b1e7dc2a" status="closed" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-01T23:00:00+00:00" attendance="19702" start_time="2013-11-01T23:07:00+00:00" end_time="2013-11-02T01:45:00+00:00" clock="00:00" period="3">
+  <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+  <team name="Flyers" market="Philadelphia" id="44179d47-0f24-11e2-8525-18a905767e44" points="0">
+    <scoring>
+      <period number="1" sequence="1" points="0"/>
+      <period number="2" sequence="2" points="0"/>
+      <period number="3" sequence="3" points="0"/>
+    </scoring>
+    <statistics goals="0" assists="0" penalties="18" penalty_minutes="99" team_penalties="0" team_penalty_minutes="0" shots="30" blocked_att="15" missed_shots="14" hits="34" giveaways="7" takeaways="3" blocked_shots="11" faceoffs_won="31" faceoffs_lost="34" powerplays="5" faceoffs="65" faceoff_win_pct="47.7" shooting_pct="0.0" points="0">
+      <powerplay faceoffs_won="6" faceoffs_lost="4" shots="7" goals="0" missed_shots="5" assists="0" faceoff_win_pct="60.0" faceoffs="10"/>
+      <shorthanded faceoffs_won="6" faceoffs_lost="6" shots="3" goals="0" missed_shots="0" assists="0" faceoffs="12" faceoff_win_pct="50.0"/>
+      <evenstrength faceoff_win_pct="44.2" missed_shots="9" goals="0" faceoffs_won="19" shots="20" faceoffs="43" faceoffs_lost="24" assists="0"/>
+      <penalty shots="0" goals="0" missed_shots="0"/>
+    </statistics>
+    <shootout shots="0" missed_shots="0" goals="0" shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+    <goaltending shots_against="32" goals_against="7" saves="25" saves_pct="0.781" total_shots_against="32" total_goals_against="7">
+      <powerplay shots_against="1" goals_against="0" saves="1" saves_pct="1.0"/>
+      <shorthanded shots_against="10" goals_against="2" saves="8" saves_pct="0.8"/>
+      <evenstrength goals_against="5" saves_pct="0.762" shots_against="21" saves="16"/>
+      <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+      <emptynet goals_against="0" shots_against="0">
+        <powerplay goals_against="0"/>
+        <shorthanded goals_against="0"/>
+        <evenstrength goals_against="0"/>
+      </emptynet>
+    </goaltending>
+    <players>
+      <player full_name="Scott Hartnell" first_name="Scott" last_name="Hartnell" handedness="L" position="F" primary_position="LW" jersey_number="19" id="433650ef-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="1" missed_shots="1" hits="2" giveaways="1" takeaways="1" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="22" powerplay="4:04" evenstrength="12:26" avg="00:45" total="16:30"/>
+      </player>
+      <player full_name="Erik Gustafsson" first_name="Erik" last_name="Gustafsson" handedness="L" position="D" primary_position="D" jersey_number="26" id="433ad24e-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="2" blocked_att="0" missed_shots="1" hits="0" giveaways="2" takeaways="0" blocked_shots="3" faceoffs_won="0" faceoffs_lost="0" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="00:35" shorthanded="00:19" evenstrength="15:52" avg="00:40" total="16:46"/>
+      </player>
+      <player full_name="Braydon Coburn" first_name="Braydon" last_name="Coburn" handedness="L" position="D" primary_position="D" jersey_number="5" id="433a6984-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="1" missed_shots="0" hits="3" giveaways="1" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="29" shorthanded="6:06" evenstrength="15:54" avg="00:45" total="22:00"/>
+      </player>
+      <player full_name="Jakub Voracek" first_name="Jakub" last_name="Voracek" handedness="L" position="F" primary_position="RW" jersey_number="93" id="433931d7-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="3" blocked_att="1" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="3" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="19" powerplay="5:05" shorthanded="00:04" evenstrength="12:21" avg="00:55" total="17:30"/>
+      </player>
+      <player full_name="Nicklas Grossman" first_name="Nicklas" last_name="Grossman" handedness="L" position="D" primary_position="D" jersey_number="8" id="4297f934-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="2" shots="0" blocked_att="0" missed_shots="0" hits="2" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="29" shorthanded="5:46" evenstrength="15:11" avg="00:43" total="20:57"/>
+      </player>
+      <player full_name="Ray Emery" first_name="Ray" last_name="Emery" handedness="L" position="G" primary_position="G" jersey_number="29" id="42c66a34-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="5" penalty_minutes="29" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice powerplay="4:00" shorthanded="3:51" evenstrength="14:56" avg="00:00" total="22:47"/>
+        <goaltending shots_against="15" goals_against="4" saves="11" credit="none" shutout="false" saves_pct="0.733">
+          <powerplay shots_against="1" goals_against="0" saves="1" saves_pct="1.0"/>
+          <shorthanded shots_against="4" goals_against="2" saves="2" saves_pct="0.5"/>
+          <evenstrength shots_against="10" goals_against="2" saves="8" saves_pct="0.8"/>
+          <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <shootout shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <periods>
+            <period id="79c6380b-7b6d-4daf-95c6-74978b7e00c3" sequence="1" number="1" type="REG" shots_against="0" goals_against="0" saves="0" saves_pct="0">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <evenstrength shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b0814f7a-6075-4d32-87d9-fb47fb6f142a" sequence="2" number="2" type="REG" shots_against="11" goals_against="3" saves="8" saves_pct="0.727">
+              <powerplay shots_against="1" goals_against="0" saves="1" saves_pct="1.0"/>
+              <shorthanded shots_against="2" goals_against="1" saves="1" saves_pct="0.5"/>
+              <evenstrength shots_against="8" goals_against="2" saves="6" saves_pct="0.75"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b9787f93-df1b-4639-8011-fd3a1aa9e7d3" sequence="3" number="3" type="REG" shots_against="4" goals_against="1" saves="3" saves_pct="0.75">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="2" goals_against="1" saves="1" saves_pct="0.5"/>
+              <evenstrength shots_against="2" goals_against="0" saves="2" saves_pct="1.0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+          </periods>
+        </goaltending>
+      </player>
+      <player full_name="Luke Schenn" first_name="Luke" last_name="Schenn" handedness="R" position="D" primary_position="D" jersey_number="22" id="431a7335-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="4" blocked_att="1" missed_shots="0" hits="2" giveaways="1" takeaways="0" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="3" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="23" powerplay="00:09" shorthanded="3:22" evenstrength="12:23" avg="00:41" total="15:54"/>
+      </player>
+      <player full_name="Claude Giroux" first_name="Claude" last_name="Giroux" handedness="R" position="F" primary_position="RW" jersey_number="28" id="43381577-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="3" blocked_att="4" missed_shots="2" hits="1" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="12" faceoffs_lost="10" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="22" faceoff_win_pct="54.5" points="0">
+          <powerplay shots="1" goals="0" missed_shots="2" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="29" powerplay="5:35" shorthanded="1:21" evenstrength="16:14" avg="00:47" total="23:10"/>
+      </player>
+      <player full_name="Kimmo Timonen" first_name="Kimmo" last_name="Timonen" handedness="L" position="D" primary_position="D" jersey_number="44" id="433c77f0-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="2" shots="2" blocked_att="0" missed_shots="1" hits="4" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="32" powerplay="3:34" shorthanded="2:14" evenstrength="13:10" avg="00:35" total="18:58"/>
+      </player>
+      <player full_name="Sean Couturier" first_name="Sean" last_name="Couturier" handedness="L" position="F" primary_position="C" jersey_number="14" id="4334ad68-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="1" missed_shots="1" hits="2" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="9" faceoffs_lost="11" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="20" faceoff_win_pct="45.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="1" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="28" powerplay="1:29" shorthanded="5:40" evenstrength="11:28" avg="00:39" total="18:37"/>
+      </player>
+      <player full_name="Adam Hall" first_name="Adam" last_name="Hall" handedness="R" position="F" primary_position="RW" jersey_number="18" id="43479312-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="0" missed_shots="0" hits="2" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="3" faceoffs_lost="5" winning_goal="false" shooting_pct="0.0" faceoffs="8" faceoff_win_pct="37.5" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="15" shorthanded="4:45" evenstrength="6:07" avg="00:43" total="10:52"/>
+      </player>
+      <player full_name="Vincent Lecavalier" first_name="Vincent" last_name="Lecavalier" handedness="L" position="F" primary_position="C" jersey_number="40" id="43449166-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="15" shots="0" blocked_att="1" missed_shots="1" hits="2" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="3" faceoffs_lost="3" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="6" faceoff_win_pct="50.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="19" powerplay="3:42" shorthanded="00:00" evenstrength="10:07" avg="00:43" total="13:49"/>
+      </player>
+      <player full_name="Jay Rosehill" first_name="Jay" last_name="Rosehill" handedness="L" position="F" primary_position="LW" jersey_number="37" id="431a512e-0f24-11e2-8525-18a905767e44" scratched="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Brayden Schenn" first_name="Brayden" last_name="Schenn" handedness="L" position="F" primary_position="C" jersey_number="10" id="4335a201-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="15" shots="0" blocked_att="0" missed_shots="1" hits="3" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="3" faceoffs_lost="4" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="7" faceoff_win_pct="42.9" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="15" powerplay="1:01" shorthanded="00:04" evenstrength="9:08" avg="00:40" total="10:13"/>
+      </player>
+      <player full_name="Michael Raffl" first_name="Michael" last_name="Raffl" handedness="L" position="F" primary_position="LW" jersey_number="12" id="6407cf71-ec7d-4758-bd01-d1051670d6db" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="2" shots="1" blocked_att="0" missed_shots="1" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="1" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="15" shorthanded="1:40" evenstrength="8:42" avg="00:41" total="10:22"/>
+      </player>
+      <player full_name="Zac Rinaldo" first_name="Zac" last_name="Rinaldo" handedness="L" position="F" primary_position="C" jersey_number="36" id="43357e7e-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="12" shots="2" blocked_att="0" missed_shots="0" hits="2" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="13" powerplay="00:00" shorthanded="1:12" evenstrength="7:44" avg="00:41" total="8:56"/>
+      </player>
+      <player full_name="Steve Downie" first_name="Steve" last_name="Downie" handedness="R" position="F" primary_position="RW" jersey_number="9" id="43477043-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="3" penalty_minutes="17" shots="2" blocked_att="0" missed_shots="0" hits="4" giveaways="0" takeaways="1" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="-1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="15" powerplay="1:15" shorthanded="00:04" evenstrength="9:05" avg="00:41" total="10:24"/>
+      </player>
+      <player full_name="Hal Gill" first_name="Hal" last_name="Gill" handedness="Left" position="D" primary_position="D" jersey_number="75" id="b5a5f635-4ea1-441c-a9df-6037e857e21c" scratched="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Matt Read" first_name="Matt" last_name="Read" handedness="R" position="F" primary_position="RW" jersey_number="24" id="43355c07-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="3" blocked_att="0" missed_shots="2" hits="1" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="1" faceoffs_lost="1" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="2" faceoff_win_pct="50.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="2" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="2" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="30" powerplay="2:10" shorthanded="5:04" evenstrength="12:18" avg="00:39" total="19:32"/>
+      </player>
+      <player full_name="Steve Mason" first_name="Steve" last_name="Mason" handedness="R" position="G" primary_position="G" jersey_number="35" id="42df1ce2-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="2" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice powerplay="3:31" shorthanded="6:06" evenstrength="27:10" avg="00:00" total="36:47"/>
+        <goaltending shots_against="17" goals_against="3" saves="14" credit="loss" shutout="false" saves_pct="0.824">
+          <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <shorthanded shots_against="6" goals_against="0" saves="6" saves_pct="1.0"/>
+          <evenstrength shots_against="11" goals_against="3" saves="8" saves_pct="0.727"/>
+          <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <shootout shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <periods>
+            <period id="79c6380b-7b6d-4daf-95c6-74978b7e00c3" sequence="1" number="1" type="REG" shots_against="4" goals_against="1" saves="3" saves_pct="0.75">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <evenstrength shots_against="4" goals_against="1" saves="3" saves_pct="0.75"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b0814f7a-6075-4d32-87d9-fb47fb6f142a" sequence="2" number="2" type="REG" shots_against="4" goals_against="2" saves="2" saves_pct="0.5">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <evenstrength shots_against="4" goals_against="2" saves="2" saves_pct="0.5"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b9787f93-df1b-4639-8011-fd3a1aa9e7d3" sequence="3" number="3" type="REG" shots_against="9" goals_against="0" saves="9" saves_pct="1.0">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="6" goals_against="0" saves="6" saves_pct="1.0"/>
+              <evenstrength shots_against="3" goals_against="0" saves="3" saves_pct="1.0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+          </periods>
+        </goaltending>
+      </player>
+      <player full_name="Andrej Meszaros" first_name="Andrej" last_name="Meszaros" handedness="L" position="D" primary_position="D" jersey_number="41" id="433bea18-0f24-11e2-8525-18a905767e44" scratched="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Wayne Simmonds" first_name="Wayne" last_name="Simmonds" handedness="R" position="F" primary_position="RW" jersey_number="17" id="4338ec3d-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="5" shots="3" blocked_att="3" missed_shots="1" hits="4" giveaways="0" takeaways="1" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="-3" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="21" powerplay="5:02" evenstrength="11:28" avg="00:47" total="16:30"/>
+      </player>
+      <player full_name="Mark Streit" first_name="Mark" last_name="Streit" handedness="L" position="D" primary_position="D" jersey_number="32" id="432ada5b-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="2" missed_shots="2" hits="0" giveaways="0" takeaways="0" blocked_shots="2" faceoffs_won="0" faceoffs_lost="0" plus_minus="-2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="2" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="3:54" shorthanded="00:49" evenstrength="12:52" avg="00:42" total="17:35"/>
+      </player>
+    </players>
+  </team>
+  <team name="Capitals" market="Washington" id="4417eede-0f24-11e2-8525-18a905767e44" points="7">
+    <scoring>
+      <period number="1" sequence="1" points="1"/>
+      <period number="2" sequence="2" points="5"/>
+      <period number="3" sequence="3" points="1"/>
+    </scoring>
+    <statistics goals="7" assists="13" penalties="13" penalty_minutes="65" team_penalties="0" team_penalty_minutes="0" shots="32" blocked_att="11" missed_shots="12" hits="21" giveaways="7" takeaways="9" blocked_shots="15" faceoffs_won="34" faceoffs_lost="31" powerplays="4" faceoffs="65" faceoff_win_pct="52.3" shooting_pct="21.9" points="20">
+      <powerplay faceoffs_won="6" faceoffs_lost="6" shots="10" goals="2" missed_shots="1" assists="4" faceoff_win_pct="50.0" faceoffs="12"/>
+      <shorthanded faceoffs_won="4" faceoffs_lost="6" shots="1" goals="0" missed_shots="0" assists="0" faceoffs="10" faceoff_win_pct="40.0"/>
+      <evenstrength faceoff_win_pct="55.8" missed_shots="11" goals="5" faceoffs_won="24" shots="21" faceoffs="43" faceoffs_lost="19" assists="9"/>
+      <penalty shots="0" goals="0" missed_shots="0"/>
+    </statistics>
+    <shootout shots="0" missed_shots="0" goals="0" shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+    <goaltending shots_against="30" goals_against="0" saves="30" saves_pct="1.0" total_shots_against="30" total_goals_against="0">
+      <powerplay shots_against="3" goals_against="0" saves="3" saves_pct="1.0"/>
+      <shorthanded shots_against="7" goals_against="0" saves="7" saves_pct="1.0"/>
+      <evenstrength goals_against="0" saves_pct="1.0" shots_against="20" saves="20"/>
+      <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+      <emptynet goals_against="0" shots_against="0">
+        <powerplay goals_against="0"/>
+        <shorthanded goals_against="0"/>
+        <evenstrength goals_against="0"/>
+      </emptynet>
+    </goaltending>
+    <players>
+      <player full_name="Dmitry Orlov" first_name="Dmitry" last_name="Orlov" handedness="L" position="D" primary_position="D" jersey_number="81" id="436af78e-0f24-11e2-8525-18a905767e44" scratched="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Brooks Laich" first_name="Brooks" last_name="Laich" handedness="L" position="F" primary_position="C" jersey_number="21" id="434c24c7-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="3" blocked_att="1" missed_shots="0" hits="0" giveaways="0" takeaways="1" blocked_shots="1" faceoffs_won="2" faceoffs_lost="4" winning_goal="false" shooting_pct="0.0" faceoffs="6" faceoff_win_pct="33.3" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="3" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="26" powerplay="2:20" shorthanded="3:57" evenstrength="10:42" avg="00:39" total="16:59"/>
+      </player>
+      <player full_name="Jay Beagle" first_name="Jay" last_name="Beagle" handedness="R" position="F" primary_position="RW" jersey_number="83" id="434b5177-0f24-11e2-8525-18a905767e44" scratched="true">
+        <injuries>
+          <injury desc="Illness" status="Day To Day" id="62eb9090-e9da-4459-a6b8-6ab69a44b703" start_date="2013-10-30"/>
+        </injuries>
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Karl Alzner" first_name="Karl" last_name="Alzner" handedness="L" position="D" primary_position="D" jersey_number="27" id="434ed1ab-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="4" shots="1" blocked_att="1" missed_shots="2" hits="3" giveaways="0" takeaways="0" blocked_shots="3" faceoffs_won="0" faceoffs_lost="0" plus_minus="1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="2" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="31" powerplay="00:29" shorthanded="2:59" evenstrength="16:11" avg="00:38" total="19:39"/>
+      </player>
+      <player full_name="Aaron Volpatti" first_name="Aaron" last_name="Volpatti" handedness="L" position="F" primary_position="LW" jersey_number="24" id="42a1e46e-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="3" penalty_minutes="17" shots="0" blocked_att="0" missed_shots="1" hits="2" giveaways="1" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="13" evenstrength="7:48" avg="00:36" total="7:48"/>
+      </player>
+      <player full_name="Michael Latta" first_name="Michael" last_name="Latta" handedness="Right" position="F" primary_position="C" jersey_number="46" id="ba9fed90-5ea1-46e6-8778-4365f81ac526" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="1" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="9" faceoffs_lost="5" winning_goal="false" shooting_pct="0.0" faceoffs="14" faceoff_win_pct="64.3" points="0">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="18" powerplay="00:58" shorthanded="00:56" evenstrength="9:10" avg="00:36" total="11:04"/>
+      </player>
+      <player full_name="Joel Ward" first_name="Joel" last_name="Ward" handedness="R" position="F" primary_position="RW" jersey_number="42" id="434ea9de-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="3" assists="0" penalties="0" penalty_minutes="0" shots="5" blocked_att="0" missed_shots="2" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="1" plus_minus="3" winning_goal="false" shooting_pct="60.0" faceoffs="1" faceoff_win_pct="0.0" points="3">
+          <powerplay shots="1" goals="1" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="2" goals="2" shots="4" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="3:55" shorthanded="2:23" evenstrength="11:17" avg="00:42" total="17:35"/>
+      </player>
+      <player full_name="Marcus Johansson" first_name="Marcus" last_name="Johansson" handedness="L" position="F" primary_position="C" jersey_number="90" id="434c020d-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="1" blocked_att="0" missed_shots="1" hits="0" giveaways="2" takeaways="1" blocked_shots="0" faceoffs_won="5" faceoffs_lost="7" plus_minus="0" winning_goal="false" shooting_pct="0.0" faceoffs="12" faceoff_win_pct="41.7" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="1" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="24" powerplay="4:49" shorthanded="1:04" evenstrength="11:53" avg="00:44" total="17:46"/>
+      </player>
+      <player full_name="Michal Neuvirth" first_name="Michal" last_name="Neuvirth" handedness="L" position="G" primary_position="G" jersey_number="30" id="43512ed8-0f24-11e2-8525-18a905767e44">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Eric Fehr" first_name="Eric" last_name="Fehr" handedness="R" position="F" primary_position="RW" jersey_number="16" id="43554433-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="2" penalties="0" penalty_minutes="0" shots="3" blocked_att="0" missed_shots="0" hits="3" giveaways="0" takeaways="1" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="2">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="1"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="2" assists="1"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="7:36" shorthanded="00:22" evenstrength="11:44" avg="00:47" total="19:42"/>
+      </player>
+      <player full_name="Troy Brouwer" first_name="Troy" last_name="Brouwer" handedness="R" position="F" primary_position="RW" jersey_number="20" id="434dfb9c-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="1" assists="0" penalties="0" penalty_minutes="0" shots="2" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="3" faceoffs_lost="4" winning_goal="false" shooting_pct="50.0" faceoffs="7" faceoff_win_pct="42.9" points="1">
+          <powerplay shots="2" goals="1" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="5:33" shorthanded="3:50" evenstrength="9:15" avg="00:44" total="18:38"/>
+      </player>
+      <player full_name="Braden Holtby" first_name="Braden" last_name="Holtby" handedness="L" position="G" primary_position="G" jersey_number="70" id="43510894-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="5" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="2" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice powerplay="9:57" shorthanded="7:31" evenstrength="42:32" avg="00:00" total="60:00"/>
+        <goaltending shots_against="30" goals_against="0" saves="30" credit="win" shutout="true" saves_pct="1.0">
+          <powerplay shots_against="3" goals_against="0" saves="3" saves_pct="1.0"/>
+          <shorthanded shots_against="7" goals_against="0" saves="7" saves_pct="1.0"/>
+          <evenstrength shots_against="20" goals_against="0" saves="20" saves_pct="1.0"/>
+          <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <shootout shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+          <periods>
+            <period id="79c6380b-7b6d-4daf-95c6-74978b7e00c3" sequence="1" number="1" type="REG" shots_against="8" goals_against="0" saves="8" saves_pct="1.0">
+              <powerplay shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+              <shorthanded shots_against="2" goals_against="0" saves="2" saves_pct="1.0"/>
+              <evenstrength shots_against="6" goals_against="0" saves="6" saves_pct="1.0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b0814f7a-6075-4d32-87d9-fb47fb6f142a" sequence="2" number="2" type="REG" shots_against="9" goals_against="0" saves="9" saves_pct="1.0">
+              <powerplay shots_against="1" goals_against="0" saves="1" saves_pct="1.0"/>
+              <shorthanded shots_against="3" goals_against="0" saves="3" saves_pct="1.0"/>
+              <evenstrength shots_against="5" goals_against="0" saves="5" saves_pct="1.0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+            <period id="b9787f93-df1b-4639-8011-fd3a1aa9e7d3" sequence="3" number="3" type="REG" shots_against="13" goals_against="0" saves="13" saves_pct="1.0">
+              <powerplay shots_against="2" goals_against="0" saves="2" saves_pct="1.0"/>
+              <shorthanded shots_against="2" goals_against="0" saves="2" saves_pct="1.0"/>
+              <evenstrength shots_against="9" goals_against="0" saves="9" saves_pct="1.0"/>
+              <penalty shots_against="0" goals_against="0" saves="0" saves_pct="0"/>
+            </period>
+          </periods>
+        </goaltending>
+      </player>
+      <player full_name="Jason Chimera" first_name="Jason" last_name="Chimera" handedness="L" position="F" primary_position="LW" jersey_number="25" id="434cd452-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="1" assists="3" penalties="1" penalty_minutes="2" shots="1" blocked_att="2" missed_shots="0" hits="1" giveaways="1" takeaways="1" blocked_shots="0" faceoffs_won="2" faceoffs_lost="0" plus_minus="3" winning_goal="false" shooting_pct="100.0" faceoffs="2" faceoff_win_pct="100.0" points="4">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="1"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="1" shots="1" assists="2"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="25" powerplay="2:37" shorthanded="1:48" evenstrength="12:35" avg="00:40" total="17:00"/>
+      </player>
+      <player full_name="Mikhail Grabovski" first_name="Mikhail" last_name="Grabovski" handedness="Left" position="F" primary_position="C" jersey_number="84" id="f37a4c68-416e-4de0-8b23-a33a379210a0" played="true">
+        <statistics goals="0" assists="3" penalties="0" penalty_minutes="0" shots="1" blocked_att="1" missed_shots="0" hits="1" giveaways="0" takeaways="1" blocked_shots="1" faceoffs_won="8" faceoffs_lost="5" plus_minus="3" winning_goal="false" shooting_pct="0.0" faceoffs="13" faceoff_win_pct="61.5" points="3">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="1" assists="3"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="23" powerplay="2:44" evenstrength="12:42" avg="00:40" total="15:26"/>
+      </player>
+      <player full_name="Mike Green" first_name="Mike" last_name="Green" handedness="R" position="D" primary_position="D" jersey_number="52" id="434fa511-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="1" penalties="0" penalty_minutes="0" shots="2" blocked_att="2" missed_shots="0" hits="1" giveaways="1" takeaways="0" blocked_shots="2" faceoffs_won="0" faceoffs_lost="0" plus_minus="3" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="1">
+          <powerplay shots="2" goals="0" missed_shots="0" assists="1"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="28" powerplay="7:40" evenstrength="17:30" avg="00:53" total="25:10"/>
+      </player>
+      <player full_name="John Carlson" first_name="John" last_name="Carlson" handedness="R" position="D" primary_position="D" jersey_number="74" id="434f3b9c-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="4" blocked_att="0" missed_shots="1" hits="1" giveaways="0" takeaways="0" blocked_shots="4" faceoffs_won="0" faceoffs_lost="0" plus_minus="1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="2" goals="0" missed_shots="1" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="31" powerplay="3:35" shorthanded="4:25" evenstrength="16:59" avg="00:48" total="24:59"/>
+      </player>
+      <player full_name="Nicklas Backstrom" first_name="Nicklas" last_name="Backstrom" handedness="L" position="F" primary_position="C" jersey_number="19" id="434b2df5-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="2" assists="1" penalties="0" penalty_minutes="0" shots="2" blocked_att="0" missed_shots="1" hits="2" giveaways="0" takeaways="2" blocked_shots="0" faceoffs_won="5" faceoffs_lost="5" plus_minus="2" winning_goal="true" shooting_pct="100.0" faceoffs="10" faceoff_win_pct="50.0" points="3">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="1"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="2" shots="2" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="20" powerplay="4:43" shorthanded="00:15" evenstrength="10:12" avg="00:45" total="15:10"/>
+      </player>
+      <player full_name="Nate Schmidt" first_name="Nate" last_name="Schmidt" handedness="L" position="D" primary_position="D" jersey_number="88" id="e6fc4e06-9c16-11e2-a01b-f4ce4684ea4c" played="true">
+        <statistics goals="0" assists="1" penalties="1" penalty_minutes="2" shots="1" blocked_att="2" missed_shots="1" hits="0" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="3" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="1">
+          <powerplay shots="1" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="1"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="32" powerplay="1:16" shorthanded="2:02" evenstrength="18:30" avg="00:40" total="21:48"/>
+      </player>
+      <player full_name="Alexander Urbom" first_name="Alexander" last_name="Urbom" handedness="L" position="D" primary_position="D" jersey_number="34" id="432310f0-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="15" shots="1" blocked_att="1" missed_shots="0" hits="1" giveaways="0" takeaways="0" blocked_shots="1" faceoffs_won="0" faceoffs_lost="0" plus_minus="1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="1" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="18" shorthanded="2:30" evenstrength="8:17" avg="00:35" total="10:47"/>
+      </player>
+      <player full_name="Alex Ovechkin" first_name="Alex" last_name="Ovechkin" handedness="R" position="F" primary_position="LW" jersey_number="8" id="434d92a7-0f24-11e2-8525-18a905767e44" scratched="true">
+        <injuries>
+          <injury desc="Upper Body" status="Day To Day" id="fe66b5fe-f98b-453a-a3c9-130fc9d23533" start_date="2013-10-30"/>
+        </injuries>
+        <statistics goals="0" assists="0" penalties="0" penalty_minutes="0" shots="0" blocked_att="0" missed_shots="0" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="0" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+      </player>
+      <player full_name="Steven Oleksy" first_name="Steven" last_name="Oleksy" position="D" primary_position="D" jersey_number="61" id="5c4aa559-85b2-11e2-bcc0-f4ce4684ea4c" played="true">
+        <statistics goals="0" assists="0" penalties="2" penalty_minutes="15" shots="0" blocked_att="0" missed_shots="1" hits="0" giveaways="0" takeaways="1" blocked_shots="2" faceoffs_won="0" faceoffs_lost="0" plus_minus="1" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="0" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="17" shorthanded="3:06" evenstrength="7:46" avg="00:38" total="10:52"/>
+      </player>
+      <player full_name="Martin Erat" first_name="Martin" last_name="Erat" handedness="L" position="F" primary_position="RW" jersey_number="10" id="42c9ce6e-0f24-11e2-8525-18a905767e44" played="true">
+        <statistics goals="0" assists="2" penalties="0" penalty_minutes="0" shots="1" blocked_att="0" missed_shots="1" hits="3" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" plus_minus="2" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="2">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="1" assists="2"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="21" powerplay="1:26" shorthanded="00:27" evenstrength="10:34" avg="00:35" total="12:27"/>
+      </player>
+      <player full_name="Tom Wilson" first_name="Tom" last_name="Wilson" handedness="R" position="F" primary_position="RW" jersey_number="43" id="86153281-b8f0-11e2-8051-f4ce4684ea4c" played="true">
+        <statistics goals="0" assists="0" penalties="1" penalty_minutes="5" shots="3" blocked_att="0" missed_shots="1" hits="3" giveaways="0" takeaways="1" blocked_shots="0" faceoffs_won="0" faceoffs_lost="0" winning_goal="false" shooting_pct="0.0" faceoffs="0" faceoff_win_pct="0.0" points="0">
+          <powerplay shots="0" goals="0" missed_shots="0" assists="0"/>
+          <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+          <evenstrength missed_shots="1" goals="0" shots="3" assists="0"/>
+          <penalty shots="0" goals="0" missed_shots="0"/>
+          <shootout shots="0" missed_shots="0" goals="0"/>
+        </statistics>
+        <time_on_ice shifts="14" powerplay="00:04" evenstrength="8:59" avg="00:38" total="9:03"/>
+      </player>
+    </players>
+  </team>
+  <officials>
+    <official full_name="Francois St Laurent" first_name="Francois" last_name="St Laurent" number="38" assignment="Referee" experience="10" id="0c15b476-a47a-4a0d-9070-37bbe596ddf2"/>
+    <official full_name="Matt MacPherson" first_name="Matt" last_name="MacPherson" number="83" assignment="Linesmen" experience="2" id="cb838ede-8ad4-4bbd-bd7c-d9b61ae40db3"/>
+    <official full_name="David Brisebois" first_name="David" last_name="Brisebois" number="96" assignment="Linesmen" experience="14" id="fa558e98-4656-4f2d-b450-c5681afcaf33"/>
+    <official full_name="Dennis LaRue" first_name="Dennis" last_name="LaRue" number="14" assignment="Referee" experience="24" id="b6dc17dc-6894-44e0-9d20-f8f232ec4043"/>
+  </officials>
+</game>
+<!-- Generation ended @ 2013-12-10 16:52:13 +0000 -->

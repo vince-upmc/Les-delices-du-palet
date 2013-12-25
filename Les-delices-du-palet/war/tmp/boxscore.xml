@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2013-12-10 16:52:11 +0000 -->
+<game xmlns="http://feed.elasticstats.com/schema/hockey/game-v2.0.xsd" id="c488998b-bc50-4d70-8f14-d0b5b1e7dc2a" status="closed" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-01T23:00:00+00:00" attendance="19702" start_time="2013-11-01T23:07:00+00:00" end_time="2013-11-02T01:45:00+00:00" clock="00:00" period="3">
+  <team name="Flyers" market="Philadelphia" id="44179d47-0f24-11e2-8525-18a905767e44" points="0">
+    <scoring>
+      <period number="1" sequence="1" points="0"/>
+      <period number="2" sequence="2" points="0"/>
+      <period number="3" sequence="3" points="0"/>
+    </scoring>
+    <leaders>
+    </leaders>
+  </team>
+  <team name="Capitals" market="Washington" id="4417eede-0f24-11e2-8525-18a905767e44" points="7">
+    <scoring>
+      <period number="1" sequence="1" points="1"/>
+      <period number="2" sequence="2" points="5"/>
+      <period number="3" sequence="3" points="1"/>
+    </scoring>
+    <leaders>
+      <points>
+        <player full_name="Jason Chimera" first_name="Jason" last_name="Chimera" handedness="L" position="F" primary_position="LW" jersey_number="25" id="434cd452-0f24-11e2-8525-18a905767e44">
+          <statistics goals="1" assists="3" penalties="1" penalty_minutes="2" shots="1" blocked_att="2" missed_shots="0" hits="1" giveaways="1" takeaways="1" blocked_shots="0" faceoffs_won="2" faceoffs_lost="0" plus_minus="3" winning_goal="false" shooting_pct="100.0" faceoffs="2" faceoff_win_pct="100.0" points="4">
+            <powerplay shots="0" goals="0" missed_shots="0" assists="1"/>
+            <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+            <evenstrength missed_shots="0" goals="1" shots="1" assists="2"/>
+            <penalty shots="0" goals="0" missed_shots="0"/>
+            <shootout shots="0" missed_shots="0" goals="0"/>
+          </statistics>
+          <time_on_ice shifts="25" powerplay="2:37" shorthanded="1:48" evenstrength="12:35" avg="00:40" total="17:00"/>
+        </player>
+      </points>
+      <goals>
+        <player full_name="Joel Ward" first_name="Joel" last_name="Ward" handedness="R" position="F" primary_position="RW" jersey_number="42" id="434ea9de-0f24-11e2-8525-18a905767e44">
+          <statistics goals="3" assists="0" penalties="0" penalty_minutes="0" shots="5" blocked_att="0" missed_shots="2" hits="0" giveaways="0" takeaways="0" blocked_shots="0" faceoffs_won="0" faceoffs_lost="1" plus_minus="3" winning_goal="false" shooting_pct="60.0" faceoffs="1" faceoff_win_pct="0.0" points="3">
+            <powerplay shots="1" goals="1" missed_shots="0" assists="0"/>
+            <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+            <evenstrength missed_shots="2" goals="2" shots="4" assists="0"/>
+            <penalty shots="0" goals="0" missed_shots="0"/>
+            <shootout shots="0" missed_shots="0" goals="0"/>
+          </statistics>
+          <time_on_ice shifts="25" powerplay="3:55" shorthanded="2:23" evenstrength="11:17" avg="00:42" total="17:35"/>
+        </player>
+      </goals>
+      <assists>
+        <player full_name="Jason Chimera" first_name="Jason" last_name="Chimera" handedness="L" position="F" primary_position="LW" jersey_number="25" id="434cd452-0f24-11e2-8525-18a905767e44">
+          <statistics goals="1" assists="3" penalties="1" penalty_minutes="2" shots="1" blocked_att="2" missed_shots="0" hits="1" giveaways="1" takeaways="1" blocked_shots="0" faceoffs_won="2" faceoffs_lost="0" plus_minus="3" winning_goal="false" shooting_pct="100.0" faceoffs="2" faceoff_win_pct="100.0" points="4">
+            <powerplay shots="0" goals="0" missed_shots="0" assists="1"/>
+            <shorthanded shots="0" goals="0" missed_shots="0" assists="0"/>
+            <evenstrength missed_shots="0" goals="1" shots="1" assists="2"/>
+            <penalty shots="0" goals="0" missed_shots="0"/>
+            <shootout shots="0" missed_shots="0" goals="0"/>
+          </statistics>
+          <time_on_ice shifts="25" powerplay="2:37" shorthanded="1:48" evenstrength="12:35" avg="00:40" total="17:00"/>
+        </player>
+      </assists>
+    </leaders>
+  </team>
+</game>
+<!-- Generation ended @ 2013-12-10 16:52:13 +0000 -->

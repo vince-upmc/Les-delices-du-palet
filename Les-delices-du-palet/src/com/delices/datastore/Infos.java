@@ -1,7 +1,5 @@
 package com.delices.datastore;
 
-import com.delices.datastore.contents.Match;
-import com.delices.datastore.contents.Team;
 
 public class Infos {
 	public final static String TEST_NHL_API_KEY = "hrbhfjmfrewem2pgmvvqxg7z";

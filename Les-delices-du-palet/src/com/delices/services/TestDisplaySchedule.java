@@ -15,6 +15,7 @@ import javax.servlet.http.HttpServletResponse;
 import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Match;
 import com.delices.datastore.contents.Team;
+import com.delices.datastore.updaters.GameUpdater;
 import com.delices.datastore.updaters.SeasonScheduleUpdater;
 import com.delices.datastore.updaters.StandingsUpdater;
 import com.delices.datastore.updaters.TeamUpdater;
@@ -25,6 +26,8 @@ public class TestDisplaySchedule extends HttpServlet {
 	@SuppressWarnings("unchecked")
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
+
+		// test match id : c488998b-bc50-4d70-8f14-d0b5b1e7dc2a
 
 		boolean update = true;
 		if (update) {
@@ -76,9 +79,23 @@ public class TestDisplaySchedule extends HttpServlet {
 
 			resp.getWriter().println(
 					"Match : " + home + " vs " + away + " at "
-							+ m.getStartingTime().toString());
+							+ m.getStartingTime().toString() + " id : "
+							+ m.getId());
 		}
 		q.closeAll();
+
+		Match m = pm.getObjectById(Match.class,
+				"c488998b-bc50-4d70-8f14-d0b5b1e7dc2a");
+		try {
+			new GameUpdater(m).updateContent();
+		} catch (UpdateFailureException e) {
+			System.out.println("problayme");
+		}
+		resp.getWriter().println(
+				"score : Flyers = " + m.getBoxScore().getHomeScore()
+						+ " Capitals = " + m.getBoxScore().getAwayScore());
+		resp.getWriter().println("expected : 0, 7");
+
 		pm.close();
 
 		resp.getWriter().println("done");

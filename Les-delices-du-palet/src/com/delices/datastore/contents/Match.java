@@ -29,6 +29,9 @@ public class Match {
 	@Persistent
 	private Date startingTime;
 
+	@Persistent
+	private BoxScore boxScore;
+
 	// Add boxscore?
 
 	public Match(Key key, Key home, Key visitor, String status, String title,
@@ -38,6 +41,7 @@ public class Match {
 		this.away = visitor;
 		this.status = status;
 		this.startingTime = startDate;
+		this.boxScore = new BoxScore();
 	}
 
 	public String getStatus() {
@@ -68,11 +72,15 @@ public class Match {
 		return title;
 	}
 
+	public BoxScore getBoxScore() {
+		return boxScore;
+	}
+
 	@Override
 	public String toString() {
-		return "Match [key=" + key + ", home=" + home + ", visitor=" + away
-				+ ", status=" + status + ", title=" + title + ", startDate="
-				+ startingTime + "]";
+		return "Match [key=" + key + ", home=" + home + ", away=" + away
+				+ ", status=" + status + ", title=" + title + ", startingTime="
+				+ startingTime + ", boxscore=" + boxScore + "]";
 	}
 
 }
