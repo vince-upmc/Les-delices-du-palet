@@ -13,10 +13,12 @@ import org.xml.sax.SAXException;
 import com.delices.datastore.Infos;
 import com.delices.datastore.jaxb.hierarchy.LeagueType;
 import com.delices.datastore.updaters.UrlFactory;
+import com.google.appengine.labs.repackaged.org.json.JSONException;
 
 public class MyTest {
 
-	public static void main(String[] args) throws JAXBException, SAXException {
+	public static void main(String[] args) throws JAXBException, SAXException,
+			JSONException {
 
 		try {
 			System.out.println(UrlFactory.createGameSummaryRequest(

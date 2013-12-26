@@ -1,5 +1,6 @@
 package com.delices.datastore.contents;
 
+import java.text.SimpleDateFormat;
 import java.util.Date;
 
 import javax.jdo.annotations.PersistenceCapable;
@@ -7,6 +8,8 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.labs.repackaged.org.json.JSONException;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @PersistenceCapable
 public class Match {
@@ -55,7 +58,7 @@ public class Match {
 	public Key getKey() {
 		return key;
 	}
-	
+
 	public String getId() {
 		return key.getName();
 	}
@@ -85,6 +88,23 @@ public class Match {
 		return "Match [key=" + key + ", home=" + home + ", away=" + away
 				+ ", status=" + status + ", title=" + title + ", startingTime="
 				+ startingTime + ", boxscore=" + boxScore + "]";
+	}
+
+	public JSONObject toJSON(JSONObject homejson, JSONObject awayjson)
+			throws JSONException {
+		
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM hh:mm");
+
+		JSONObject obj = new JSONObject();
+		obj.put("home", homejson);
+		obj.put("away", awayjson);
+		obj.put("status", status);
+		obj.put("title", title);
+		obj.put("startingTime", sdf.format(startingTime).toString());
+		if (boxScore != null)
+			obj.put("boxScore", boxScore.toString());
+
+		return obj;
 	}
 
 }

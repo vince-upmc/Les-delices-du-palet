@@ -23,9 +23,10 @@ public class GameUpdater extends DataUpdater<GameType> {
 	public void updateContent() throws UpdateFailureException {
 		URL s = null;
 		try {
-			// boxscore vs summary : à voir
+			// boxscore vs summary vs playbyplay : à voir
 			// boxscore : plus concis donc plus rapide
-			// summary : infos supplémentaire mais plus lourd
+			// summary : infos supplémentaires mais plus lourd
+			// playbyplay : y a des commentaires
 			/*
 			 * s = UrlFactory.createGameBoxscoreRequest(match.getId(),
 			 * Infos.TEST_NHL_API_KEY);

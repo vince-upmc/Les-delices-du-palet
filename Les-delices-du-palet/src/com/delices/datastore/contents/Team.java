@@ -5,6 +5,8 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.labs.repackaged.org.json.JSONException;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @PersistenceCapable
 public class Team {
@@ -196,5 +198,27 @@ public class Team {
 				+ ", overtime_losses=" + overtime_losses + ", goals_for="
 				+ goals_for + ", goals_against=" + goals_against
 				+ ", goals_diff=" + goals_diff + "]";
+	}
+
+	public JSONObject toJSON() throws JSONException {
+		JSONObject obj = new JSONObject();
+		obj.put("name", name);
+		obj.put("alias", alias);
+		obj.put("market", market);
+		obj.put("division", division);
+		obj.put("conference", conference);
+		obj.put("games_played", games_played);
+		obj.put("wins", wins);
+		obj.put("losses", losses);
+		obj.put("points", points);
+		obj.put("win_pct", win_pct);
+		obj.put("regulation", regulation_wins);
+		obj.put("shoutout", shoutout_wins);
+		obj.put("shoutout", shoutout_losses);
+		obj.put("overtime", overtime_losses);
+		obj.put("goals_for", goals_for);
+		obj.put("goals_against", goals_against);
+		obj.put("goals_diff", goals_diff);
+		return obj;
 	}
 }

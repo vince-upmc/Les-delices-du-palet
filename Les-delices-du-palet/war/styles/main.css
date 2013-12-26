@@ -79,16 +79,6 @@ footer {
 	margin: 15px;
 }
 
-#matchs {
-	width: 300px;
-	background: #000000;
-	color: #999999;
-	/* border */
-	border: 3px solid #888;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
 .clear {
 	clear:both;
 }

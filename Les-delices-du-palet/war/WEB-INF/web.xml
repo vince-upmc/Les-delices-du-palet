@@ -6,12 +6,12 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 
 	<servlet>
-		<servlet-name>Login</servlet-name>
-		<servlet-class>com.delices.services.LoginServlet</servlet-class>
+		<servlet-name>NextMatchs</servlet-name>
+		<servlet-class>com.delices.services.NextMatchsServlet</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Login</servlet-name>
-		<url-pattern>/login</url-pattern>
+		<servlet-name>NextMatchs</servlet-name>
+		<url-pattern>/nextMatchs</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
@@ -21,15 +21,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<servlet-mapping>
 		<servlet-name>TeamServlet</servlet-name>
 		<url-pattern>/team</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>Subscribe</servlet-name>
-		<servlet-class>com.delices.services.SubscribeServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Subscribe</servlet-name>
-		<url-pattern>/subscribe</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
