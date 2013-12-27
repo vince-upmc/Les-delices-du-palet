@@ -5,6 +5,9 @@
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	version="2.5">
 
+
+	<!-- JAVA SERVLETS -->
+	<!-- Requête pour l'affichage des 10 prochains matchs -->
 	<servlet>
 		<servlet-name>NextMatchs</servlet-name>
 		<servlet-class>com.delices.services.NextMatchs</servlet-class>
@@ -13,7 +16,8 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>NextMatchs</servlet-name>
 		<url-pattern>/next_matchs</url-pattern>
 	</servlet-mapping>
-	
+
+	<!-- Sert à rien, à revoir -->
 	<servlet>
 		<servlet-name>TeamServlet</servlet-name>
 		<servlet-class>com.delices.services.TeamServlet</servlet-class>
@@ -22,43 +26,8 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>TeamServlet</servlet-name>
 		<url-pattern>/team</url-pattern>
 	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>Display</servlet-name>
-		<servlet-class>com.delices.services.TestDisplayTeam</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Display</servlet-name>
-		<url-pattern>/testdisplay</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>DisplaySched</servlet-name>
-		<servlet-class>com.delices.services.TestDisplaySchedule</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>DisplaySched</servlet-name>
-		<url-pattern>/testdisplaysched</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>Pari</servlet-name>
-		<servlet-class>com.delices.services.TestPari</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Pari</servlet-name>
-		<url-pattern>/testpari</url-pattern>
-	</servlet-mapping>
-	
-	<servlet>
-		<servlet-name>Update</servlet-name>
-		<servlet-class>com.delices.services.TestUpdateTeam</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Update</servlet-name>
-		<url-pattern>/testupdate</url-pattern>
-	</servlet-mapping>
-	
+
+	<!-- Pour l'affichage des matchs -->
 	<servlet>
 		<servlet-name>DisplayMatch</servlet-name>
 		<servlet-class>com.delices.services.GetMatch</servlet-class>
@@ -67,8 +36,69 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>DisplayMatch</servlet-name>
 		<url-pattern>/display_match</url-pattern>
 	</servlet-mapping>
-	
-	<!--  todo : virer les extensions jsp -->
+
+	<!-- Tests -->
+	<servlet>
+		<servlet-name>Display</servlet-name>
+		<servlet-class>com.delices.services.TestDisplayTeam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Display</servlet-name>
+		<url-pattern>/testdisplay</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DisplaySched</servlet-name>
+		<servlet-class>com.delices.services.TestDisplaySchedule</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplaySched</servlet-name>
+		<url-pattern>/testdisplaysched</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Pari</servlet-name>
+		<servlet-class>com.delices.services.TestPari</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pari</servlet-name>
+		<url-pattern>/testpari</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Update</servlet-name>
+		<servlet-class>com.delices.services.TestUpdateTeam</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Update</servlet-name>
+		<url-pattern>/testupdate</url-pattern>
+	</servlet-mapping>
+
+
+	<!-- CRON TASKS (exécutées sur l'app engine) -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>cron</web-resource-name>
+			<url-pattern>/cron/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
+
+	<!-- Met à jour les scores des matchs en cours -->
+	<servlet>
+		<servlet-name>UpdateScores</servlet-name>
+		<servlet-class>com.delices.backend.ScoreUpdater</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateScores</servlet-name>
+		<url-pattern>/cron/update_scores</url-pattern>
+	</servlet-mapping>
+
+
+
+	<!-- todo : virer les extensions jsp -->
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>

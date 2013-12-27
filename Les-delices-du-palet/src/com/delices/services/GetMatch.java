@@ -40,8 +40,6 @@ public class GetMatch extends HttpServlet {
 			resp.setContentType("application/json");
 			resp.setCharacterEncoding("UTF-8");
 
-			// debug
-			System.out.println(obj);
 			resp.getWriter().print(obj);
 			resp.flushBuffer();
 

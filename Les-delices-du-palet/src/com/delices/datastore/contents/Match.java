@@ -3,6 +3,7 @@ package com.delices.datastore.contents;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
+import javax.jdo.annotations.Element;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
@@ -32,10 +33,8 @@ public class Match {
 	@Persistent
 	private Date startingTime;
 
-	@Persistent
+	@Persistent(dependent = "true")
 	private Score boxScore;
-
-	// Add boxscore?
 
 	public Match(Key key, Key home, Key visitor, String status, String title,
 			Date startDate) {
@@ -82,7 +81,7 @@ public class Match {
 	public Score getBoxScore() {
 		return boxScore;
 	}
-
+	
 	@Override
 	public String toString() {
 		return "Match [key=" + key + ", home=" + home + ", away=" + away

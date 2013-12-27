@@ -22,7 +22,10 @@ public class MyTest {
 
 		try {
 			System.out.println(UrlFactory.createGameSummaryRequest(
-					"c488998b-bc50-4d70-8f14-d0b5b1e7dc2a", Infos.NHL_API_KEY));
+					"c488998b-bc50-4d70-8f14-d0b5b1e7dc2a",
+					Infos.TEST_NHL_API_KEY));
+			System.out.println(UrlFactory.createScheduleRequest(2013,
+					UrlFactory.NhlSeason.REGULAR, Infos.TEST_NHL_API_KEY));
 		} catch (MalformedURLException e) {
 		}
 

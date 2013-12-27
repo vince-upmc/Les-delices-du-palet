@@ -42,7 +42,7 @@ public class GameUpdater extends DataUpdater<GameType> {
 		try (InputStream in = new FileInputStream("tmp/summary.xml")) {
 			if (in != null) {
 				GameType game = super.unmarshallContent(in, "game");
-
+				
 				for (TeamType t : game.getTeam()) {
 					if (t.getId().equals(match.getHome().getName())) {
 						match.getBoxScore().setHomeScore(
