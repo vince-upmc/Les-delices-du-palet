@@ -7,11 +7,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 
 	<servlet>
 		<servlet-name>NextMatchs</servlet-name>
-		<servlet-class>com.delices.services.NextMatchsServlet</servlet-class>
+		<servlet-class>com.delices.services.NextMatchs</servlet-class>
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>NextMatchs</servlet-name>
-		<url-pattern>/nextMatchs</url-pattern>
+		<url-pattern>/next_matchs</url-pattern>
 	</servlet-mapping>
 	
 	<servlet>
@@ -58,8 +58,17 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>Update</servlet-name>
 		<url-pattern>/testupdate</url-pattern>
 	</servlet-mapping>
-
-
+	
+	<servlet>
+		<servlet-name>DisplayMatch</servlet-name>
+		<servlet-class>com.delices.services.GetMatch</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>DisplayMatch</servlet-name>
+		<url-pattern>/display_match</url-pattern>
+	</servlet-mapping>
+	
+	<!--  todo : virer les extensions jsp -->
 	<welcome-file-list>
 		<welcome-file>index.jsp</welcome-file>
 	</welcome-file-list>

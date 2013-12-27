@@ -1,25 +1,22 @@
-/**
- * 
- */
 function fetch_next_matches() {
 	$.ajax({
 		type : "GET",
-		url : "/nextMatchs",
+		url : "/next_matchs",
 		dataType : "json",
 		async : true,
-		error : display_error,
+		error : display_matches_error,
 		success : display_matches
 	});
 }
 
-function display_error() {
-
+function display_matches_error() {
+	console.log("erreur, impossible d'afficher les matchs");
 }
 
 function createEntry(homename, awayname, date, link) {
 	var entry = document.createElement('a');
 	console.log(date);
-	$(entry).addClass('match_entry').attr("href", "/"); // Todo with link
+	$(entry).addClass('match_entry').attr("href", link);
 
 	$(entry).append('<div class="date">' + date + '</div>').append(
 			'<div class="teams">' + homename + " vs " + awayname + '</div>');
@@ -31,7 +28,7 @@ function display_matches(data /* , textstatus, jqxhr */) {
 	data.matchs.forEach(function(e) {
 		console.log(e);
 		$("#matchs").append(
-				createEntry(e.home.name, e.away.name, e.startingTime));
+				createEntry(e.home.name, e.away.name, e.startingTime, "match.jsp?match-id="+e.id));
 	});
 }
 

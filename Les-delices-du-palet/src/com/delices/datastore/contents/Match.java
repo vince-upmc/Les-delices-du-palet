@@ -96,6 +96,7 @@ public class Match {
 		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM hh:mm");
 
 		JSONObject obj = new JSONObject();
+		obj.put("id", getId());
 		obj.put("home", homejson);
 		obj.put("away", awayjson);
 		obj.put("status", status);

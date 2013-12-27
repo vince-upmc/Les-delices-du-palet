@@ -48,6 +48,8 @@ public class Team {
 	private int shoutout_losses;
 
 	@Persistent
+	private int overtime_wins;
+	@Persistent
 	private int overtime_losses;
 	@Persistent
 	private int goals_for;
@@ -161,7 +163,7 @@ public class Team {
 	public void setGoals_diff(int goals_diff) {
 		this.goals_diff = goals_diff;
 	}
-	
+
 	public String getId() {
 		return key.getName();
 	}
@@ -212,10 +214,6 @@ public class Team {
 		obj.put("losses", losses);
 		obj.put("points", points);
 		obj.put("win_pct", win_pct);
-		obj.put("regulation", regulation_wins);
-		obj.put("shoutout", shoutout_wins);
-		obj.put("shoutout", shoutout_losses);
-		obj.put("overtime", overtime_losses);
 		obj.put("goals_for", goals_for);
 		obj.put("goals_against", goals_against);
 		obj.put("goals_diff", goals_diff);

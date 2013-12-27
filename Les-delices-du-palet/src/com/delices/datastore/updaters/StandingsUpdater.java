@@ -30,7 +30,7 @@ public class StandingsUpdater extends DataUpdater<LeagueType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		//try (InputStream in = RequestMaker.makeRequest(s)) {
+		// try (InputStream in = RequestMaker.makeRequest(s)) {
 		try (InputStream in = new FileInputStream("tmp/standings.xml")) {
 			if (in != null) {
 				LeagueType league = super.unmarshallContent(in, "standings");
@@ -46,6 +46,7 @@ public class StandingsUpdater extends DataUpdater<LeagueType> {
 
 								t.setGames_played(trt.getGamesPlayed()
 										.intValue());
+								t.setPoints(trt.getPoints().intValue());
 								t.setWins(trt.getWins().intValue());
 								t.setLosses(trt.getLosses().intValue());
 								t.setWin_pct(trt.getWinPct().doubleValue());
