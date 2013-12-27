@@ -1,13 +1,9 @@
 package com.delices.services;
 
 import java.io.IOException;
-import java.util.Calendar;
-import java.util.Date;
-import java.util.List;
 
 import javax.jdo.JDOObjectNotFoundException;
 import javax.jdo.PersistenceManager;
-import javax.jdo.Query;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -22,7 +18,6 @@ import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @SuppressWarnings("serial")
 public class GetMatch extends HttpServlet {
-	@SuppressWarnings("unchecked")
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
