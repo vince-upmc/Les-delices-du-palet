@@ -17,10 +17,10 @@
 		<div class="left-panel">
 			<h1>Ranking</h1>
 			<table class="ranking">
-			<tr class="ranking-header">
+			<tr>
 				<th></th>
 				<th>Team</th>
-				<th>Division</th>
+				<th>DIV</th>
 				<th>P</th>
 				<th>GP</th>
 				<th>W</th>
@@ -41,7 +41,7 @@
 				<tr><td>
 					<%=++cpt%></td>
 					<td><%=t.getName() %></td>
-					<td><%=t.getDivision()%></td>
+					<td><%=t.getDivision().charAt(0)%></td>
 					<td class="ranking-points"><%=t.getPoints() %></td>
 					<td><%=t.getGames_played() %></td>
 					<td><%=t.getWins() %></td>

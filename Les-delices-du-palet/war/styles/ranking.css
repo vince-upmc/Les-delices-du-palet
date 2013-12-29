@@ -4,14 +4,21 @@
 	width:90%;
 	margin:auto;
 	padding:5px 5px 5px 5px;
-	background:#DDDDDD;
 	border-collapse:collapse;
 	text-align:center;
 }
 
-.ranking-header {
-	text-align:center;
-	background:grey;
+.ranking tr:nth-child(2n+1) {
+	background:#CCCCCC;
+}
+
+.ranking tr:nth-child(2n+2) {
+	background:#EEEEEE;
+}
+
+/* Header du classement */
+.ranking tr:nth-child(1) {
+	background:#666666;
 	border:1px solid black;
 }
 
@@ -20,6 +27,7 @@
 	padding:2px;
 }
 
-.ranking-points {
-	background:#BBBBBB;
+.ranking .ranking-points {
+	border:1px solid grey;
+	background:#AAAAAA;
 }
