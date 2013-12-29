@@ -1,0 +1,25 @@
+@CHARSET "ISO-8859-1";
+
+.ranking {
+	width:90%;
+	margin:auto;
+	padding:5px 5px 5px 5px;
+	background:#DDDDDD;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.ranking-header {
+	text-align:center;
+	background:grey;
+	border:1px solid black;
+}
+
+.ranking td {
+	border:1px solid black;
+	padding:2px;
+}
+
+.ranking-points {
+	background:#BBBBBB;
+}

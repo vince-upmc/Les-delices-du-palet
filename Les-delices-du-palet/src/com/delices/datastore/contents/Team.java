@@ -139,6 +139,14 @@ public class Team {
 	public void setOvertime_losses(int overtime_losses) {
 		this.overtime_losses = overtime_losses;
 	}
+	
+	public int getOvertime_wins() {
+		return overtime_wins;
+	}
+
+	public void setOvertime_wins(int overtime_wins) {
+		this.overtime_wins = overtime_wins;
+	}
 
 	public int getGoals_for() {
 		return goals_for;

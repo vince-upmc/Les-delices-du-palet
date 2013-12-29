@@ -36,14 +36,12 @@ public class TestDisplayTeam extends HttpServlet {
 
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
-		pm.currentTransaction().begin();
 
 		Query q = pm.newQuery(Team.class);
 		for (Team t : (List<Team>) q.execute()) {
 			resp.getWriter().println(t);
 		}
 
-		pm.currentTransaction().commit();
 		pm.close();
 
 		resp.getWriter().println("done");
