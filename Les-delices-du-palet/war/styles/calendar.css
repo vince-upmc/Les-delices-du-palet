@@ -1,5 +1,16 @@
 @CHARSET "ISO-8859-1";
 
+/* previous and next days */
+.left-panel .nav {
+	width:90%;
+	margin:auto;
+	margin-bottom:10px;
+}
+
+.nav a {
+	color:#444444;
+}
+
 .calendar {
 	width:90%;
 	margin:auto;
