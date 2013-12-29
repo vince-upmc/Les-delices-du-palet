@@ -1,12 +1,18 @@
 package com.delices.datastore.contents;
 
 import java.text.SimpleDateFormat;
+import java.util.ArrayList;
+import java.util.Calendar;
 import java.util.Date;
+import java.util.List;
 
+import javax.jdo.PersistenceManager;
+import javax.jdo.Query;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
+import com.delices.datastore.PMF;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
@@ -43,6 +49,27 @@ public class Match {
 		this.status = status;
 		this.startingTime = startDate;
 		this.boxScore = new Score();
+	}
+	
+	public static List<Match> getNextMatches() {
+		Calendar now = Calendar.getInstance();
+		Date d1 = now.getTime();
+		now.add(Calendar.DATE, 7);
+		Date d2 = now.getTime();
+		
+		PersistenceManager pm = PMF.get().getPersistenceManager();
+		Query q = pm.newQuery(Match.class);
+		/*q.setFilter("startingTime.after(d1) && startingTime.before(d2)");*/
+		q.setOrdering("startingTime asc");
+		List<Match> matchs = (List<Match>) q.execute();
+		return matchs;
+		/*List<Match> res = new ArrayList<Match>();
+		for (Match m : matchs) {
+			if (m.startingTime.after(d1) && m.startingTime.before(d2)) {
+				res.add(m);
+			}
+		}
+		return res;*/
 	}
 
 	public String getStatus() {
