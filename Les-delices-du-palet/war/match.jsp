@@ -10,18 +10,20 @@
 <script src="/scripts/matchDisplayer.js"></script>
 <title>Les Délices du Palet - Détails de match</title>
 <style>
+td {
+	text-align: center;
+	padding: 2px;
+}
+
 dt {
-	margin:2px;
+	clear: both;
 	float: left;
-	clear: left;
-	width: 8em;
+	width: 120px;
 }
 
 dd {
 	float: left;
-	margin:2px;
 }
-
 </style>
 </head>
 <body onload="fetch_match('<%=request.getParameter("match-id")%>')">
@@ -37,77 +39,69 @@ dd {
 				<dd id="status"></dd>
 			</dl>
 			<div class="clear"></div>
-			<div id="home">
-				<h4 id="home-name"></h4>
-				<dl>
-					<dt>Conférence</dt>
-					<dd id="home-conference"></dd>
+			<table>
+				<tr>
+					<th><h4 id="home-name"></h4></th>
+					<th></th>
+					<th><h4 id="away-name"></h4></th>
+				</tr>
+				<tr>
+					<td id="home-conference"></td>
+					<td>Conférence</td>
+					<td id="away-conference"></td>
+				</tr>
+				<tr>
+					<td id="home-market"></td>
+					<td>Ville</td>
+					<td id="away-market"></td>
+				</tr>
+				<tr>
+					<td id="home-games_played"></td>
+					<td>Matchs joués</td>
+					<td id="away-games_played"></td>
+				</tr>
+				<tr>
+					<td id="home-wins"></td>
+					<td>Victoires</td>
+					<td id="away-wins"></td>
+				</tr>
+				<tr>
+					<td id="home-losses"></td>
+					<td>Défaites</td>
+					<td id="away-losses"></td>
+				</tr>
+				<tr>
+					<td id="home-points"></td>
+					<td>Points</td>
+					<td id="away-points"></td>
+				</tr>
+				<tr>
+					<td id="home-win_pct"></td>
+					<td>% de victoire</td>
+					<td id="away-win_pct"></td>
+				</tr>
+				<tr>
+					<td id="home-goals_for"></td>
+					<td>Total de buts</td>
+					<td id="away-goals_for"></td>
+				</tr>
+				<tr>
+					<td id="home-goals_against"></td>
+					<td>Total de buts encaissés</td>
+					<td id="away-goals_against"></td>
+				</tr>
+				<tr>
+					<td id="home-goals_diff"></td>
+					<td>Goals_diff (?)</td>
+					<td id="away-goals_diff"></td>
+				</tr>
+				<tr>
+					<td><button onclick="alert('t\'y a cru')">Parier</button></td>
+					<td>Pari</td>
+					<td><button onclick="alert('t\'y a cru')">Parier</button></td>
 
-					<dt>Ville</dt>
-					<dd id="home-market"></dd>
-
-					<dt>games_played</dt>
-					<dd id="home-games_played"></dd>
-
-					<dt>wins</dt>
-					<dd id="home-wins"></dd>
-
-					<dt>losses</dt>
-					<dd id="home-losses"></dd>
-
-					<dt>points</dt>
-					<dd id="home-points"></dd>
-
-					<dt>win_pct</dt>
-					<dd id="home-win_pct"></dd>
-
-					<dt>goals_for</dt>
-					<dd id="home-goals_for"></dd>
-
-					<dt>goals_against</dt>
-					<dd id="home-goals_against"></dd>
-
-					<dt>goals_diff</dt>
-					<dd id="home-goals_diff"></dd>
-				</dl>
-			</div>
-			<div class="clear"></div>
-			<div id="away">
-				<h4 id="away-name"></h4>
-
-				<dl>
-					<dt>Conférence</dt>
-					<dd id="away-conference"></dd>
-
-					<dt>Ville</dt>
-					<dd id="away-market"></dd>
-
-
-					<dt>games_played</dt>
-					<dd id="away-games_played"></dd>
-
-					<dt>wins</dt>
-					<dd id="away-wins"></dd>
-
-					<dt>losses</dt>
-					<dd id="away-losses"></dd>
-
-					<dt>points</dt>
-					<dd id="away-points"></dd>
-
-					<dt>win_pct</dt>
-					<dd id="away-win_pct"></dd>
-
-					<dt>goals_for</dt>
-					<dd id="away-goals_for"></dd>
-
-					<dt>goals_against</dt>
-					<dd id="away-goals_against"></dd>
-
-					<dt>goals_diff</dt>
-					<dd id="away-goals_diff"></dd>
-				</dl>
-			</div>
+				</tr>
+			</table>
 		</div>
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>
 		<div class="clear"></div>

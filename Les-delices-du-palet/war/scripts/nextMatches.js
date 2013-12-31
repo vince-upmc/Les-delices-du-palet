@@ -15,7 +15,6 @@ function display_matches_error() {
 
 function createEntry(homename, awayname, date, link) {
 	var entry = document.createElement('a');
-	console.log(date);
 	$(entry).addClass('match_entry').attr("href", link);
 
 	$(entry).append('<div class="date">' + date + '</div>').append(
@@ -26,9 +25,9 @@ function createEntry(homename, awayname, date, link) {
 
 function display_matches(data /* , textstatus, jqxhr */) {
 	data.matchs.forEach(function(e) {
-		console.log(e);
 		$("#matchs").append(
-				createEntry(e.home.name, e.away.name, e.startingTime, "match.jsp?match-id="+e.id));
+				createEntry(e.home.name, e.away.name, e.startingTime,
+						"match.jsp?match-id=" + e.id));
 	});
 }
 
