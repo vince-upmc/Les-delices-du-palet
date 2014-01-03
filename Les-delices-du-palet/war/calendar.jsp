@@ -67,14 +67,18 @@
 						Team away = pm.getObjectById(Team.class, m.getAway());
 				%>
 				<tr>
-					<td class="game-time"><%=tableFormat.format(c2.getTime())
+
+					<td class="game-time"><a
+						href="/match.jsp?match-id=<%=m.getId()%>"> <%=tableFormat.format(c2.getTime())
 				/*c.get(Calendar.DAY_OF_MONTH)
 				+ "-" + c.get(Calendar.MONTH)
 				+ " " + c.get(Calendar.HOUR_OF_DAY)
-				+ ":"*/%></td>
+				+ ":"*/%>
+					</a></td>
 					<td class="left-team"><a
 						href="/team.jsp?team-id=<%=home.getId()%>"><%=home.getName()%></a></td>
 					<td class="right-team"><a href="#"><%=away.getName()%></a></td>
+					</a>
 				</tr>
 				<%
 					}

@@ -14,31 +14,20 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Match;
+import com.delices.datastore.updaters.GameUpdater;
+import com.delices.datastore.updaters.UpdateFailureException;
 
 @SuppressWarnings("serial")
 public class ScoreUpdater extends HttpServlet {
 
 	private static final Date SERVER_STARTUP_DATE = getServeurStartupDate();
-	private static final long AVG_GAME_TIME = 2 * 3600000 + 3600000 / 2;
 
+	@SuppressWarnings("unchecked")
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
-		List<Match> match_en_cours;
 
-		/*
-		 * Je veux récuperer tous les matchs qui ont eu lieu depuis la
-		 * mise-en-ligne du serveur
-		 * 
-		 * Cas :
-		 * 
-		 * - Le match récupéré est fini => ok
-		 * 
-		 * - Le match n'est pas fini => on le met dans une queue
-		 */
-
-		Date twoHoursAndHalfAgo = Calendar.getInstance().getTime();
-
+		Date twoHoursAndAHalfAgo = Calendar.getInstance().getTime();
 		Calendar c = Calendar.getInstance();
 		c.set(Calendar.HOUR, c.get(Calendar.HOUR) - 2);
 		c.set(Calendar.MINUTE, c.get(Calendar.MINUTE) - 30);
@@ -46,32 +35,36 @@ public class ScoreUpdater extends HttpServlet {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
 		Query q = pm.newQuery(Match.class);
-		q.setOrdering("startingTime asc");
-		q.setFilter("startingTime > SERVER_STARTUP_DATE && "
-				+ "startingTime < twoHoursAndHalfAgo &&"
-				+ "status != 'complete' && status != 'closed' &&"
-				+ "status != 'cancelled' && status != 'unnecessary'");
-		/*
-                    <xs:enumeration value="created"/>
-                    <xs:enumeration value="inprogress"/>
-                    <xs:enumeration value="halftime"/>
-                    <xs:enumeration value="complete"/>
-                    <xs:enumeration value="closed"/>
-                    <xs:enumeration value="cancelled"/>
-                    <xs:enumeration value="postponed"/>
-                    <xs:enumeration value="delayed"/>
-                    <xs:enumeration value="unnecessary"/>
-                    <xs:enumeration value="time-tbd"/>
-                    */
-		q.declareParameters("java.util.Date SERVER_STARTUP_DATE, java.util.Date twoHoursAndHalfAgo");
 
-		//TODO
+		q.setOrdering("this.startingTime asc");
+		q.setFilter("this.startingTime > startupDate");
+		// Impossible de faire 2 comparaisons sur un même champ..
+		// ça m'soule, on fait sans.
+		/*
+		 * && " + "this.startingTime < twoHoursAndAHalfAgo");
+		 */
+
+		q.declareImports("import java.util.Date");
+		q.declareParameters("Date startupDate");// , Date twoHoursAndHalfAgo");
+
+		for (Match m : (List<Match>) q.execute(SERVER_STARTUP_DATE)) {
+			if (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0
+					&& (!m.getStatus().equals("closed"))) {
+				try {
+					System.out.println("Mise à jour du match du : "
+							+ m.getStartingTime());
+					new GameUpdater(m).updateContent();
+				} catch (UpdateFailureException e) {
+				}
+			}
+		}
 	}
 
 	private static Date getServeurStartupDate() {
 		Calendar c = Calendar.getInstance();
-		// 28 décembre 2013
-		c.set(2013, 12, 28);
+		// bonne année!
+		c.set(2014, 1, 1, 0, 0, 0);
+		c.set(Calendar.MONTH, Calendar.JANUARY);
 		return c.getTime();
 	}
 

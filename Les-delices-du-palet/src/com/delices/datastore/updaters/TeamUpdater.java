@@ -1,6 +1,5 @@
 package com.delices.datastore.updaters;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -32,8 +31,8 @@ public class TeamUpdater extends DataUpdater<LeagueType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		// try (InputStream in = RequestMaker.makeRequest(s)) {
-		try (InputStream in = new FileInputStream("tmp/hierarchy.xml")) {
+		try (InputStream in = RequestMaker.makeRequest(s)) {
+		//try (InputStream in = new FileInputStream("tmp/hierarchy.xml")) {
 			if (in != null) {
 				LeagueType league = super.unmarshallContent(in, "hierarchy");
 

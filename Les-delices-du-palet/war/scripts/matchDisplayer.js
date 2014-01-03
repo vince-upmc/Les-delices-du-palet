@@ -28,15 +28,15 @@ function fill_fields(which, team) {
 }
 
 function colorize(home, away) {
-	var fields = [ "name", "market", "conference", "games_played", "wins",
-			"losses", "points", "win_pct", "goals_for", "goals_against",
-			"goals_diff" ];
+	var fields = [ "wins", "losses", "points", 
+	                "win_pct", "goals_for", "goals_against", 
+	                "goals_diff" ];
 	for (x in fields){
 		var field = fields[x];
 		var isGt = function(a, b){return a > b};
 		var isLw = function(a, b){return a < b};
 		
-		if (isNaN(home[field]) || field == "games_played") continue;
+		if (isNaN(home[field])) continue;
 		
 		if (field == "goals_against" || field == "losses"){
 			var tmp = isGt;
@@ -56,11 +56,33 @@ function colorize(home, away) {
 		}
 	}
 }
+function colorizeGoals(data){
+	if (data.boxScore.homescore > data.boxScore.awayscore){
+		$("#home-result").css("color", "green");
+		$("#away-result").css("color", "red");
+	} else if (data.boxScore.homescore < data.boxScore.awayscore) {
+		$("#home-result").css("color", "red");
+		$("#away-result").css("color", "green");
+	} else {
+		$("#home-result").css("color", "blue");
+		$("#away-result").css("color", "blue");
+	}
+	
+}
 
 function display_match(data /* , textstatus, jqxhr */) {
 	$("#status").text(data.status);
 	$("#air-time").text(data.startingTime);
+	if (data.status == "closed"){
+		$("#home-result").text(data.boxScore.homescore);
+		$("#away-result").text(data.boxScore.awayscore);
+		colorizeGoals(data);
+	} else {
+		$("#home-result").text("-");
+		$("#away-result").text("-");
+	}
 	fill_fields("home-", data.home);
 	fill_fields("away-", data.away);
 	colorize(data.home, data.away);
+	
 }

@@ -46,6 +46,11 @@ dd {
 					<th><h4 id="away-name"></h4></th>
 				</tr>
 				<tr>
+					<th><h3 id="home-result"></h3></th>
+					<th>Résultat</th>
+					<th><h3 id="away-result"></h3></th>
+				</tr>
+				<tr>
 					<td id="home-conference"></td>
 					<td>Conférence</td>
 					<td id="away-conference"></td>
@@ -92,7 +97,7 @@ dd {
 				</tr>
 				<tr>
 					<td id="home-goals_diff"></td>
-					<td>Goals_diff (?)</td>
+					<td>Différences de but</td>
 					<td id="away-goals_diff"></td>
 				</tr>
 				<tr>

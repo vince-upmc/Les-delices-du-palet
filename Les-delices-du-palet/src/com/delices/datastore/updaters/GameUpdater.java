@@ -1,6 +1,5 @@
 package com.delices.datastore.updaters;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -38,11 +37,11 @@ public class GameUpdater extends DataUpdater<GameType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		// try (InputStream in = RequestMaker.makeRequest(s)) {
-		try (InputStream in = new FileInputStream("tmp/summary.xml")) {
+		try (InputStream in = RequestMaker.makeRequest(s)) {
+		//try (InputStream in = new FileInputStream("tmp/summary.xml")) {
 			if (in != null) {
 				GameType game = super.unmarshallContent(in, "game");
-				
+				match.setStatus(game.getStatus());
 				for (TeamType t : game.getTeam()) {
 					if (t.getId().equals(match.getHome().getName())) {
 						match.getBoxScore().setHomeScore(

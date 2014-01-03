@@ -6,6 +6,8 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
+import com.google.appengine.labs.repackaged.org.json.JSONException;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @PersistenceCapable
 public class Score {
@@ -27,7 +29,7 @@ public class Score {
 		this.homeScore = 0;
 		this.awayScore = 0;
 	}
-	
+
 	public Key getId() {
 		return id;
 	}
@@ -46,6 +48,15 @@ public class Score {
 
 	public void setAwayScore(int awayScore) {
 		this.awayScore = awayScore;
+	}
+
+	public JSONObject toJSON() throws JSONException {
+		JSONObject obj = new JSONObject();
+
+		obj.put("home-score", homeScore);
+		obj.put("away-score", awayScore);
+
+		return obj;
 	}
 
 }

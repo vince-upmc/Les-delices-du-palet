@@ -1,6 +1,5 @@
 package com.delices.datastore.updaters;
 
-import java.io.FileInputStream;
 import java.io.InputStream;
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -28,7 +27,6 @@ public class SeasonScheduleUpdater extends DataUpdater<LeagueType> {
 	public void updateContent() throws UpdateFailureException {
 		URL s = null;
 		try {
-			// 2013 ?
 			s = UrlFactory.createScheduleRequest(2013,
 					UrlFactory.NhlSeason.REGULAR, Infos.TEST_NHL_API_KEY);
 		} catch (MalformedURLException e) {
@@ -36,8 +34,8 @@ public class SeasonScheduleUpdater extends DataUpdater<LeagueType> {
 			Logger.writeLog(msg);
 			throw new UpdateFailureException(msg);
 		}
-		// try (InputStream in = RequestMaker.makeRequest(s)) {
-		try (InputStream in = new FileInputStream("tmp/season_schedule.xml")) {
+		try (InputStream in = RequestMaker.makeRequest(s)) {
+		//try (InputStream in = new FileInputStream("tmp/season_schedule.xml")) {
 			if (in != null) {
 				LeagueType league = super.unmarshallContent(in, "schedule");
 
