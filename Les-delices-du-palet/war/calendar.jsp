@@ -78,7 +78,6 @@
 					<td class="left-team"><a
 						href="/team.jsp?team-id=<%=home.getId()%>"><%=home.getName()%></a></td>
 					<td class="right-team"><a href="#"><%=away.getName()%></a></td>
-					</a>
 				</tr>
 				<%
 					}

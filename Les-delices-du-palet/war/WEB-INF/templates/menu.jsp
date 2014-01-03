@@ -2,7 +2,7 @@
 <%@ page import="com.google.appengine.api.users.User"%>
 <%@ page import="com.google.appengine.api.users.UserService"%>
 <%@ page import="com.google.appengine.api.users.UserServiceFactory"%>
-<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
+
 <header>
 	<!-- TODO : mettre en dur le titre dans l'image -->
 	<div class="logo">Les délices du palet</div>
@@ -20,7 +20,7 @@
 				if (user != null) {
 					pageContext.setAttribute("user", user);
 			%>
-			<li>Bonjour ${fn:escapeXml(user.nickname)}</li>
+			<li>Bonjour <%=user.getNickname()%></li>
 			<li><a
 				href="<%=userService.createLogoutURL(request.getRequestURI())%>">Déconnexion</a></li>
 
