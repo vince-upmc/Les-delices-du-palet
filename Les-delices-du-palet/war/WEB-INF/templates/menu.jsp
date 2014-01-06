@@ -5,7 +5,7 @@
 
 <header>
 	<!-- TODO : mettre en dur le titre dans l'image -->
-	<div class="logo">Les délices du palet</div>
+	<div class="logo"></div>
 
 	<div class="menu">
 		<ul class="left-menu">

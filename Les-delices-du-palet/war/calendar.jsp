@@ -23,6 +23,8 @@
 		<div class="left-panel">
 			<%
 				DateFormat tableFormat = new SimpleDateFormat("dd-MM hh:mm");
+				DateFormat calendarDateFormat = new SimpleDateFormat("EEEE dd MMMM");
+				DateFormat hourFormat = new SimpleDateFormat("hh : mm");
 				String param = request.getParameter("timeDiff");
 				int timeDiff = Integer.parseInt(param);
 
@@ -55,30 +57,31 @@
 			</div>
 
 			<table class="calendar">
-				<tr class="calendar-header">
-					<td>Date</td>
-					<td>Home Team</td>
-					<td>Visiting Team</td>
-				</tr>
 				<%
+					c1.setTime(c2.getTime());
+					c2.add(Calendar.DAY_OF_MONTH, 1);
 					for (Match m : (List<Match>) q.execute(d1, d2)) {
 						c2.setTime(m.getStartingTime());
 						Team home = pm.getObjectById(Team.class, m.getHome());
 						Team away = pm.getObjectById(Team.class, m.getAway());
+						if (c1.get(Calendar.DAY_OF_MONTH) != c2.get(Calendar.DAY_OF_MONTH)) {
+						%>
+						<tr><td class="calendar-date">
+						<%=calendarDateFormat.format(c2.getTime())%>
+						</td></tr>
+						<%
+						}
+						c1.setTime(c2.getTime());
 				%>
-				<tr>
-
-					<td class="game-time"><a
-						href="/match.jsp?match-id=<%=m.getId()%>"> <%=tableFormat.format(c2.getTime())
-				/*c.get(Calendar.DAY_OF_MONTH)
-				+ "-" + c.get(Calendar.MONTH)
-				+ " " + c.get(Calendar.HOUR_OF_DAY)
-				+ ":"*/%>
-					</a></td>
-					<td class="left-team"><a
-						href="/team.jsp?team-id=<%=home.getId()%>"><%=home.getName()%></a></td>
-					<td class="right-team"><a href="#"><%=away.getName()%></a></td>
-				</tr>
+				<tr class="calendar-match"><td>
+					<div class="left-team"><a href="/team.jsp?team-id=<%=home.getId()%>"><%=home.getName()%></a></div>
+					<div class="score-time"><a href="/match.jsp?match-id=<%=m.getId()%>">
+						<%if(m.getStatus().equals("closed")){%>
+							<%=m.getBoxScore().getHomeScore() + " - " + m.getBoxScore().getAwayScore()%>
+						<%}else{%><%=hourFormat.format(c2.getTime())%><%}%></a></div>
+					<div class="right-team"><a href="/team.jsp?team-id=<%=away.getId()%>"><%=away.getName()%></a></div>
+				</td></tr>
+					
 				<%
 					}
 				%>

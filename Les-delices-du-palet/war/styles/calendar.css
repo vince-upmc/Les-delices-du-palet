@@ -19,39 +19,39 @@
 	text-align:center;
 }
 
-.calendar tr:nth-child(2n+1) {
+.calendar-date {
+	text-align:left;
+	padding-left : 15px;
+	font-weight:bold;
+	color:#777777;
 	background:#CCCCCC;
+	border-bottom:2px solid black;
 }
 
-.calendar tr:nth-child(2n+2) {
+.calendar-match {
 	background:#EEEEEE;
 }
 
-/* Header */
-.calendar tr:nth-child(1) {
-	background:#666666;
-	border:1px solid black;
-	font-weight: bold;
-}
-
-.calendar td {
-	border:1px solid black;
-}
 
 .calendar a {
 	text-decoration:none;
 	color:black;
 }
 
-.game-time {
+.score-time {
+	float:left;
 	width:30%
 }
 
 .left-team {
+	float:left;
+	text-align:right;
 	width:35%;
 }
 
 
 .right-team {
+	float:right;
+	text-align:left;
 	width:35%;
 }
