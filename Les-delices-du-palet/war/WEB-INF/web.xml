@@ -36,6 +36,16 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>DisplayMatch</servlet-name>
 		<url-pattern>/display_match</url-pattern>
 	</servlet-mapping>
+	
+	<!-- Schedule partial updater -->
+	<servlet>
+		<servlet-name>PartialUpdate</servlet-name>
+		<servlet-class>com.delices.services.InitSchedule</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PartialUpdate</servlet-name>
+		<url-pattern>/partial_update</url-pattern>
+	</servlet-mapping>
 
 	<!-- Tests -->
 	<servlet>

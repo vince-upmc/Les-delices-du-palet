@@ -1,0 +1,997 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2013-12-24 06:51:57 +0000 -->
+<league xmlns="http://feed.elasticstats.com/schema/hockey/schedule-v2.0.xsd" id="fd560107-a85b-4388-ab0d-655ad022aff7" name="NHL" alias="NHL">
+  <season-schedule id="a64701af-85bb-4cc0-bf72-15f6ba69757e" year="2013" type="REG">
+    <games>
+            <game id="41293450-b206-4cdf-aab9-73efb2502594" status="closed" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-10T01:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-A" satellite="686"/>
+      </game>
+      <game id="c76f53d7-e266-4ae3-bbe2-9743a5df4934" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-10T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-MW" satellite="671"/>
+      </game>
+      <game id="1e3e3357-9ab9-4713-be56-f0148c73baa5" status="closed" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-10T03:00:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="539bbd67-eec4-4fd6-94c2-5cb5e0aa27bc" status="closed" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-10T23:00:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus 2" satellite="637"/>
+      </game>
+      <game id="0b74d5f7-4b2e-4400-a73d-c5f70c91ea73" status="closed" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T00:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG" satellite="634"/>
+      </game>
+      <game id="39598238-3c33-4d9a-a0b4-31f68e3af41f" status="closed" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="f014b64f-ffd6-469c-a2b8-ed80be6e79a2" status="closed" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T00:30:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="WGN" satellite="307"/>
+      </game>
+      <game id="673b263e-eed1-4dc1-a9c9-83a9dc37dcc0" status="closed" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T01:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="PRIME" satellite="693"/>
+      </game>
+      <game id="b5e90580-2a9d-4b66-9c7c-08c780b47032" status="closed" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T01:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ALT" satellite="681"/>
+      </game>
+      <game id="fc9d6f87-b647-4276-a811-fe9921968295" status="closed" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T01:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="c2daa196-d852-4345-a817-43a6a620b2d4" status="closed" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-11T18:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NESN" satellite="628"/>
+      </game>
+      <game id="301c3ad7-9139-48c2-9085-0dab0fe18f80" status="closed" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-DC" satellite="642"/>
+      </game>
+      <game id="41430356-3554-4d22-8c8b-de7a423ef56f" status="closed" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="4dea3b3c-491f-4f94-b80c-e630bce2ea07" status="closed" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="SPSO" satellite="646"/>
+      </game>
+      <game id="77f73d7b-de9b-4c0f-ae42-506cabbb0e5a" status="closed" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG" satellite="634"/>
+      </game>
+      <game id="e8219b51-fb94-4a30-bce7-71b52bb08b84" status="closed" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="63967e18-a71e-4251-9601-69f775f5d9f1" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-D" satellite="663"/>
+      </game>
+      <game id="87b60fe6-f313-4684-9840-c4e3574fb9c5" status="closed" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-PH"/>
+      </game>
+      <game id="abe85ff1-90d2-44a9-8c52-4e57a157aea7" status="closed" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:30:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="SUN" satellite="653"/>
+      </game>
+      <game id="c643af37-c1a5-42a0-bf87-827c2ef5fe81" status="closed" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T00:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="5403a8ad-61d4-4acc-8665-85f4f16ffe2d" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="38c3f049-048e-442a-9b5e-c866128c371e" status="closed" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2013-11-13T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="065afe5e-a4b3-47ce-9d64-b3bbdfd0ee6f" status="closed" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-14T00:30:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="ab4349ea-00f6-46fa-907f-59404b4f6249" status="closed" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2013-11-14T01:00:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="1046ff9e-25f1-4af5-826f-e876d327b999" status="closed" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2013-11-14T03:00:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-SW" satellite="676"/>
+      </game>
+      <game id="05fd32c5-17f4-4d32-964b-2bf11f5e7574" status="closed" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T00:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="c50ba518-99a8-45b9-8d02-27aa628fa3bd" status="closed" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T00:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="40e2f2f3-680f-43d9-a3f2-b5a04dd7d0ac" status="closed" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T00:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="SUN" satellite="653"/>
+      </game>
+      <game id="9ffed931-c0b6-4bb8-9bb9-c39ae2dde2f5" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-MW" satellite="671"/>
+      </game>
+      <game id="ee1b0836-deae-4c44-82c4-a78019750d70" status="closed" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T01:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CH" satellite="665"/>
+      </game>
+      <game id="c2c65cd7-ce96-42c1-97da-ef306da7af20" status="closed" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-SW" satellite="676"/>
+      </game>
+      <game id="46b6a359-c0ed-482b-bb65-9d217d813721" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2013-11-15T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="07b4bcac-5572-429c-b5d5-da5cb4a45481" status="closed" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:00:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ROOT" satellite="659"/>
+      </game>
+      <game id="2d4df3f2-b31c-42e3-aa27-81f756e1842d" status="closed" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="c2b2fd65-1a8f-4e97-a451-e45235fa567e" status="closed" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-CR" satellite="645"/>
+      </game>
+      <game id="d3789269-28fe-48a6-8529-f9fe4ff9a517" status="closed" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="d6bcc440-76dc-420c-b236-abd7385586ea" status="closed" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="3801c975-4d01-4705-a95c-1605a747431e" status="closed" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NESN" satellite="628"/>
+      </game>
+      <game id="c0dc4a51-b9df-4c86-801e-54b2355429f7" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="3cce6946-39c4-4eea-9449-92563aebfd45" status="closed" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T01:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="TCN-PH"/>
+      </game>
+      <game id="cd604370-88ff-438a-9746-a8f03a66819a" status="closed" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T01:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="ceee17fc-582c-4f81-8686-2f401f4cd8ee" status="closed" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2013-11-16T03:00:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="bade200e-33fb-4921-8e1b-687d51df3c7e" status="closed" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="d67f4cbe-75fa-45cf-9c31-b8b40b23c467" status="closed" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T00:00:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="e2922573-eb19-45a0-8f6d-197bd3fe5748" status="closed" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T00:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus 2" satellite="637"/>
+      </game>
+      <game id="fd00d493-a05d-45e3-9cf9-a389038a3f60" status="closed" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="05944770-ab8f-46a2-bc20-a626264e5e6d" status="closed" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-TN" satellite="644"/>
+      </game>
+      <game id="3613ff8b-1e0a-443e-abf4-c9360f6a4330" status="closed" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T01:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-A" satellite="686"/>
+      </game>
+      <game id="529c9ad8-036d-4189-8b4d-1a149a92d5b1" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-MW" satellite="671"/>
+      </game>
+      <game id="0c38322f-0a48-4aeb-903a-d01ef3db4296" status="closed" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T02:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ALT2" satellite="682"/>
+      </game>
+      <game id="7bc27c32-3b49-45fd-9a16-8d3f77ac7690" status="closed" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T03:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="be22b21a-dfc9-4374-8f2b-8514c4128235" status="closed" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T18:00:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="a11eac0c-c558-4620-86ba-7e51caca3ce5" status="closed" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2013-11-17T23:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-DC" satellite="642"/>
+      </game>
+      <game id="724d2576-0fe8-4576-bc35-5da8447f20c3" status="closed" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2013-11-18T00:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="WGN" satellite="307"/>
+      </game>
+      <game id="e5633307-7eb4-4fac-8817-d35cdef622c0" status="closed" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-18T00:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG" satellite="634"/>
+      </game>
+      <game id="5869af1d-9a66-4bf3-8ba9-7381175ef28e" status="closed" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2013-11-18T01:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="99ba4362-eef5-4905-b56a-b1329d01e448" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2013-11-18T01:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-SW" satellite="676"/>
+      </game>
+      <game id="8232ef83-538e-4062-b713-48c68e8db027" status="closed" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-19T00:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-CR" satellite="645"/>
+      </game>
+      <game id="ac3cdfd2-50fd-464b-a36a-b9166087ea17" status="closed" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-19T00:30:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="cad5964b-a7e7-48a1-a434-d6a78372df0c" status="closed" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2013-11-19T01:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="72abee5b-abf9-4ba2-af81-0f4f2023bc3f" status="closed" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-PH"/>
+      </game>
+      <game id="92796237-b770-4116-aa44-abf75c29dce1" status="closed" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="97d62e55-402b-4231-ac8a-3bb5d08c39bf" status="closed" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="0e2c52c1-a12e-4c29-a0e2-f3e466619935" status="closed" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:30:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="11967472-b285-4e76-92d8-beb2acd81299" status="closed" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:30:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="4152729f-0669-45f1-b06a-6694d0e66522" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-D+" satellite="664"/>
+      </game>
+      <game id="fbc475c5-8b8c-480f-8e32-c7fbc383d5a3" status="closed" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T02:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ALT" satellite="681"/>
+      </game>
+      <game id="f42ce9e8-1732-4193-a667-41d8ac8d2ba5" status="closed" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T02:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="8dbafd4e-912a-4bce-a4ab-025006735398" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="a866c930-72ea-4d35-86e9-ef9e10692e3d" status="closed" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-20T03:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="0a221d18-edac-4f40-8514-eae8c6fc2a80" status="closed" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-21T00:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N+" satellite="652-1"/>
+      </game>
+      <game id="35a90d65-5dc3-4b1d-bc50-e260e3c98391" status="closed" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-21T01:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="49f7058c-1843-4eb2-bf74-3187de1536f6" status="closed" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-21T03:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="c9a8ef73-91a0-45b0-b33d-698d1b8e3476" status="closed" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-21T03:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="31446eb7-d6b8-47b7-abd7-5d6202dd79a5" status="closed" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="SPSO" satellite="649"/>
+      </game>
+      <game id="88f4da70-3748-4204-8e12-35f6b676ae09" status="closed" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T00:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="b8888768-9b51-4b78-91f8-1cebff173c04" status="closed" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T00:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-PH"/>
+      </game>
+      <game id="35ffd7c0-2177-4df7-a126-3640b968a1cb" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-D" satellite="663"/>
+      </game>
+      <game id="ddceb722-6024-4c24-8c82-35744accb1b1" status="closed" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T01:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CH" satellite="665"/>
+      </game>
+      <game id="668297cd-a149-4e17-9f2e-4614b5b6028b" status="closed" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T01:30:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-SW" satellite="676"/>
+      </game>
+      <game id="0e70e3e5-aa50-409d-8771-73d99b1de1eb" status="closed" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T02:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-A" satellite="686"/>
+      </game>
+      <game id="3bdd0cb2-fcbc-409b-a6b8-df2a9ed0a193" status="closed" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T02:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="1acf4d1b-ccc9-4aef-9bb5-41a613ad87f4" status="closed" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T03:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="cf873188-f025-4e23-894f-f60fe01f7f86" status="closed" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-22T03:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="f23a5728-0df7-4d6d-a385-e32b04087722" status="closed" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T00:00:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ROOT" satellite="659"/>
+      </game>
+      <game id="f6a0cc02-7301-4f1a-80bd-acb97e579c2d" status="closed" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T00:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-DC" satellite="642"/>
+      </game>
+      <game id="817887d1-71df-4eba-b00c-dd92a860fc99" status="closed" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="5e8ec342-019d-474b-89bb-2e04f88ed7ca" status="closed" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T03:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="PRIME" satellite="693"/>
+      </game>
+      <game id="fc829bd8-228a-4b65-90b2-b7a2c80b2392" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="37f5eb44-ed9f-4a4a-a9bf-33743da216c3" status="closed" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T18:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="51eca0f4-08ef-48f0-ade8-7481e690987b" status="closed" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-23T20:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="2c502aa5-3ef8-409f-a1a1-2b8c94fdf885" status="closed" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="7f58cf1a-db5b-4616-af6e-c03d2c188eca" status="closed" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T00:00:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ROOT" satellite="659"/>
+      </game>
+      <game id="835a304d-a298-46fa-bf77-ac55d3050af4" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T00:00:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-D" satellite="663"/>
+      </game>
+      <game id="c791320b-0b57-4a35-91ab-8eefea7a4e0e" status="closed" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T00:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="TCN-PH"/>
+      </game>
+      <game id="022bc714-b81d-4d91-b6b7-d5492fe50f10" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-MW" satellite="671"/>
+      </game>
+      <game id="cb07f0b6-a0c8-4967-b843-c80234c9cda3" status="closed" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T01:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-A" satellite="686"/>
+      </game>
+      <game id="e7bd1efb-8c06-475a-ab78-7e848ee19d25" status="closed" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-TN" satellite="644"/>
+      </game>
+      <game id="7610134f-9d67-415e-9c89-4773d6db6497" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="aa52e073-ca5a-44ab-98d1-d7a61014cf83" status="closed" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T03:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="d0649183-5315-49a1-bec1-30accf2c0a18" status="closed" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T03:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CA" satellite="698"/>
+      </game>
+      <game id="d1fbf64f-c217-4ce2-8d1e-fde8fe146b89" status="closed" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T22:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-CR" satellite="645"/>
+      </game>
+      <game id="fcfd806b-7571-437c-a623-c25a92dbd8ac" status="closed" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-24T22:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="86944ced-0733-4c15-9ff7-430c55c298c4" status="closed" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG" satellite="634"/>
+      </game>
+      <game id="96ec7ac4-b8ce-4c8d-915c-16dd749194ff" status="closed" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="b0761992-67ba-488d-a193-eac18705112b" status="closed" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T00:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NESN" satellite="628"/>
+      </game>
+      <game id="16681085-be35-4ec1-9204-0be59dadac15" status="closed" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T00:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="733d9764-8db1-41ab-9a44-a8dcf37d05b0" status="closed" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T00:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="SUN" satellite="653"/>
+      </game>
+      <game id="4dc5bf65-de6a-4389-8aae-94123e563781" status="closed" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e06c3f12-84b9-49a5-8a38-60ecdda408d0" status="closed" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="6c7bfd9f-8e19-4263-837b-75de75b6a921" status="closed" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T02:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-CH" satellite="665"/>
+      </game>
+      <game id="2ea0a835-5760-4b1d-a0da-1c2aec59193c" status="closed" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-26T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-W" satellite="692"/>
+      </game>
+      <game id="f8580647-98c7-4b57-9383-948cc9844b26" status="closed" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2013-11-27T01:00:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="1f624d2b-1260-4f55-bb4f-69dcb4a09a98" status="closed" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus 2" satellite="637"/>
+      </game>
+      <game id="6a1a5de9-1d26-4e4c-8c73-763e2d5270ed" status="closed" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-O" satellite="660"/>
+      </game>
+      <game id="6eeb5189-cc7c-4525-ad22-c9b436083c96" status="closed" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="CSN-DC" satellite="642"/>
+      </game>
+      <game id="a3f30f7a-3e01-4b61-9a49-226f0ead85b7" status="closed" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG Plus" satellite="635"/>
+      </game>
+      <game id="e2cc13a0-bbe3-4c15-8446-24d6929f1f9c" status="closed" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="MSG-B" satellite="638"/>
+      </game>
+      <game id="59b110c7-da20-4221-b475-ae883ba4f32b" status="closed" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NBCSN" satellite="220"/>
+      </game>
+      <game id="638c4d2c-4f2a-460b-a0ea-f2e05ba03e70" status="closed" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:30:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ROOT" satellite="659"/>
+      </game>
+      <game id="f9bed0b8-0876-46ab-ac2d-76e91c95acec" status="closed" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-F" satellite="654"/>
+      </game>
+      <game id="fbafbd6c-e2e8-4971-86f7-cf782777f441" status="closed" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T00:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="NHLN" satellite="215"/>
+      </game>
+      <game id="748e847c-634c-4235-b95f-8c1c17986489" status="closed" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T01:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="FS-N" satellite="668"/>
+      </game>
+      <game id="c86a90d5-3daa-43fa-90ff-692315b1e8cf" status="closed" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2013-11-28T02:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+        <broadcast network="ALT2" satellite="682"/>
+      </game>
+    </games>
+  </season-schedule>
+</league>

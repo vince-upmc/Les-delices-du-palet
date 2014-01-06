@@ -1,0 +1,1002 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Generation started @ 2013-12-24 06:51:57 +0000 -->
+<league xmlns="http://feed.elasticstats.com/schema/hockey/schedule-v2.0.xsd" id="fd560107-a85b-4388-ab0d-655ad022aff7" name="NHL" alias="NHL">
+  <season-schedule id="a64701af-85bb-4cc0-bf72-15f6ba69757e" year="2013" type="REG">
+    <games>
+            <game id="8c733153-24f3-4257-8339-ca8a4749df0a" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2014-03-01T20:00:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="b37abefa-da22-418f-95fa-74e0f3a413d8" status="scheduled" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-01T21:00:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="6d6a8e76-a125-4810-8612-ea20a6b7bf93" status="scheduled" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T00:00:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="22c3c7ec-c2d6-4567-8a92-ea3efcbc1bbe" title="NHL Stadium Series" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T01:00:00+00:00">
+        <venue id="f9b1c0aa-9147-4085-8de1-19f28d212a07" name="Soldier Field" capacity="61500" address="1410 S. Museum Campus Dr." city="Chicago" state="IL" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="18f1c75f-6c8a-44c2-8b34-8d9e3c06e943" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T03:00:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="631aa0db-3f9d-455c-9117-3f0277ed219e" status="scheduled" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T17:30:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="25bbb847-0cae-46cd-b50f-8349b4291984" status="scheduled" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T20:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ecae370d-d173-4713-8895-5d483bd4444e" status="scheduled" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T20:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c2aba06d-da45-485f-92f4-3f50ace1e393" title="NHL Heritage Classic" status="scheduled" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2014-03-02T21:00:00+00:00">
+        <venue id="39ba185a-098e-49c1-8cf7-308ac1637e89" name="BC Place" capacity="54320" address="777 Pacific Boulevard" city="Vancouver" state="British Columbia" zip="18890" country="Canada"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="41db4a85-f1fe-4184-b4ce-6117afd9eac2" status="scheduled" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-03T00:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="548707c8-3462-4342-a29a-cf2b8f460064" status="scheduled" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-03T01:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="d591c7fe-22ce-470b-bc33-9004b573c7a9" status="scheduled" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2014-03-03T01:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ed8c6f22-03f0-4bd3-bf28-23887f0f0161" status="scheduled" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-03T01:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e28102ef-b295-445b-acc6-6b7cebb42192" status="scheduled" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-04T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="0804e5b4-033e-4c47-b504-7c42bcb02685" status="scheduled" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2014-03-04T01:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="6ecf0576-57c1-4c42-b734-44a508818b5d" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-04T01:00:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2b6da7a3-d8b3-4a82-aac5-dda2728f4d07" status="scheduled" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-04T03:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="0e342c0e-f685-4f2f-aa80-d16e3c952cc7" status="scheduled" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T00:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2004882b-5ba2-4a45-a386-afef04d67a1e" status="scheduled" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="aaeeef3e-9aab-47b3-bc48-493a681c5a98" status="scheduled" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T00:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="25c94734-cd29-4975-b41c-a0c80e72442b" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T01:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="341e84cd-a3c1-446e-80ba-cdb654c0b4af" status="scheduled" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T01:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="5feb4266-9c87-4e5a-afd5-761c24e6d57b" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T01:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="65c48a9d-fd44-401a-9740-a110446d7764" status="scheduled" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="077ae3a9-979c-454b-8f66-00eccf5dc635" status="scheduled" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T02:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ea3e13a9-b658-471e-9eb1-42d43782b512" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T02:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="55133544-6620-4a33-ab0b-a2f91a088054" status="scheduled" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-05T03:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="08ce60d8-acf0-4b98-a59c-e212556feaaa" status="scheduled" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-06T00:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="1cfccedf-d1ea-49d7-8f21-6582cb39a8d4" status="scheduled" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2014-03-06T01:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e2ce928d-8ceb-449a-a49f-74474a402970" status="scheduled" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2014-03-06T02:30:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="948a0495-b3be-4de9-a497-c48d7f8d976d" status="scheduled" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-06T03:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a88b66fd-7af3-4a30-b709-88362ccea179" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T00:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="cf7aba9c-53d6-4578-9d58-022d3739acdb" status="scheduled" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T00:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="73f2a2cb-c295-454b-9784-a061eaf9ae7e" status="scheduled" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="859b5650-3113-497b-b265-682136d4a69f" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T00:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="17f91050-041d-4155-8d86-3907cbc90773" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T01:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="78cafd72-dde7-4569-a9fb-c8ce7f659318" status="scheduled" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="3089d84c-5221-4171-8fd6-a7089ea1b331" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T01:30:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a6deb283-8386-48f6-ac54-8da8d6e172e1" status="scheduled" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T02:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="fbbc0dc6-910a-428a-bdba-fc8712ca1a26" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T02:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2f83f62f-cbee-434e-992d-331c9cc35a5f" status="scheduled" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-07T03:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="8debbf7b-d695-41e0-a6f0-d81f760cbdd9" status="scheduled" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T00:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="1998f44c-390a-419c-a312-41fae691cf79" status="scheduled" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T00:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="85eaa722-5ff4-4567-91ab-eb83462337af" status="scheduled" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T00:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="5652275c-357f-4edd-b8d3-9bb6f17b4a50" status="scheduled" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="9f61d1ee-3497-499a-8223-1b709e2b1501" status="scheduled" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T03:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="3b2ffeb6-9d83-4336-bfac-c60abcc1f77c" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T20:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="b0dc13d9-01cd-4b9e-9228-6a9e9d93b7f4" status="scheduled" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-08T20:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="0cbb70a5-dc39-4f7e-b295-ffd48b1b1e12" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T00:00:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="6337aa38-4f6e-48b4-85f9-9b2d9043848d" status="scheduled" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T00:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a1110a07-bfa9-4f50-861e-8065250f17f7" status="scheduled" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T00:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ffbfa493-212e-426c-a399-d25ee176094b" status="scheduled" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T00:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="7f27a3be-fdd6-4e06-9dfc-9f116ad38fe8" status="scheduled" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T01:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="21830f70-abfe-437e-8292-ab5ad6ad534f" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T01:30:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a86f529c-4f83-4fa2-8101-0ebfd9114568" status="scheduled" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="b1c85397-1f92-4189-a770-44c0df2fd63e" status="scheduled" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T03:00:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="dc22c1b2-9c98-48cd-b133-5278080ef6c2" status="scheduled" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-09T22:00:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="201b6e76-7da5-4284-b1ac-0fe120be5bf7" status="scheduled" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-10T00:30:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="65fb2945-36eb-482b-bd9c-88fc2a6550a1" status="scheduled" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2014-03-10T00:30:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="4836cf87-ac9b-499f-9463-31b72087dbb8" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-10T01:00:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="cdf00fa2-2fa9-4049-892f-47418411dd00" status="scheduled" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-10T01:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="89c90ea3-2f93-49ba-86ac-5f2586229296" status="scheduled" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T00:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="3babd9c9-0690-4c07-a0ac-7794757647d4" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T00:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="55c4b33b-6066-460d-850e-911fdbb9a0a0" status="scheduled" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T00:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="349d73d4-5c4a-400b-8d29-b714e591b1e8" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T01:30:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="809367ed-ea43-4ca4-bdd3-b4fe50d0f9a2" status="scheduled" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="44151f7a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e05bd934-36a0-4861-b344-3096ae5d2b5c" status="scheduled" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T02:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="1194bb81-8fed-4859-a110-ccec85ee3533" status="scheduled" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="441766b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T03:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="682901a7-ad85-47d6-993b-16774001642a" status="scheduled" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T03:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="05f8cf93-098c-421f-944a-2ea3bfce30bc" status="scheduled" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="6e5c99e8-55b2-4de5-9689-2641c2874190" status="scheduled" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="91cc1b04-5097-42e2-a522-95433ca7ac7e" status="scheduled" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ccae0dff-e0f4-4843-8532-377c55e25f85" status="scheduled" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="9e94af1a-3bd7-4145-8c19-e0773842ec5a" status="scheduled" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:30:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c1582fe9-8144-4522-81e3-20965ab1c7c8" status="scheduled" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2014-03-11T23:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="40452399-d5eb-4ee6-a1e8-14af0af16e9b" status="scheduled" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-12T00:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a9791535-3f7e-4ea8-8100-4702bae61159" status="scheduled" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2014-03-12T00:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ccd9c76b-2fd5-4bbe-afbd-8de8e1b5089d" status="scheduled" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-12T02:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="0f20ad40-6a7f-4b2a-9ebb-15fa0b5ee2a4" status="scheduled" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-12T23:30:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2d4ee23b-dddc-4014-bf03-e7ea0bb16156" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T00:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2c0c721a-ba71-4b82-87fb-f70a6d7d9114" status="scheduled" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T01:30:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2168d52c-52c4-4455-a1a9-260fc0e2cd5d" status="scheduled" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T02:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="5c16f76f-b711-4bf0-afb1-262c24e57127" status="scheduled" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T23:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="679b0b3c-9ef5-4950-ae84-869ae6f88348" status="scheduled" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T23:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="7ead7f6d-89ee-426d-b0db-2eee6413d341" status="scheduled" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T23:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="12151c10-5fe8-40e9-b493-936cede8c81a" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-13T23:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="0a20fc0f-ca52-4f5e-b9d7-6f14480d15c0" status="scheduled" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T00:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="5ae88198-a3ca-438f-8a88-a028bf359799" status="scheduled" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T00:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="f481fb5e-b8c6-4c9c-b418-ef23ac02acc4" status="scheduled" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T02:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="1c4bb847-ae3c-40d2-9092-e5a148e9c169" status="scheduled" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T23:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="4939ae36-93ae-4b95-83a7-6512dccf2b25" status="scheduled" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T23:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="3c05dc71-59df-4979-8362-989adb8bd894" status="scheduled" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T23:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="965d16fc-0288-4c02-928c-6ae52de5f474" status="scheduled" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-14T23:30:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="24deb62c-5d3c-4cf0-b7c4-016db79ef4db" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T00:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="8c349f38-9f71-4b07-9cde-55b547b6ce79" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T00:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="26da41f5-10a3-492c-bbfa-df8930bd3fc8" status="scheduled" coverage="full" home_team="44157522-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T00:30:00+00:00">
+        <venue id="adbd1acb-a053-4944-ba15-383eda91c12e" name="American Airlines Center" capacity="18532" address="2500 Victory Ave." city="Dallas" state="TX" zip="75219" country="USA"/>
+        <home name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a984026c-b634-4843-9652-cde1fc06fa4f" status="scheduled" coverage="full" home_team="4415ce44-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T01:00:00+00:00">
+        <venue id="a75eea49-c384-4edb-99f1-d5252773ec83" name="Pepsi Center" capacity="18007" address="1000 Chopper Circle" city="Denver" state="CO" zip="80204" country="USA"/>
+        <home name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="5439693c-b82c-436f-883a-2115afe466be" status="scheduled" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T17:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e3279df6-f103-4f2e-b4c7-39633581c5a2" status="scheduled" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T17:00:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="4888f8d3-98fa-472e-95b1-6fe3a3bebdf3" status="scheduled" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4416f5e2-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T23:00:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="48986cbd-2d02-4d65-8c12-6ddd9030d2f7" status="scheduled" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T23:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="55cd9362-80f0-429d-9600-54841198d9d2" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="44174b0c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-15T23:00:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="f1248a5a-91f8-4bbf-8f51-e9029ab3102a" status="scheduled" coverage="full" home_team="4416091c-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T00:00:00+00:00">
+        <venue id="7e6f808b-eff8-42fd-a8e2-d35219f565bd" name="Xcel Energy Center" capacity="18064" address="199 W. Kellogg Blvd." city="St. Paul" state="MN" zip="55102" country="USA"/>
+        <home name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="f19b4209-90e2-42f4-bd4a-8ad6e8794b9f" status="scheduled" coverage="full" home_team="441643b7-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T00:00:00+00:00">
+        <venue id="cc4e7a62-fae8-4ebb-9a64-f4384385d0b6" name="Bridgestone Arena" capacity="17113" address="501 Broadway" city="Nashville" state="TN" zip="37203" country="USA"/>
+        <home name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="d56d3283-2da9-483f-9345-69760a9e123b" status="scheduled" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="44159241-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T02:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="355c0da7-9353-498e-a58d-aa63146f4d8f" status="scheduled" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="441862de-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T02:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="37100d84-bbb8-4374-aae6-6ad65fef09f2" status="scheduled" coverage="full" home_team="4417eede-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T19:00:00+00:00">
+        <venue id="48f092ed-ce49-4a08-97c6-def284ba6721" name="Verizon Center" capacity="18506" address="601 F St. N.W." city="Washington" state="D.C." zip="20004" country="USA"/>
+        <home name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c34d9a62-1255-4508-8eae-805b24b3298b" status="scheduled" coverage="full" home_team="44182a9d-0f24-11e2-8525-18a905767e44" away_team="4415ea6c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T19:00:00+00:00">
+        <venue id="1ea58cb6-6a28-4619-b010-747ecbc30aa7" name="PNC Arena" capacity="18680" address="1400 Edwards Mill Road" city="Raleigh" state="NC" zip="27607" country="USA"/>
+        <home name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c398b55a-6fcf-4e0d-b3a6-814978729554" status="scheduled" coverage="full" home_team="4418464d-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T19:00:00+00:00">
+        <venue id="7cc8e88f-9196-4dbc-aa6a-d6f1a0550673" name="BB&amp;T Center" capacity="17040" address="One Panther Parkway" city="Sunrise" state="FL" zip="33323" country="USA"/>
+        <home name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2257be53-df54-4df8-a685-326098f87bfa" status="scheduled" coverage="full" home_team="441781b9-0f24-11e2-8525-18a905767e44" away_team="44155909-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T20:00:00+00:00">
+        <venue id="bd8053e4-3bdf-4a70-914f-9f6d0051d66d" name="Madison Square Garden" capacity="18200" address="Four Pennsylvania Plaza" city="New York" state="NY" zip="10001" country="USA"/>
+        <home name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="10cc6a76-813d-4271-b731-faee40fd5d8f" status="scheduled" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T21:00:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="17d332c7-a8fa-4556-90c7-0741a4433234" status="scheduled" coverage="full" home_team="4416d559-0f24-11e2-8525-18a905767e44" away_team="441713b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T23:00:00+00:00">
+        <venue id="bd7b42fa-19bb-4b91-8615-214ccc3ff987" name="First Niagara Center" capacity="18690" address="One Seymour H. Knox III Plaza" city="Buffalo" state="NY" zip="14203" country="USA"/>
+        <home name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="98e590d9-430b-4983-a9df-ff1e95e955bd" status="scheduled" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="44179d47-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T23:30:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="bb32e437-6b32-4324-b1e0-cfd4c08d63c1" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="44169bb9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-16T23:30:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="eaebfd68-eb2f-444f-9c23-dbc14b085b62" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2014-03-17T00:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="375cf7d6-9cc0-48f0-97ec-80f3629388fe" status="scheduled" coverage="full" home_team="4417d3cb-0f24-11e2-8525-18a905767e44" away_team="4415b0a7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-17T23:30:00+00:00">
+        <venue id="05aa49b2-f72d-4d42-ab30-f219d32ed97b" name="Tampa Bay Times Forum" capacity="19204" address="401 Channelside Drive" city="Tampa" state="FL" zip="33602" country="USA"/>
+        <home name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="dd2586c9-1d44-40e4-a87d-ad666f625ce9" status="scheduled" coverage="full" home_team="4416ba1a-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-17T23:30:00+00:00">
+        <venue id="854ca968-b25f-44f9-abc5-52bcf8825f15" name="TD Garden" capacity="17565" address="100 Legends Way" city="Boston" state="MA" zip="02114" country="USA"/>
+        <home name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="21531365-30b3-487e-a1ac-05659fb7861e" status="scheduled" coverage="full" home_team="441660ea-0f24-11e2-8525-18a905767e44" away_team="44180e55-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T00:00:00+00:00">
+        <venue id="14e923b7-a636-476f-b810-b15967787e3c" name="Scottrade Center" capacity="19150" address="1401 Clark Ave." city="St. Louis" state="MO" zip="63103" country="USA"/>
+        <home name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ce87bd24-9bc7-4889-8281-508713dec3b2" status="scheduled" coverage="full" home_team="44151f7a-0f24-11e2-8525-18a905767e44" away_team="44153da1-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T02:30:00+00:00">
+        <venue id="dec253d4-68df-470b-b8fc-d663a7fa4704" name="Staples Center" capacity="18118" address="1111 S. Figueroa St." city="Los Angeles" state="CA" zip="90015" country="USA"/>
+        <home name="Los Angeles Kings" alias="LA" id="44151f7a-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="102725ab-5e22-44dd-a893-bb53b85c1f88" status="scheduled" coverage="full" home_team="4417b7d7-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:00:00+00:00">
+        <venue id="09cab1a6-16ee-4ed9-aefa-c6cc24681b3b" name="Consol Energy Center" capacity="18387" address="1001 Fifth Ave." city="Pittsburgh" state="PA" zip="15219" country="USA"/>
+        <home name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="df23c36b-ae8b-4508-bb2a-e32d16ff8588" status="scheduled" coverage="full" home_team="44167db4-0f24-11e2-8525-18a905767e44" away_team="44182a9d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:00:00+00:00">
+        <venue id="41a57fc9-a04b-43db-b1f8-87f34f21459b" name="Nationwide Arena" capacity="18144" address="200 W. Nationwide Blvd." city="Columbus" state="OH" zip="43215" country="USA"/>
+        <home name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Carolina Hurricanes" alias="CAR" id="44182a9d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e58acb16-5c70-4671-87b6-6c0a1028e15d" status="scheduled" coverage="full" home_team="441766b9-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:00:00+00:00">
+        <venue id="cd75019b-c46f-4439-9b01-f13ee06f469b" name="Nassau Coliseum" capacity="16234" address="1255 Hempstead Turnpike" city="Uniondale" state="NY" zip="11553" country="USA"/>
+        <home name="New York Islanders" alias="NYI" id="441766b9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="ef874a16-ec09-4f87-83c8-6abce266d402" status="scheduled" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="4416ba1a-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Boston Bruins" alias="BOS" id="4416ba1a-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="31812657-31e1-432c-be6a-e74f522fa05e" status="scheduled" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="4416272f-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:30:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="567d4b59-c1c0-42c9-a310-f16d3636ba65" status="scheduled" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:30:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="6276b6a5-78e3-4fca-b7d3-bdfa4f0d3530" status="scheduled" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="441781b9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="New York Rangers" alias="NYR" id="441781b9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="79f17ab8-0340-4c50-a781-585ba9087d81" status="scheduled" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="441730a9-0f24-11e2-8525-18a905767e44" scheduled="2014-03-18T23:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="2e61fc66-8c75-44f5-ae99-b4b8d189ae32" status="scheduled" coverage="full" home_team="44159241-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-19T01:00:00+00:00">
+        <venue id="152d63d2-825f-4928-a08a-70564268b405" name="Scotiabank Saddledome" capacity="19289" address="555 Saddledome Rise S.E." city="Calgary" state="Alberta" zip="T2G 2W1" country="CANADA"/>
+        <home name="Calgary Flames" alias="CGY" id="44159241-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="83d2d790-56a1-48a7-84bc-1bd17c51f248" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-19T01:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="f2b39017-322a-4e9d-9b89-6155a2e0ad34" status="scheduled" coverage="full" home_team="441862de-0f24-11e2-8525-18a905767e44" away_team="4417eede-0f24-11e2-8525-18a905767e44" scheduled="2014-03-19T02:00:00+00:00">
+        <venue id="eb3866a7-4163-4517-bd42-d24e8c2522fe" name="Honda Center" capacity="17174" address="2695 E. Katella Ave." city="Anaheim" state="CA" zip="92806" country="USA"/>
+        <home name="Anaheim Ducks" alias="ANA" id="441862de-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Washington Capitals" alias="WSH" id="4417eede-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="8b8fe604-c7a4-4f00-96a3-290742291a07" status="scheduled" coverage="full" home_team="44155909-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-19T02:30:00+00:00">
+        <venue id="1da65282-af4c-4b81-a9de-344b76bb20b0" name="SAP Center" capacity="17562" address="525 W. Santa Clara St." city="San Jose" state="CA" zip="95113" country="USA"/>
+        <home name="San Jose Sharks" alias="SJ" id="44155909-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="e4d47cac-075c-451f-afa9-4934899b1fd1" status="scheduled" coverage="full" home_team="441730a9-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2014-03-19T23:00:00+00:00">
+        <venue id="a84c7004-18b2-4c5d-a036-f0c368c08bc5" name="Air Canada Centre" capacity="18819" address="40 Bay St." city="Toronto" state="Ontario" zip="M5J 2X2" country="CANADA"/>
+        <home name="Toronto Maple Leafs" alias="TOR" id="441730a9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a0d5050a-e83c-42cb-9d19-57345f35ccbe" status="scheduled" coverage="full" home_team="44180e55-0f24-11e2-8525-18a905767e44" away_team="4415ce44-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T00:00:00+00:00">
+        <venue id="900327b2-73d0-4e44-a138-fbf4fcbb058f" name="MTS Centre" capacity="15015" address="300 Portage Ave." city="Winnipeg" state="Manitoba" zip="R3C 5S5" country="CANADA"/>
+        <home name="Winnipeg Jets" alias="WPG" id="44180e55-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Colorado Avalanche" alias="COL" id="4415ce44-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="d7ef8448-f27c-4e93-9cf5-2fcd623bcd88" status="scheduled" coverage="full" home_team="4416272f-0f24-11e2-8525-18a905767e44" away_team="441660ea-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T00:00:00+00:00">
+        <venue id="bbdf58db-fd65-44de-90b9-fcf523c2d764" name="United Center" capacity="19717" address="1901 W. Madison St." city="Chicago" state="IL" zip="60612" country="USA"/>
+        <home name="Chicago Blackhawks" alias="CHI" id="4416272f-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="St. Louis Blues" alias="STL" id="441660ea-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="a723d84a-e319-45b6-8c49-76c8f2aefece" status="scheduled" coverage="full" home_team="4415b0a7-0f24-11e2-8525-18a905767e44" away_team="441643b7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T02:00:00+00:00">
+        <venue id="3b8e1099-8050-42c9-b545-2aa74e93b2e8" name="Rogers Arena" capacity="18890" address="800 Griffiths Way" city="Vancouver" state="British Columbia" zip="V6B 6G1" country="CANADA"/>
+        <home name="Vancouver Canucks" alias="VAN" id="4415b0a7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Nashville Predators" alias="NSH" id="441643b7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c5906843-bc89-41be-906a-ff310b860cb5" status="scheduled" coverage="full" home_team="44179d47-0f24-11e2-8525-18a905767e44" away_team="44157522-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T23:00:00+00:00">
+        <venue id="0a162e5b-8d59-42d8-b173-a131bf632ffb" name="Wells Fargo Center" capacity="19537" address="3601 S. Broad St." city="Philadelphia" state="PA" zip="19148" country="USA"/>
+        <home name="Philadelphia Flyers" alias="PHI" id="44179d47-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Dallas Stars" alias="DAL" id="44157522-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="d6958f51-2401-4dca-8fc7-51178f06dff5" status="scheduled" coverage="full" home_team="44174b0c-0f24-11e2-8525-18a905767e44" away_team="4416091c-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T23:00:00+00:00">
+        <venue id="c970f791-c3bf-411e-89c6-952695afd414" name="Prudential Center" capacity="17625" address="165 Mulberry St." city="Newark" state="NJ" zip="07102" country="USA"/>
+        <home name="New Jersey Devils" alias="NJ" id="44174b0c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Minnesota Wild" alias="MIN" id="4416091c-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="309c0ae7-4062-4a60-9eb2-19148049d3d5" status="scheduled" coverage="full" home_team="44169bb9-0f24-11e2-8525-18a905767e44" away_team="4417b7d7-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T23:30:00+00:00">
+        <venue id="ab7ddf4d-77aa-44cf-aaf9-9566218af38d" name="Joe Louis Arena" capacity="20066" address="600 Civic Center Drive" city="Detroit" state="MI" zip="48226" country="USA"/>
+        <home name="Detroit Red Wings" alias="DET" id="44169bb9-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Pittsburgh Penguins" alias="PIT" id="4417b7d7-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="64da26cf-112e-4f76-8429-2a886934151d" status="scheduled" coverage="full" home_team="441713b7-0f24-11e2-8525-18a905767e44" away_team="44167db4-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T23:30:00+00:00">
+        <venue id="2ee8c0bf-dfd1-480c-80df-4d5f66a9dc76" name="Bell Centre" capacity="21273" address="1909 Avenue des Canadiens-de-Montreal" city="Montreal" state="Quebec" country="USA"/>
+        <home name="Montreal Canadiens" alias="MTL" id="441713b7-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Columbus Blue Jackets" alias="CBJ" id="44167db4-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="be5cc5f5-19b5-4a28-b435-219a86c6bcc4" status="scheduled" coverage="full" home_team="4416f5e2-0f24-11e2-8525-18a905767e44" away_team="4417d3cb-0f24-11e2-8525-18a905767e44" scheduled="2014-03-20T23:30:00+00:00">
+        <venue id="e1e675a3-9c13-48b3-9e22-4c063dd9905d" name="Canadian Tire Centre" capacity="19153" address="1000 Palladium Drive" city="Ottawa" state="Ontario" zip="K2V 1A5" country="CANADA"/>
+        <home name="Ottawa Senators" alias="OTT" id="4416f5e2-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Tampa Bay Lightning" alias="TB" id="4417d3cb-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="78c4ea2d-14bc-4f80-bd3b-7c9480a27515" status="scheduled" coverage="full" home_team="4415ea6c-0f24-11e2-8525-18a905767e44" away_team="4416d559-0f24-11e2-8525-18a905767e44" scheduled="2014-03-21T01:30:00+00:00">
+        <venue id="0e58dfd1-de2a-4140-843f-ef58a555f43f" name="Rexall Place" capacity="16839" address="7424 118th Ave." city="Edmonton" state="Alberta" zip="T5B 4M9" country="CANADA"/>
+        <home name="Edmonton Oilers" alias="EDM" id="4415ea6c-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Buffalo Sabres" alias="BUF" id="4416d559-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+      <game id="c0acf6ca-4f9d-4ab1-a2b3-12592aacde00" status="scheduled" coverage="full" home_team="44153da1-0f24-11e2-8525-18a905767e44" away_team="4418464d-0f24-11e2-8525-18a905767e44" scheduled="2014-03-21T02:00:00+00:00">
+        <venue id="71ca386d-fbaa-479f-b9b6-7858ef2d3cc7" name="Jobing.com Arena" capacity="17125" address="9400 W. Maryland Ave." city="Glendale" state="AZ" zip="85305" country="USA"/>
+        <home name="Phoenix Coyotes" alias="PHX" id="44153da1-0f24-11e2-8525-18a905767e44">
+        </home>
+        <away name="Florida Panthers" alias="FLA" id="4418464d-0f24-11e2-8525-18a905767e44">
+        </away>
+      </game>
+    </games>
+  </season-schedule>
+</league>
