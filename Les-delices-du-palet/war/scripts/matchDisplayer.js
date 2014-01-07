@@ -14,7 +14,7 @@ function display_match_error() {
 }
 
 function fill_fields(which, team) {
-	$("#" + which + "name").text(team.name);
+	$("." + which + "name").text(team.name);
 	$("#" + which + "market").text(team.market);
 	$("#" + which + "conference").text(team.conference);
 	$("#" + which + "games_played").text(team.games_played);

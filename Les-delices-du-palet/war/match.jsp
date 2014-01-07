@@ -6,6 +6,7 @@
 <head>
 <%@include file="WEB-INF/templates/head.jsp"%>
 <script src="/scripts/matchDisplayer.js"></script>
+<script src="/scripts/pari.js"></script>
 <title>Les Délices du Palet - Détails de match</title>
 <style>
 td {
@@ -39,9 +40,9 @@ dd {
 			<div class="clear"></div>
 			<table>
 				<tr>
-					<th><h4 id="home-name"></h4></th>
+					<th><h4 class="home-name"></h4></th>
 					<th></th>
-					<th><h4 id="away-name"></h4></th>
+					<th><h4 class="away-name"></h4></th>
 				</tr>
 				<tr>
 					<th><h3 id="home-result"></h3></th>
@@ -99,12 +100,34 @@ dd {
 					<td id="away-goals_diff"></td>
 				</tr>
 				<tr>
-					<td><button onclick="alert('t\'y a cru')">Parier</button></td>
-					<td>Pari</td>
-					<td><button onclick="alert('t\'y a cru')">Parier</button></td>
-
+					<td colspan=3>
+					<button id="pari_button" onclick="fetch_pari()">Afficher les paris</button>
+					</td>
 				</tr>
 			</table>
+			
+			<div id="pari_box" style="visibility:hidden; padding-bottom:50px;">
+			<%try{ user.getUserId();%>
+				<form action="parier(this, '<%=request.getParameter("match-id")%>', <%=user.getUserId()%>)">
+				<%}catch(Exception e){%>
+				<form action="parier(this, '<%=request.getParameter("match-id")%>', -1)">
+				<%}%>
+				
+				<input type="radio" name="type_pari" value="victoire_home"/> Parier sur la victoire de <span class="home-name"></span><br/>
+				
+				<input type="radio" name="type_pari" value="victoire_away"/> Parier sur la victoire de <span class="away-name"></span><br/>
+				
+				<input type="radio" name="type_pari" value="match_nul"/> Parier sur un match nul<br/>
+				
+				<input type="radio" name="type_pari" value="victoire_home_ecart"/> Parier sur la victoire de <span class="home-name"></span> 
+				avec un écart de <select name ="ecart"><option value="1-3">1 à 3 points</option><option value="4-7">4 à 7 points</option>
+				<option value="8+">8 points ou plus</option></select><br/>
+				
+				<input type="radio" name="type_pari" value="victoire_away_ecart"/> Parier sur la victoire de <span class="away-name"></span> 
+				avec un écart de <select name ="ecart"><option value="1-3">1 à 3 points</option><option value="4-7">4 à 7 points</option>
+				<option value="8+">8 points ou plus</option></select><br/>
+				</form>
+			</div>
 		</div>
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>
 		<div class="clear"></div>
