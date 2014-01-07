@@ -14,16 +14,20 @@
 		<button onclick="driver()">Launch</button>
 		<script>
 			function driver() {
-				for (i = 1; i <= 10; i++) {
+				for (i = 4; i <= 10; i++) {
 					$.ajax({
 						type : "GET",
 						url : "/partial_update?sched-id=" + i,
-						async : false, //Safe!
+						async : true, //Safe!
+						error: merde,
 						success : ok
 					});
 				}
 			}
-			var cpt = 0;
+			var cpt = 4;
+			function merde(){
+				$("#main-content").append("error : "+ (++cpt));	
+			}
 			function ok() {
 				$("#main-content").append(
 						(++cpt) == 10 ? ("<p>Finished</p>") : ("<p>" + cpt
