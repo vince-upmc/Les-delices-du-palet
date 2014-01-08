@@ -17,16 +17,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<url-pattern>/next_matchs</url-pattern>
 	</servlet-mapping>
 
-	<!-- Sert à rien, à revoir -->
-	<servlet>
-		<servlet-name>TeamServlet</servlet-name>
-		<servlet-class>com.delices.services.TeamServlet</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>TeamServlet</servlet-name>
-		<url-pattern>/team</url-pattern>
-	</servlet-mapping>
-
 	<!-- Pour l'affichage des matchs -->
 	<servlet>
 		<servlet-name>DisplayMatch</servlet-name>
