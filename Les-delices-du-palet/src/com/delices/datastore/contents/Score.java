@@ -53,8 +53,8 @@ public class Score {
 	public JSONObject toJSON() throws JSONException {
 		JSONObject obj = new JSONObject();
 
-		obj.put("home-score", homeScore);
-		obj.put("away-score", awayScore);
+		obj.put("homeScore", homeScore);
+		obj.put("awayScore", awayScore);
 
 		return obj;
 	}

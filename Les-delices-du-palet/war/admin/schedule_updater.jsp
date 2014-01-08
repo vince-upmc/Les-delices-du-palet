@@ -14,7 +14,7 @@
 		<button onclick="driver()">Launch</button>
 		<script>
 			function driver() {
-				for (i = 4; i <= 10; i++) {
+				for (i = 5; i <= 10; i++) {
 					$.ajax({
 						type : "GET",
 						url : "/partial_update?sched-id=" + i,

@@ -73,6 +73,10 @@ public class Match {
 		return startingTime;
 	}
 
+	public void setStartingTime(Date startingTime) {
+		this.startingTime = startingTime;
+	}
+
 	public String getTitle() {
 		return title;
 	}

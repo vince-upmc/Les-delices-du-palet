@@ -57,10 +57,10 @@ function colorize(home, away) {
 	}
 }
 function colorizeGoals(data){
-	if (data.boxScore.homescore > data.boxScore.awayscore){
+	if (data.boxScore.homeScore > data.boxScore.awayScore){
 		$("#home-result").css("color", "green");
 		$("#away-result").css("color", "red");
-	} else if (data.boxScore.homescore < data.boxScore.awayscore) {
+	} else if (data.boxScore.homeScore < data.boxScore.awayScore) {
 		$("#home-result").css("color", "red");
 		$("#away-result").css("color", "green");
 	} else {
@@ -74,8 +74,8 @@ function display_match(data /* , textstatus, jqxhr */) {
 	$("#status").text(data.status);
 	$("#air-time").text(data.startingTime);
 	if (data.status == "closed"){
-		$("#home-result").text(data.boxScore.homescore);
-		$("#away-result").text(data.boxScore.awayscore);
+		$("#home-result").text(data.boxScore.homeScore);
+		$("#away-result").text(data.boxScore.awayScore);
 		colorizeGoals(data);
 	} else {
 		$("#home-result").text("-");

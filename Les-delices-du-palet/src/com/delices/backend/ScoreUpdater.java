@@ -47,16 +47,49 @@ public class ScoreUpdater extends HttpServlet {
 		q.declareImports("import java.util.Date");
 		q.declareParameters("Date startupDate");// , Date twoHoursAndHalfAgo");
 
-		for (Match m : (List<Match>) q.execute(SERVER_STARTUP_DATE)) {
+		List<Match> l = (List<Match>) q.execute(SERVER_STARTUP_DATE);
+
+		final int MAX_UPDATE = 5;
+		int cpt = 0;
+		for (Match m : l) {
 			if (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0
-					&& (!m.getStatus().equals("closed"))) {
+					&& (!m.getStatus().equals("closed")) && cpt < MAX_UPDATE) {
+				// Logger.writeLog(this, "Mise à jour du match : " + m.getId());
+				// resp.getWriter().println("Mise à jour du match : " +
+				// m.getId());
 				try {
-					System.out.println("Mise à jour du match du : "
-							+ m.getStartingTime());
+					// System.out.println("Mise à jour du match du : "
+					// + m.getStartingTime());
+					resp.getWriter().println(
+							"Mise à jour du match du : " + m.getStartingTime());
 					new GameUpdater(m).updateContent();
 				} catch (UpdateFailureException e) {
+					resp.getWriter().println(
+							"Impossible de mettre à jour le match : "
+									+ m.getId());
+					// Logger.writeLog(
+					// this,
+					// "Impossible de mettre à jour le match : "
+					// + m.getId());
+					break;
 				}
+				cpt++;
+				resp.getWriter().println(
+						"Mise à jour " + cpt + " du match : " + m.getId()
+								+ " accomplie");
+				// Logger.writeLog(this,
+				// "Mise à jour " + cpt + " du match : " + m.getId()
+				// + " accomplie");
+			} else {
+				String msg = "Deuxième cond : date compar => "
+						+ (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0)
+						+ "status : " + m.getStatus();
+				resp.getWriter().println(msg);
+				//Logger.writeLog(this, msg);
+
 			}
+			resp.getWriter().println("Fin de la tâche cron");
+			//Logger.writeLog(this, "Fin de la tâche cron");
 		}
 	}
 
