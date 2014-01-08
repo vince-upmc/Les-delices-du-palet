@@ -34,16 +34,21 @@ public class Pari {
 	
 	@Persistent
 	private Date date;
+	
+	//betkind 0 = Victoire home, 1 = Victoire away, 2 = nul, 3 = home ecart n°1 etc...
+	@Persistent
+	private int betkind;
 
 	@Persistent
 	private Estatus status;
 
-	public Pari(Key user, Key match, int mise) {
+	public Pari(Key user, Key match, int mise, int betkind) {
 		this.user = user;
 		this.match = match;
 		this.mise = mise;
 		this.status = Estatus.Waiting;
 		this.date = Calendar.getInstance().getTime();
+		this.setBetkind(betkind);
 	}
 
 	public int getMise() {
@@ -81,4 +86,12 @@ public class Pari {
 		return match;
 	}
 
+	public int getBetkind() {
+		return betkind;
+	}
+
+	public void setBetkind(int betkind) {
+		this.betkind = betkind;
+	}
+	
 }

@@ -17,6 +17,8 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
+import com.google.appengine.labs.repackaged.org.json.JSONException;
+import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @SuppressWarnings("serial")
 public class TestPari extends HttpServlet {
@@ -25,6 +27,19 @@ public class TestPari extends HttpServlet {
 
 		// c488998b-bc50-4d70-8f14-d0b5b1e7dc2a
 
+		//Vérification de la présence du type de pari
+		String bet=req.getParameter("betkind");
+		if (bet == null) {
+			resp.getWriter().println("Aucun type de pari selectionné");
+			return;
+		}
+		int betkind = Integer.parseInt(bet);
+		if (betkind <0 || betkind > 8) {
+			resp.getWriter().println("Aucun type de pari selectionné");
+			return;
+		}
+		
+		//Vérification de la présence du match id
 		String matchid = req.getParameter("matchid");
 		int mise = Integer.parseInt(req.getParameter("mise"));
 
@@ -32,10 +47,6 @@ public class TestPari extends HttpServlet {
 			resp.getWriter().println("je veux un match id");
 			return;
 		}
-
-		resp.getWriter().println(
-				"Création d'un pari pour le match " + matchid
-						+ " et une mise de : " + mise);
 
 		UserService us = UserServiceFactory.getUserService();
 		User user = us.getCurrentUser();
@@ -52,16 +63,12 @@ public class TestPari extends HttpServlet {
 					.getObjectById(com.delices.datastore.contents.User.class,
 							user.getUserId());
 		} catch (JDOObjectNotFoundException e) {
-			resp.getWriter().println(
-					"User non trouvé dans la base de donnée, création...");
 			Key k = KeyFactory.createKey(
 					com.delices.datastore.contents.User.class.getSimpleName(),
 					user.getUserId());
 			dbuser = new com.delices.datastore.contents.User(k);
 			pm.makePersistent(dbuser);
 		}
-
-		resp.getWriter().println(dbuser);
 
 		Match m = null;
 		try {
@@ -73,7 +80,7 @@ public class TestPari extends HttpServlet {
 			return;
 		}
 
-		Pari p = new Pari(dbuser.getKey(), m.getKey(), mise);
+		Pari p = new Pari(dbuser.getKey(), m.getKey(), mise, betkind);
 		// Il faut rendre le pari persistant avant afin de générer l'id, sinon
 		// nullpointer
 		pm.makePersistent(p);
@@ -81,11 +88,14 @@ public class TestPari extends HttpServlet {
 				KeyFactory.createKey(Pari.class.getSimpleName(), p.getId()));
 		pm.close();
 
-		resp.getWriter().println("---");
-		resp.getWriter().println("Pari créé : " + p);
-		resp.getWriter().println(dbuser);
-
-		resp.getWriter().println("done");
+		JSONObject json = new JSONObject();
+		try {
+			json.put("output", "ok");
+			resp.getWriter().println(json);
+		} catch (JSONException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
 	}
 
 	@Override
