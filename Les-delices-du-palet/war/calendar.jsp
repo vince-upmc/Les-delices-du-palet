@@ -35,7 +35,6 @@
 				c2.add(Calendar.DATE, 7);
 				Date d2 = c2.getTime();
 
-				PersistenceManager pm = PMF.get().getPersistenceManager();
 				Query q = pm.newQuery(Match.class);
 				q.setFilter("startingTime >= d1 && startingTime <= d2");
 				q.declareParameters("java.util.Date d1, java.util.Date d2");

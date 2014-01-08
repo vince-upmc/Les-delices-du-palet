@@ -31,8 +31,7 @@
 				<th>GA</th>
 				<th>DIFF</th>
 			</tr>
-			<% PersistenceManager pm = PMF.get().getPersistenceManager();
-			
+			<% 			
 				Query q = pm.newQuery(Team.class);
 				q.setOrdering("points desc");
 				int cpt = 0;

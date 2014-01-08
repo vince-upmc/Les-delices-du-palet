@@ -14,6 +14,7 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.delices.datastore.PMF;
 import com.delices.datastore.contents.Match;
+import com.delices.datastore.contents.Pari;
 import com.delices.datastore.updaters.GameUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
 
@@ -63,6 +64,14 @@ public class ScoreUpdater extends HttpServlet {
 					resp.getWriter().println(
 							"Mise à jour du match du : " + m.getStartingTime());
 					new GameUpdater(m).updateContent();
+
+					Query q2 = pm.newQuery(Pari.class);
+					q2.setFilter("match == " + m.getKey());
+					List<Pari> lp = (List<Pari>)q2.execute();
+					for (Pari pari : lp){
+						BetUpdater.updateBet(m, pari);
+					}
+
 				} catch (UpdateFailureException e) {
 					resp.getWriter().println(
 							"Impossible de mettre à jour le match : "
@@ -85,11 +94,11 @@ public class ScoreUpdater extends HttpServlet {
 						+ (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0)
 						+ "status : " + m.getStatus();
 				resp.getWriter().println(msg);
-				//Logger.writeLog(this, msg);
+				// Logger.writeLog(this, msg);
 
 			}
 			resp.getWriter().println("Fin de la tâche cron");
-			//Logger.writeLog(this, "Fin de la tâche cron");
+			// Logger.writeLog(this, "Fin de la tâche cron");
 		}
 	}
 

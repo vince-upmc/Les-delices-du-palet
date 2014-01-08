@@ -1,5 +1,8 @@
 package com.delices.datastore.contents;
 
+import java.util.Calendar;
+import java.util.Date;
+
 import javax.jdo.annotations.IdGeneratorStrategy;
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
@@ -28,6 +31,9 @@ public class Pari {
 
 	@Persistent
 	private int mise;
+	
+	@Persistent
+	private Date date;
 
 	@Persistent
 	private Estatus status;
@@ -37,6 +43,7 @@ public class Pari {
 		this.match = match;
 		this.mise = mise;
 		this.status = Estatus.Waiting;
+		this.date = Calendar.getInstance().getTime();
 	}
 
 	public int getMise() {
@@ -60,6 +67,10 @@ public class Pari {
 
 	public Long getId() {
 		return id;
+	}
+	
+	public Date getDate() {
+		return date;
 	}
 
 	public Key getUser() {
