@@ -1,3 +1,4 @@
+<%@page import="java.util.Calendar"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="com.delices.datastore.contents.Match"%>
 <%@page import="com.delices.datastore.contents.Team"%>
@@ -17,32 +18,33 @@
 	<div id="main-content">
 		<div class="left-panel">
 			<%
+				Calendar c1 = Calendar.getInstance();
+				Calendar c2 = Calendar.getInstance();
 				Team t = pm.getObjectById(Team.class, request.getParameter("team-id"));
 				Query q1 = pm.newQuery(Match.class);
-				q1.setFilter("home == tKey");
-				q1.declareParameters("com.google.appengine.api.datastore.Key tKey");
+				q1.setFilter("home == tKey && startingTime > d");
+				q1.declareParameters("com.google.appengine.api.datastore.Key tKey, java.util.Date d");
 				q1.setOrdering("startingTime");
-				List<Match> matchs = (List<Match>) q1.execute(t.getKey());
+				List<Match> matchList = (List<Match>) q1.execute(t.getKey(), c1.getTime());
 				Query q2 = pm.newQuery(Match.class);
 				q2.setFilter("away == tKey");
 				q2.declareParameters("com.google.appengine.api.datastore.Key tKey");
 				q2.setOrdering("startingTime");
 				List<Match> matchs2 = (List<Match>) q2.execute(t.getKey());
 				/*matchs.addAll(matchs2);*/
-			%>
-		
-			<h1><%=t.getName()%></h1>
-			
-			<%
-				for (Match m : matchs) {
-					Team t1 = pm.getObjectById(Team.class, m.getHome());
-					Team t2 = pm.getObjectById(Team.class, m.getAway());
-					%>
-						<div><%=t1.getName() + " - " + t2.getName() %></div>
-					<%
-				}
+				
 			%>
 			
+			<div class="team-logo"><img src="images/<%=t.getName()+"2.png"%>"></div>
+			<h1 class="team-name"><%=t.getMarket() + " " + t.getName()%></h1>
+			<div class="clear"></div>
+			
+			<div class="team-content">
+			<div class="team-credits"></div>
+			<div class="team-calendar">
+			<%@include file="WEB-INF/templates/calendarTemplate.jsp"%>
+			</div>
+			</div>
 		</div>
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>
 		<div class="clear"></div>

@@ -1,0 +1,45 @@
+@CHARSET "ISO-8859-1";
+
+.calendar {
+	width:100%;
+	padding:5px 5px 5px 5px;
+	border-collapse:collapse;
+	text-align:center;
+}
+
+.calendar-date {
+	text-align:left;
+	padding-left : 15px;
+	font-weight:bold;
+	color:#777777;
+	background:#CCCCCC;
+	border-bottom:2px solid black;
+}
+
+.calendar-match {
+	background:#EEEEEE;
+}
+
+
+.calendar a {
+	text-decoration:none;
+	color:black;
+}
+
+.score-time {
+	float:left;
+	width:30%
+}
+
+.left-team {
+	float:left;
+	text-align:right;
+	width:35%;
+}
+
+
+.right-team {
+	float:right;
+	text-align:left;
+	width:35%;
+}

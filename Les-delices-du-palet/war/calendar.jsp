@@ -22,9 +22,6 @@
 	<div id="main-content">
 		<div class="left-panel">
 			<%
-				DateFormat tableFormat = new SimpleDateFormat("dd-MM hh:mm");
-				DateFormat calendarDateFormat = new SimpleDateFormat("EEEE dd MMMM");
-				DateFormat hourFormat = new SimpleDateFormat("hh : mm");
 				String param = request.getParameter("timeDiff");
 				int timeDiff = Integer.parseInt(param);
 
@@ -39,6 +36,8 @@
 				q.setFilter("startingTime >= d1 && startingTime <= d2");
 				q.declareParameters("java.util.Date d1, java.util.Date d2");
 				q.setOrdering("startingTime asc");
+				
+				List<Match> matchList = (List<Match>) q.execute(d1, d2);
 			%>
 			<h1><%=c1.get(Calendar.DAY_OF_MONTH)
 					+ " "
@@ -55,36 +54,9 @@
 					days</a>
 			</div>
 
-			<table class="calendar">
-				<%
-					c1.setTime(c2.getTime());
-					c2.add(Calendar.DAY_OF_MONTH, 1);
-					for (Match m : (List<Match>) q.execute(d1, d2)) {
-						c2.setTime(m.getStartingTime());
-						Team home = pm.getObjectById(Team.class, m.getHome());
-						Team away = pm.getObjectById(Team.class, m.getAway());
-						if (c1.get(Calendar.DAY_OF_MONTH) != c2.get(Calendar.DAY_OF_MONTH)) {
-						%>
-						<tr><td class="calendar-date">
-						<%=calendarDateFormat.format(c2.getTime())%>
-						</td></tr>
-						<%
-						}
-						c1.setTime(c2.getTime());
-				%>
-				<tr class="calendar-match"><td>
-					<div class="left-team"><a href="/team.jsp?team-id=<%=home.getId()%>"><%=home.getName()%></a></div>
-					<div class="score-time"><a href="/match.jsp?match-id=<%=m.getId()%>">
-						<%if(m.getStatus().equals("closed")){%>
-							<%=m.getBoxScore().getHomeScore() + " - " + m.getBoxScore().getAwayScore()%>
-						<%}else{%><%=hourFormat.format(c2.getTime())%><%}%></a></div>
-					<div class="right-team"><a href="/team.jsp?team-id=<%=away.getId()%>"><%=away.getName()%></a></div>
-				</td></tr>
-					
-				<%
-					}
-				%>
-			</table>
+			<div class="calendar-wrapper" style="width:90%;margin:auto">
+			<%@include file="WEB-INF/templates/calendarTemplate.jsp" %>
+			</div>
 		</div>
 
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>

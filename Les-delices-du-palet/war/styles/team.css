@@ -1,0 +1,15 @@
+@CHARSET "ISO-8859-1";
+
+.team-header {
+	
+}
+
+.team-logo {
+	float:left;
+	margin: 10px 30px 10px 0px;
+}
+
+.team-calendar {
+	width:50%;
+	margin:auto;
+}

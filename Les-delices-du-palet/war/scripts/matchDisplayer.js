@@ -77,7 +77,7 @@ function display_match(data /* , textstatus, jqxhr */) {
 		$("#score-time").text(data.boxScore.homeScore + " - " + data.boxScore.awayScore);
 		/*colorizeGoals(data);*/
 	} else {
-		$("#score-time").text(data.startingTime.substring(6,data.startingTime.length));
+		$("#score-time").text(data.startingTime);
 	}
 	fill_fields("home-", data.home);
 	fill_fields("away-", data.away);

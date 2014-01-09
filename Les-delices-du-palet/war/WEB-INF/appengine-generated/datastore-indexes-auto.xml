@@ -1,14 +1,14 @@
-<!-- Indices written at Thu, 9 Jan 2014 14:00:22 CET -->
+<!-- Indices written at Thu, 9 Jan 2014 18:16:37 CET -->
 
 <datastore-indexes>
 
-    <!-- Used 5 times in query history -->
+    <!-- Used 136 times in query history -->
     <datastore-index kind="Match" ancestor="false" source="auto">
         <property name="home" direction="asc"/>
         <property name="startingTime" direction="asc"/>
     </datastore-index>
 
-    <!-- Used 5 times in query history -->
+    <!-- Used 136 times in query history -->
     <datastore-index kind="Match" ancestor="false" source="auto">
         <property name="away" direction="asc"/>
         <property name="startingTime" direction="asc"/>

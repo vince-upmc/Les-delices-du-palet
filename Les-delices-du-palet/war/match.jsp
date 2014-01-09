@@ -1,6 +1,7 @@
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.text.DateFormat"%>
 <%@page import="com.delices.datastore.contents.Match"%>
+<%@page import="com.delices.datastore.contents.Team"%>
 
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
@@ -20,66 +21,66 @@
 		<div class="left-panel">
 		
 			<%
-				DateFormat format = new SimpleDateFormat("EEEE dd MMMM yyyy");
+				DateFormat format = new SimpleDateFormat("dd MMMM yyyy\nhh:mm");
 				Match m = pm.getObjectById(Match.class, request.getParameter("match-id"));
+				Team home = pm.getObjectById(Team.class, m.getHome());
+				Team away = pm.getObjectById(Team.class, m.getAway());
 			%>
 		
-			<h3><%=format.format(m.getStartingTime()) %></h3>
-			<div class="clear"></div>
 			<table class="match-panel">
 				<tr class="match-header">
-					<th><a class="home-name" href="/team.jsp?team-id="></a></th>
+					<th><a class="home-name" href="/team.jsp?team-id=<%=home.getId()%>"></a></th>
 					<th id="score-time"></th>
-					<th><h2 class="away-name"></h2></th>
+					<th><a class="away-name" href="/team.jsp?team-id=<%=away.getId()%>"></a></th>
 				</tr>
 				<tr>
 					<td id="home-market"></td>
-					<td>Ville</td>
+					<td class="match-category">Ville</td>
 					<td id="away-market"></td>
 				</tr>
 				<tr>
 					<td id="home-conference"></td>
-					<td>Conférence</td>
+					<td class="match-category">Conférence</td>
 					<td id="away-conference"></td>
 				</tr>
 				<tr>
 					<td id="home-games_played"></td>
-					<td>Matchs joués</td>
+					<td class="match-category">Matchs joués</td>
 					<td id="away-games_played"></td>
 				</tr>
 				<tr>
 					<td id="home-wins"></td>
-					<td>Victoires</td>
+					<td class="match-category">Victoires</td>
 					<td id="away-wins"></td>
 				</tr>
 				<tr>
 					<td id="home-losses"></td>
-					<td>Défaites</td>
+					<td class="match-category">Défaites</td>
 					<td id="away-losses"></td>
 				</tr>
 				<tr>
 					<td id="home-points"></td>
-					<td>Points</td>
+					<td class="match-category">Points</td>
 					<td id="away-points"></td>
 				</tr>
 				<tr>
 					<td id="home-win_pct"></td>
-					<td>% de victoire</td>
+					<td class="match-category">% de victoire</td>
 					<td id="away-win_pct"></td>
 				</tr>
 				<tr>
 					<td id="home-goals_for"></td>
-					<td>Total de buts</td>
+					<td class="match-category">Total de buts</td>
 					<td id="away-goals_for"></td>
 				</tr>
 				<tr>
 					<td id="home-goals_against"></td>
-					<td>Total de buts encaissés</td>
+					<td class="match-category">Total de buts encaissés</td>
 					<td id="away-goals_against"></td>
 				</tr>
 				<tr>
 					<td id="home-goals_diff"></td>
-					<td>Différences de but</td>
+					<td class="match-category">Différences de but</td>
 					<td id="away-goals_diff"></td>
 				</tr>
 				<tr>
