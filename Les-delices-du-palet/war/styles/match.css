@@ -1,0 +1,19 @@
+@CHARSET "ISO-8859-1";
+
+.match-panel {
+	width:90%;
+	background:#EEEEEE;
+	margin:auto;
+	border-collapse:collapse;
+	border:1px solid grey;
+}
+
+.match-panel td {
+	text-align: center;
+	padding: 2px;
+}
+
+.match-header {
+	background:#CCCCCC;
+	border:2px solid grey;
+}

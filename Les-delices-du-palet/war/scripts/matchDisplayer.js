@@ -74,12 +74,10 @@ function display_match(data /* , textstatus, jqxhr */) {
 	$("#status").text(data.status);
 	$("#air-time").text(data.startingTime);
 	if (data.status == "closed"){
-		$("#home-result").text(data.boxScore.homeScore);
-		$("#away-result").text(data.boxScore.awayScore);
-		colorizeGoals(data);
+		$("#score-time").text(data.boxScore.homeScore + " - " + data.boxScore.awayScore);
+		/*colorizeGoals(data);*/
 	} else {
-		$("#home-result").text("-");
-		$("#away-result").text("-");
+		$("#score-time").text(data.startingTime.substring(6,data.startingTime.length));
 	}
 	fill_fields("home-", data.home);
 	fill_fields("away-", data.away);

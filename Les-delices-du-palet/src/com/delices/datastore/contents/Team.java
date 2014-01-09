@@ -172,6 +172,10 @@ public class Team {
 		this.goals_diff = goals_diff;
 	}
 
+	public Key getKey() {
+		return key;
+	}
+	
 	public String getId() {
 		return key.getName();
 	}

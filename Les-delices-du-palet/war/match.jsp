@@ -1,3 +1,7 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.text.DateFormat"%>
+<%@page import="com.delices.datastore.contents.Match"%>
+
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 
@@ -8,56 +12,35 @@
 <script src="/scripts/matchDisplayer.js"></script>
 <script src="/scripts/pari.js"></script>
 <title>Les Délices du Palet - Détails de match</title>
-<style>
-td {
-	text-align: center;
-	padding: 2px;
-}
-
-dt {
-	clear: both;
-	float: left;
-	width: 120px;
-}
-
-dd {
-	float: left;
-}
-</style>
 </head>
 <body onload="fetch_match('<%=request.getParameter("match-id")%>')">
 	<%@include file="WEB-INF/templates/menu.jsp"%>
 
 	<div id="main-content">
 		<div class="left-panel">
-			<dl>
-				<dt>Début du match</dt>
-				<dd id="air-time"></dd>
-
-				<dt>Status</dt>
-				<dd id="status"></dd>
-			</dl>
+		
+			<%
+				DateFormat format = new SimpleDateFormat("EEEE dd MMMM yyyy");
+				Match m = pm.getObjectById(Match.class, request.getParameter("match-id"));
+			%>
+		
+			<h3><%=format.format(m.getStartingTime()) %></h3>
 			<div class="clear"></div>
-			<table>
-				<tr>
-					<th><h4 class="home-name"></h4></th>
-					<th></th>
-					<th><h4 class="away-name"></h4></th>
-				</tr>
-				<tr>
-					<th><h3 id="home-result"></h3></th>
-					<th>Résultat</th>
-					<th><h3 id="away-result"></h3></th>
-				</tr>
-				<tr>
-					<td id="home-conference"></td>
-					<td>Conférence</td>
-					<td id="away-conference"></td>
+			<table class="match-panel">
+				<tr class="match-header">
+					<th><h2 class="home-name"></h2></th>
+					<th id="score-time"></th>
+					<th><h2 class="away-name"></h2></th>
 				</tr>
 				<tr>
 					<td id="home-market"></td>
 					<td>Ville</td>
 					<td id="away-market"></td>
+				</tr>
+				<tr>
+					<td id="home-conference"></td>
+					<td>Conférence</td>
+					<td id="away-conference"></td>
 				</tr>
 				<tr>
 					<td id="home-games_played"></td>
