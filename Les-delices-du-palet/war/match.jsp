@@ -28,7 +28,7 @@
 			<div class="clear"></div>
 			<table class="match-panel">
 				<tr class="match-header">
-					<th><h2 class="home-name"></h2></th>
+					<th><a class="home-name" href="/team.jsp?team-id="></a></th>
 					<th id="score-time"></th>
 					<th><h2 class="away-name"></h2></th>
 				</tr>

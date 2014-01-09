@@ -39,7 +39,9 @@
 			%>
 				<tr><td>
 					<%=++cpt%></td>
-					<td><a href="#"><%=t.getName() %></a></td>
+					<td class="ranking-team">
+						<a href="team.jsp?team-id=<%=t.getId()%>"><img src="images/<%=t.getName()%>.png">  <%=t.getName() %></a>
+					</td>
 					<td><%=t.getDivision().charAt(0)%></td>
 					<td class="ranking-points"><%=t.getPoints() %></td>
 					<td><%=t.getGames_played() %></td>
