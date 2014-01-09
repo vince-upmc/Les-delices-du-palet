@@ -82,10 +82,10 @@ public class TestPari extends HttpServlet {
 
 		int credit = dbuser.getCredit();
 
-		if(mise>credit){
+		if(mise>credit || mise == 0){
 			resp.getWriter()
 			.println(
-					"Crédit insuffisant");
+					"Crédit ou mise insuffisant");
 			return;
 		}
 		else{
