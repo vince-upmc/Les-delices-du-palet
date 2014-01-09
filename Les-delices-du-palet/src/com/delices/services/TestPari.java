@@ -38,7 +38,7 @@ public class TestPari extends HttpServlet {
 			resp.getWriter().println("Aucun type de pari selectionné");
 			return;
 		}
-		
+
 		//Vérification de la présence du match id
 		String matchid = req.getParameter("matchid");
 		int mise = Integer.parseInt(req.getParameter("mise"));
@@ -75,9 +75,21 @@ public class TestPari extends HttpServlet {
 			m = pm.getObjectById(Match.class, matchid);
 		} catch (JDOObjectNotFoundException e) {
 			resp.getWriter()
-					.println(
-							"Match non trouvé dans le datastore. Id à vérifier ou matchs à mettre à jour");
+			.println(
+					"Match non trouvé dans le datastore. Id à vérifier ou matchs à mettre à jour");
 			return;
+		}
+
+		int credit = dbuser.getCredit();
+
+		if(mise>credit){
+			resp.getWriter()
+			.println(
+					"Crédit insuffisant");
+			return;
+		}
+		else{
+			dbuser.setCredit(credit-mise);
 		}
 
 		Pari p = new Pari(dbuser.getKey(), m.getKey(), mise, betkind);
@@ -87,6 +99,8 @@ public class TestPari extends HttpServlet {
 		dbuser.getParis().add(
 				KeyFactory.createKey(Pari.class.getSimpleName(), p.getId()));
 		pm.close();
+
+
 
 		JSONObject json = new JSONObject();
 		try {

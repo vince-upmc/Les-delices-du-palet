@@ -46,7 +46,7 @@ function parier(matchid, user) {
 }
 
 function display_pari(toto){
-	alert ("Pari enregistré");
+	window.location.href = "/profil.jsp";
 }
 
 function pari_error(toto){
