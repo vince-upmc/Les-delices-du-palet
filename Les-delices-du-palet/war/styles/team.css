@@ -1,15 +1,58 @@
 @CHARSET "ISO-8859-1";
 
+
 .team-header {
-	
+	margin-bottom:15px;
+}
+
+.team-name {
+	width:70%;
+	display:inline-block;
+	text-align:center;
+	line-height:50px;
+	vertical-align:middle;
+	font-size:35px;
+	font-weight:bold;
 }
 
 .team-logo {
+	display :inline-block;
+	margin: 10px 20px 10px 15px;
+	vertical-align:middle;
+}
+
+.team-credits {
+	width:48%;
 	float:left;
-	margin: 10px 30px 10px 0px;
+}
+
+.credits-table {
+	background:#EEEEEE;
+	border-collapse:collapse;
+	width:90%;
+	text-align:center;
+	border:1px solid #777777;
+}
+
+.credits-table th {
+	background:#777777;
+}
+
+.credits-category {
+	font-weight:bold;
+	padding:5px;
+	width:60%;
+	text-align:right;
+	color:#999999;
+}
+
+.credits-value {
+	width:40%;
+	padding:5px;
 }
 
 .team-calendar {
-	width:60%;
+	width:52%;
 	margin:auto;
+	float:left;
 }

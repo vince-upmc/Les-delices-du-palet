@@ -57,9 +57,9 @@
 					+ c2.getDisplayName(Calendar.MONTH, Calendar.LONG,
 							Locale.getDefault())%></h1>
 			<div class="nav">
-				<a href="/calendar.jsp?timeDiff=<%=timeDiff - 7%>">Previous 7
-					days</a> <a href="/calendar.jsp?timeDiff=<%=timeDiff + 7%>">Next 7
-					days</a>
+				<a href="/calendar.jsp?timeDiff=<%=timeDiff - 7%>">&lt;&lt;&lt; Previous 7
+					days</a> <a style="float:right;" href="/calendar.jsp?timeDiff=<%=timeDiff + 7%>">Next 7
+					days &gt;&gt;&gt;</a>
 			</div>
 
 			<div class="calendar-wrapper" style="width: 90%; margin: auto">

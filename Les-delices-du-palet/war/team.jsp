@@ -25,10 +25,9 @@
 				Team t = pm.getObjectById(Team.class,
 						request.getParameter("team-id"));
 				Query q1 = pm.newQuery(Match.class);
-				q1.setFilter("home == tKey && startingTime > d");
-				q1.declareParameters("com.google.appengine.api.datastore.Key tKey, java.util.Date d");
-				List<Match> matchList = (List<Match>) q1.execute(t.getKey(),
-						c1.getTime());
+				q1.setFilter("home == tKey");
+				q1.declareParameters("com.google.appengine.api.datastore.Key tKey");
+				List<Match> matchList = (List<Match>) q1.execute(t.getKey());
 				Query q2 = pm.newQuery(Match.class);
 				q2.setFilter("away == tKey");
 				q2.declareParameters("com.google.appengine.api.datastore.Key tKey");
@@ -38,15 +37,31 @@
 				Collections.sort(matchList);
 			%>
 
+			<div class="team-header">
 			<div class="team-logo">
 				<img src="images/teamLogos/<%=t.getName().replace(' ', '_')%>2.png">
 			</div>
-			<h1 class="team-name"><%=t.getMarket() + " " + t.getName()%></h1>
+			<div class="team-name"><%=t.getMarket() + " " + t.getName()%></div>
+			</div>
 			<div class="clear"></div>
 
-			Todo? : ajouter les stats
 			<div class="team-content">
-				<div class="team-credits"></div>
+				<div class="team-credits">
+				<table class="credits-table">
+					<tr><th colspan="2">INFOS</th></tr>
+					<tr><td class="credits-category">Conférence</td><td class="credits-value"><%=t.getConference().substring(0, t.getConference().length() - 11) %></td></tr>
+					<tr><td class="credits-category">Division</td><td class="credits-value"><%=t.getDivision() %></td></tr>
+					<tr><td class="credits-category">Points</td><td class="credits-value"><%=t.getPoints() %></td></tr>
+					<tr><td class="credits-category">Matchs joués</td><td class="credits-value"><%=t.getGames_played() %></td></tr>
+					<tr><td class="credits-category">Ratio de victoire</td><td class="credits-value"><%=t.getWin_pct() + "%" %></td></tr>
+					<tr><td class="credits-category">Victoires</td><td class="credits-value"><%=t.getWins() %></td></tr>
+					<tr><td class="credits-category">Défaites</td><td class="credits-value"><%=t.getLosses() %></td></tr>
+					<tr><td class="credits-category">Différence de but</td><td class="credits-value"><%=t.getGoals_diff() %></td></tr>
+					<tr><td class="credits-category">Buts pour</td><td class="credits-value"><%=t.getGoals_for() %></td></tr>
+					<tr><td class="credits-category">Buts contre</td><td class="credits-value"><%=t.getGoals_against() %></td></tr>
+					</table>
+				</div>
+				
 				<div class="team-calendar">
 					<!-- Hard include, sinon ça déploy pas -->
 					<table class="calendar">
