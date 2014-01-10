@@ -23,9 +23,11 @@
 				Query q = pm.newQuery(Pari.class);
 				q.setFilter("user == currentUser");
 				q.declareParameters("com.delices.datastore.contents.User currentUser");
-
+				
+				@SuppressWarnings("unchecked")
 				List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
 				int wins = 0;
+				int cpt = 0;
 			%>
 
 			<div>
@@ -35,7 +37,7 @@
 						for (Pari p : paris) {
 							if (p.getStatus() != Pari.Estatus.Done) {
 					%>
-					<li><a href="/match.jps?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
+					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
 					</li>
 					<%
 						}
@@ -48,6 +50,7 @@
 				<ul>
 				<%
 				for (Pari p : paris) {
+					cpt++;
 					if (p.getStatus() == Pari.Estatus.Done) {
 			%>
 				<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
@@ -55,7 +58,7 @@
 				<%
 					}
 					}
-					Double percent =  paris.size() > 0 ? ((double) wins) / ((double) paris.size()) * 100 : 100;
+					Double percent =  cpt > 0 ? ((double) wins) / ((double) cpt) * 100 : 100;
 				%>
 				</ul>
 			</div>

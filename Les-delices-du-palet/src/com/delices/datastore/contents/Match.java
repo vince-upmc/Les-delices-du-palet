@@ -12,7 +12,7 @@ import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
 @PersistenceCapable
-public class Match {
+public class Match implements Comparable<Match> {
 
 	@PrimaryKey
 	@Persistent
@@ -107,6 +107,11 @@ public class Match {
 		obj.put("boxScore", boxScore.toJSON());
 
 		return obj;
+	}
+
+	@Override
+	public int compareTo(Match o) {
+		return this.getStartingTime().compareTo(o.getStartingTime());
 	}
 
 }

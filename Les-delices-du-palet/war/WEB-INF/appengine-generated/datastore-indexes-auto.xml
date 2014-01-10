@@ -1,4 +1,11 @@
-<!-- Indices written at Thu, 9 Jan 2014 19:05:56 CET -->
+<!-- Indices written at Fri, 10 Jan 2014 10:32:35 CET -->
 
-<datastore-indexes/>
+<datastore-indexes>
 
+    <!-- Used 3 times in query history -->
+    <datastore-index kind="Match" ancestor="false" source="auto">
+        <property name="home" direction="asc"/>
+        <property name="startingTime" direction="asc"/>
+    </datastore-index>
+
+</datastore-indexes>

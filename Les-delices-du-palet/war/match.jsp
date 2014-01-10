@@ -1,3 +1,4 @@
+<%@page import="java.util.Calendar"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.text.DateFormat"%>
 <%@page import="com.delices.datastore.contents.Match"%>
@@ -19,19 +20,30 @@
 
 	<div id="main-content">
 		<div class="left-panel">
-		
+
 			<%
 				DateFormat format = new SimpleDateFormat("dd MMMM yyyy\nhh:mm");
-				Match m = pm.getObjectById(Match.class, request.getParameter("match-id"));
+				Match m = pm.getObjectById(Match.class,
+						request.getParameter("match-id"));
 				Team home = pm.getObjectById(Team.class, m.getHome());
 				Team away = pm.getObjectById(Team.class, m.getAway());
+
+				if (m.getStatus().equals("closed")) {
 			%>
-		
+			<a target="_blank"
+				href="http://www.nhl.com/ice/search.htm?q=<%=home.getName() + "+" + away.getName()%>&tab=video">Rechercher
+				les résumés du match sur NHL.com</a>
+			<%
+				}
+			%>
+
 			<table class="match-panel">
 				<tr class="match-header">
-					<th><a class="home-name" href="/team.jsp?team-id=<%=home.getId()%>"></a></th>
+					<th><a class="home-name"
+						href="/team.jsp?team-id=<%=home.getId()%>"></a></th>
 					<th id="score-time"></th>
-					<th><a class="away-name" href="/team.jsp?team-id=<%=away.getId()%>"></a></th>
+					<th><a class="away-name"
+						href="/team.jsp?team-id=<%=away.getId()%>"></a></th>
 				</tr>
 				<tr>
 					<td id="home-market"></td>
@@ -83,37 +95,59 @@
 					<td class="match-category">Différences de but</td>
 					<td id="away-goals_diff"></td>
 				</tr>
+				<%
+					if (Calendar.getInstance().getTime().compareTo(m.getStartingTime()) < 0) {
+				%>
+
 				<tr>
 					<td colspan=3>
-					<button id="pari_button" onclick="fetch_pari()">Afficher les paris</button>
+
+						<button id="pari_button" onclick="fetch_pari()">Afficher
+							les paris</button>
 					</td>
 				</tr>
+				<%
+					}
+				%>
 			</table>
-			
-			<div id="pari_box" style="visibility:hidden; padding-bottom:50px;">
-				
-				<input type="radio" id="bet0" name="type_pari" value="victoire_home" checked="true" /> Parier sur la victoire de <span class="home-name"></span><br/>
-				
-				<input type="radio" id="bet1" name="type_pari" value="victoire_away"/> Parier sur la victoire de <span class="away-name"></span><br/>
-				
-				<input type="radio" id="bet2" name="type_pari" value="match_nul"/> Parier sur un match nul<br/>
-				
-				<input type="radio" id="bet3" name="type_pari" value="victoire_home_ecart"/> Parier sur la victoire de <span class="home-name"></span> 
-				avec un écart de <select id="ecart_home" name ="ecart"><option value="1-3">1 à 3 points</option><option value="4-7">4 à 7 points</option>
-				<option value="8+">8 points ou plus</option></select><br/>
-				
-				<input type="radio" id="bet4" name="type_pari" value="victoire_away_ecart"/> Parier sur la victoire de <span class="away-name"></span> 
-				avec un écart de <select id="ecart_away" name ="ecart"><option value="1-3">1 à 3 points</option><option value="4-7">4 à 7 points</option>
-				<option value="8+">8 points ou plus</option></select><br/><br/>
-				
-				Mise: <input type="text" id="mise" name="mise" value="1" />
-				
-				<%try{ user.getUserId();%>
-				<input type="button" value="Valider le pari" onclick="parier('<%=request.getParameter("match-id")%>', <%=user.getUserId()%>)"/>
-				<%}catch(Exception e){%>
-				<input type="button" value="Valider le pari" onclick="parier('<%=request.getParameter("match-id")%>', -1)"/>
-				<%}%>
-				
+
+			<div id="pari_box" style="visibility: hidden; padding-bottom: 50px;">
+
+				<input type="radio" id="bet0" name="type_pari" value="victoire_home"
+					checked /> Parier sur la victoire de <span class="home-name"></span><br />
+				<input type="radio" id="bet1" name="type_pari" value="victoire_away" />
+				Parier sur la victoire de <span class="away-name"></span><br /> <input
+					type="radio" id="bet2" name="type_pari" value="match_nul" />
+				Parier sur un match nul<br /> <input type="radio" id="bet3"
+					name="type_pari" value="victoire_home_ecart" /> Parier sur la
+				victoire de <span class="home-name"></span> avec un écart de <select
+					id="ecart_home" name="ecart"><option value="1-3">1
+						à 3 points</option>
+					<option value="4-7">4 à 7 points</option>
+					<option value="8+">8 points ou plus</option></select><br /> <input
+					type="radio" id="bet4" name="type_pari" value="victoire_away_ecart" />
+				Parier sur la victoire de <span class="away-name"></span> avec un
+				écart de <select id="ecart_away" name="ecart"><option
+						value="1-3">1 à 3 points</option>
+					<option value="4-7">4 à 7 points</option>
+					<option value="8+">8 points ou plus</option></select><br /> <br /> Mise: <input
+					type="text" id="mise" name="mise" value="1" />
+
+				<%
+					try {
+						user.getUserId();
+				%>
+				<input type="button" value="Valider le pari"
+					onclick="parier('<%=request.getParameter("match-id")%>', <%=user.getUserId()%>)" />
+				<%
+					} catch (Exception e) {
+				%>
+				<input type="button" value="Valider le pari"
+					onclick="parier('<%=request.getParameter("match-id")%>', -1)" />
+				<%
+					}
+				%>
+
 
 			</div>
 		</div>

@@ -4,5 +4,9 @@
 		<url>/cron/update_scores</url>
 		<description>Mets à jour les scores</description>
 		<schedule>every 1 hours</schedule>
+
+		<url>/cron/update_ranking</url>
+		<description>Mets à jour le classement</description>
+		<schedule>every day 00:00</schedule>
 	</cron>
 </cronentries> 

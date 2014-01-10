@@ -26,7 +26,7 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>DisplayMatch</servlet-name>
 		<url-pattern>/display_match</url-pattern>
 	</servlet-mapping>
-	
+
 	<!-- Schedule partial updater -->
 	<servlet>
 		<servlet-name>PartialUpdate</servlet-name>
@@ -96,7 +96,14 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<url-pattern>/cron/update_scores</url-pattern>
 	</servlet-mapping>
 
-
+	<servlet>
+		<servlet-name>UpdateRanking</servlet-name>
+		<servlet-class>com.delices.backend.RankingUpdater</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UpdateRanking</servlet-name>
+		<url-pattern>/cron/update_ranking</url-pattern>
+	</servlet-mapping>
 
 	<!-- todo : virer les extensions jsp -->
 	<welcome-file-list>

@@ -9,13 +9,12 @@
 <%@ page import="com.google.appengine.api.users.UserServiceFactory"%>
 
 <header>
-	<!-- TODO : mettre en dur le titre dans l'image -->
 	<div class="logo"></div>
 
 	<div class="menu">
 		<ul class="left-menu">
 			<li><a href="index.jsp">Accueil</a></li>
-			<li><a href="calendar.jsp?timeDiff=0">Calendrier</a></li>
+			<li><a href="calendar.jsp">Calendrier</a></li>
 			<li><a href="ranking.jsp">Classement</a></li>
 		</ul>
 		<ul class="right-menu">
@@ -57,11 +56,5 @@
 				}
 			%>
 		</ul>
-		<!-- 
-			<ul class="right-menu">
-				<li><a href="subscribe.jsp">Inscription</a></li>
-				<li><a href="login.jsp">Connexion</a></li>
-			</ul>
-			 -->
 	</div>
 </header>

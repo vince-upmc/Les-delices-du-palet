@@ -28,11 +28,11 @@ public class ScoreUpdater extends HttpServlet {
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws ServletException, IOException {
 
-		Date twoHoursAndAHalfAgo = Calendar.getInstance().getTime();
 		Calendar c = Calendar.getInstance();
 		c.set(Calendar.HOUR, c.get(Calendar.HOUR) - 2);
 		c.set(Calendar.MINUTE, c.get(Calendar.MINUTE) - 30);
-
+		Date twoHoursAndAHalfAgo = c.getTime();
+		
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
 		Query q = pm.newQuery(Match.class);

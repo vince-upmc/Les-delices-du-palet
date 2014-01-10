@@ -22,20 +22,18 @@
 			</form>
 
 			<form method="GET" action="/testpari">
-				<legend>Test de création de pari</legend>
+				<fieldset>
+					<legend>Test de création de pari</legend>
 
-				<label for="matchid">Match id</label> <input type="text"
-					id="matchid" name="matchid" value="c488998b-bc50-4d70-8f14-d0b5b1e7dc2a" /> 
-					
-				<label for="mise">Mise</label> 
-				<select	name="mise" id="mise">
-					<option value="1">1</option>
-					<option value="2">2</option>
-					<option value="3">3</option>
-				</select>
-
-				<input class="unlabeled" type="submit" value="Creer le pari" />
-
+					<label for="matchid">Match id</label> <input type="text"
+						id="matchid" name="matchid"
+						value="c488998b-bc50-4d70-8f14-d0b5b1e7dc2a" /> <label for="mise">Mise</label>
+					<select name="mise" id="mise">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select> <input class="unlabeled" type="submit" value="Creer le pari" />
+				</fieldset>
 			</form>
 
 		</div>

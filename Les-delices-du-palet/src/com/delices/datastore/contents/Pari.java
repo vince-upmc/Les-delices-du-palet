@@ -31,11 +31,12 @@ public class Pari {
 
 	@Persistent
 	private int mise;
-	
+
 	@Persistent
 	private Date date;
-	
-	//betkind 0 = Victoire home, 1 = Victoire away, 2 = nul, 3 = home ecart n°1 etc...
+
+	// betkind 0 = Victoire home, 1 = Victoire away, 2 = nul, 3 = home ecart n°1
+	// etc...
 	@Persistent
 	private int betkind;
 
@@ -73,7 +74,7 @@ public class Pari {
 	public Long getId() {
 		return id;
 	}
-	
+
 	public Date getDate() {
 		return date;
 	}
@@ -93,5 +94,10 @@ public class Pari {
 	public void setBetkind(int betkind) {
 		this.betkind = betkind;
 	}
-	
+
+	public boolean isBetSuccessful(Score s) {
+		// TODO
+		return false;
+	}
+
 }

@@ -215,7 +215,6 @@ public class Team {
 	}
 
 	public JSONObject toJSON() throws JSONException {
-		System.err.println("id : " + this.getId());
 		JSONObject obj = new JSONObject();
 		obj.put("name", name);
 		obj.put("alias", alias);

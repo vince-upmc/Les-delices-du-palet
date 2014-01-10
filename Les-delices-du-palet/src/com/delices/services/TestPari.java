@@ -25,6 +25,8 @@ public class TestPari extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)
 			throws IOException {
 
+		// TODO Verifier que le match n'est pas fini
+		
 		// c488998b-bc50-4d70-8f14-d0b5b1e7dc2a
 
 		//Vérification de la présence du type de pari

@@ -15,14 +15,14 @@ public class BetUpdater {
 
 		double modifier = 2.0;
 		boolean betSuccessful = false;
-		
+
 		if (betSuccessful) {
 			PersistenceManager pm = PMF.get().getPersistenceManager();
 			User us = pm.getObjectById(User.class, bet.getUser());
 			us.setCredit((int) (bet.getMise() * modifier));
 			// Envoyer un mail?
 		}
-		
+
 		// Else => la somme est déjà déduite donc, on laisse tel quel
 	}
 }
