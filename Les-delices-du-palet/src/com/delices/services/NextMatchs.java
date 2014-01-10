@@ -2,7 +2,6 @@ package com.delices.services;
 
 import java.io.IOException;
 import java.util.Calendar;
-import java.util.Date;
 import java.util.List;
 
 import javax.jdo.PersistenceManager;
@@ -27,11 +26,6 @@ public class NextMatchs extends HttpServlet {
 
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
-		Calendar cal = Calendar.getInstance();
-		cal.set(cal.get(Calendar.YEAR), cal.get(Calendar.MONTH),
-				cal.get(Calendar.DAY_OF_MONTH), 0, 0);
-		Date today = cal.getTime();
-
 		Query q = pm.newQuery(Match.class);
 		q.setOrdering("startingTime asc");
 		q.setRange(0, 10);
@@ -40,7 +34,7 @@ public class NextMatchs extends HttpServlet {
 
 		JSONObject obj = new JSONObject();
 
-		for (Match m : (List<Match>) q.execute(today)) {
+		for (Match m : (List<Match>) q.execute(Calendar.getInstance().getTime())) {
 			Team home = pm.getObjectById(Team.class, m.getHome());
 			Team away = pm.getObjectById(Team.class, m.getAway());
 
