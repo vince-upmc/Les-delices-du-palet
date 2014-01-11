@@ -69,6 +69,7 @@ footer {
 .left-panel {
 	float:left;
 	width:65%;
+	margin-bottom:30px;
 }
 
 .right-panel {

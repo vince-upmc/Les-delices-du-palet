@@ -53,6 +53,8 @@
 
 .team-calendar {
 	width:52%;
+	height:300px;
+	overflow:auto;
 	margin:auto;
 	float:left;
 }
