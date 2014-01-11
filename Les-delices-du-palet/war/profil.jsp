@@ -1,3 +1,4 @@
+<%@page import="org.omg.CORBA.UserException"%>
 <%@page import="com.delices.datastore.contents.Pari"%>
 <%@page import="javax.jdo.Query"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
@@ -11,6 +12,20 @@
 </head>
 <body>
 	<%@include file="WEB-INF/templates/menu.jsp"%>
+	<%
+	boolean userExist = false;
+	if (dbuser == null)
+	{
+	%>
+	<script>window.location.href="/";</script>
+	<%
+	    userExist = false;
+	} 
+	else{
+		userExist = true;
+	}
+	if(userExist){
+	%>
 	<div id="main-content">
 		<div class="left-panel">
 			<h1>Profil</h1>
@@ -68,5 +83,6 @@
 		<div class="clear"></div>
 	</div>
 	<%@include file="WEB-INF/templates/footer.jsp"%>
+	<% } %>
 </body>
 </html>
