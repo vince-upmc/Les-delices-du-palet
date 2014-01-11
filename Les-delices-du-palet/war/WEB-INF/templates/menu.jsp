@@ -26,7 +26,7 @@
 
 				if (user != null) {
 					pageContext.setAttribute("user", user);
-					
+
 					//Si l'user n'existe pas encore dans la base de donnée, on l'insère.
 					try {
 						dbuser = pm.getObjectById(
@@ -44,14 +44,19 @@
 			<li><a style="font-size: 14px" href="/profil.jsp">Bonjour <%=user.getNickname()%></a></li>
 			<li><%=dbuser.getCredit()%><img
 				style="position: relative; top: 2px" src="/images/credit.png" /></li>
-			<li><a
-				href="<%=userService.createLogoutURL("/")%>">Déconnexion</a></li>
+			<li><a href="<%=userService.createLogoutURL("/")%>">Déconnexion</a></li>
 
 			<%
 				} else {
+					String s;
+					if (request.getQueryString() != null) {
+						s = request.getRequestURI() + "?"
+								+ request.getQueryString();
+					} else {
+						s = request.getRequestURI();
+					}
 			%>
-			<li><a
-				href="<%=userService.createLoginURL(request.getRequestURI())%>">Connexion</a></li>
+			<li><a href="<%=userService.createLoginURL(s)%>">Connexion</a></li>
 			<%
 				}
 			%>
