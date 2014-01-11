@@ -45,7 +45,7 @@
 			<li><%=dbuser.getCredit()%><img
 				style="position: relative; top: 2px" src="/images/credit.png" /></li>
 			<li><a
-				href="<%=userService.createLogoutURL(request.getRequestURI())%>">Déconnexion</a></li>
+				href="<%=userService.createLogoutURL("/")%>">Déconnexion</a></li>
 
 			<%
 				} else {

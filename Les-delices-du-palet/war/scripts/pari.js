@@ -9,39 +9,44 @@ function parier(matchid, user) {
 		var bet3 = document.getElementById("bet3");
 		var bet4 = document.getElementById("bet4");
 		var mise = document.getElementById("mise").value;
-		var betkind;
-
-		if (bet0.checked == true){betkind = 0;}
-		if (bet1.checked == true){betkind = 1;}
-		if (bet2.checked == true){betkind = 2;}
-		if (bet3.checked == true)
-		{
-			var select = document.getElementById("ecart_home").value;
-			switch (select){
-			case "1-3" : betkind = 3 ; break;
-			case "4-7" : betkind = 4 ; break;
-			case "8+" : betkind = 5 ; break;
-			}
+		if (isNaN(mise)){
+			alert("La mise doit être un nombre");
 		}
-		if (bet4.checked == true)
-		{
-			var select = document.getElementById("ecart_away").value;
-			switch (select){
-			case "1-3" : betkind = 6 ; break;
-			case "4-7" : betkind = 7 ; break;
-			case "8+" : betkind = 8 ; break;
-			}
-		}
+		else{
+			var betkind;
 
-		$.ajax({
-			type : "GET",
-			url : "/testpari",
-			data : "matchid="+matchid+"&mise="+mise+"&dbuser="+user+"&betkind="+betkind,
-			dataType : "json",
-			async : true,
-			error : pari_error,
-			success : display_pari
-		});
+			if (bet0.checked == true){betkind = 0;}
+			if (bet1.checked == true){betkind = 1;}
+			if (bet2.checked == true){betkind = 2;}
+			if (bet3.checked == true)
+			{
+				var select = document.getElementById("ecart_home").value;
+				switch (select){
+				case "1-3" : betkind = 3 ; break;
+				case "4-7" : betkind = 4 ; break;
+				case "8+" : betkind = 5 ; break;
+				}
+			}
+			if (bet4.checked == true)
+			{
+				var select = document.getElementById("ecart_away").value;
+				switch (select){
+				case "1-3" : betkind = 6 ; break;
+				case "4-7" : betkind = 7 ; break;
+				case "8+" : betkind = 8 ; break;
+				}
+			}
+
+			$.ajax({
+				type : "GET",
+				url : "/testpari",
+				data : "matchid="+matchid+"&mise="+mise+"&dbuser="+user+"&betkind="+betkind,
+				dataType : "json",
+				async : true,
+				error : pari_error,
+				success : display_pari
+			});
+		}
 	}
 }
 
