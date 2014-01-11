@@ -1,3 +1,4 @@
+<%@page import="java.util.TimeZone"%>
 <%@page import="java.text.DateFormat"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="com.delices.datastore.contents.*"%>
@@ -33,8 +34,9 @@
 				} catch (NumberFormatException e) {
 					timeDiff = 0;
 				}
-				Calendar c1 = Calendar.getInstance();
+				Calendar c1 = Calendar.getInstance(TimeZone.getTimeZone("Europe/Paris"), Locale.FRANCE);
 				c1.add(Calendar.DATE, timeDiff);
+				c1.set(Calendar.HOUR_OF_DAY, 0);
 				Date d1 = c1.getTime();
 				Calendar c2 = (Calendar) c1.clone();
 				c2.add(Calendar.DATE, 7);
@@ -47,15 +49,12 @@
 
 				List<Match> matchList = (List<Match>) q.execute(d1, d2);
 			%>
-			<h1><%=c1.get(Calendar.DAY_OF_MONTH)
-					+ " "
+			<h1><%=c1.get(Calendar.DAY_OF_MONTH) + " "
 					+ c1.getDisplayName(Calendar.MONTH, Calendar.LONG,
-							Locale.getDefault())
-					+ " - "
-					+ c2.get(Calendar.DAY_OF_MONTH)
-					+ " "
+							Locale.FRANCE) + " - "
+					+ c2.get(Calendar.DAY_OF_MONTH) + " "
 					+ c2.getDisplayName(Calendar.MONTH, Calendar.LONG,
-							Locale.getDefault())%></h1>
+							Locale.FRANCE)%></h1>
 			<div class="nav">
 				<a href="/calendar.jsp?timeDiff=<%=timeDiff - 7%>">&lt;&lt;&lt; Previous 7
 					days</a> <a style="float:right;" href="/calendar.jsp?timeDiff=<%=timeDiff + 7%>">Next 7
@@ -66,16 +65,11 @@
 				<!-- Hard include, sinon ça déploy pas -->
 				<table class="calendar">
 					<%
-						DateFormat hourFormat = new SimpleDateFormat("hh : mm");
-						DateFormat calendarDateFormat = new SimpleDateFormat("EEEE dd MMMM");
+						DateFormat hourFormat = new SimpleDateFormat("hh : mm", Locale.FRANCE);
+						DateFormat calendarDateFormat = new SimpleDateFormat("EEEE dd MMMM", Locale.FRANCE);
 						c1.setTime(c2.getTime());
-						c2.add(Calendar.DAY_OF_MONTH, 1);
-						Calendar c = Calendar.getInstance();
-						c.set(2014, 1, 1, 0, 0, 0);
-						c.set(Calendar.MONTH, Calendar.JANUARY);
+						c1.add(Calendar.DAY_OF_MONTH, -1);
 						for (Match m : matchList) {
-							if (m.getStartingTime().compareTo(c.getTime()) < 0)
-								continue;
 							c2.setTime(m.getStartingTime());
 							Team home = pm.getObjectById(Team.class, m.getHome());
 							Team away = pm.getObjectById(Team.class, m.getAway());
