@@ -28,7 +28,7 @@ public class SeasonScheduleUpdater extends DataUpdater<LeagueType> {
 		URL s = null;
 		try {
 			s = UrlFactory.createScheduleRequest(2013,
-					UrlFactory.NhlSeason.REGULAR, Infos.TEST_NHL_API_KEY);
+					UrlFactory.NhlSeason.REGULAR, Infos.NHL_API_KEY);
 		} catch (MalformedURLException e) {
 			String msg = "URL mal formée : " + e.getMessage();
 			Logger.writeLog(msg);

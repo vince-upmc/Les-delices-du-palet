@@ -66,9 +66,9 @@ public class ScoreUpdater extends HttpServlet {
 					new GameUpdater(m).updateContent();
 
 					Query q2 = pm.newQuery(Pari.class);
-					q2.setFilter("match == m.getKey()");
-					q2.declareParameters("com.delices.datastore.contents.Match m");
-					List<Pari> lp = (List<Pari>) q2.execute(m);
+					q2.setFilter("match == key");
+					q2.declareParameters("com.google.appengine.api.datastore.Key m");
+					List<Pari> lp = (List<Pari>) q2.execute(m.getKey());
 					for (Pari pari : lp) {
 						BetUpdater.updateBet(m, pari);
 					}
@@ -91,14 +91,16 @@ public class ScoreUpdater extends HttpServlet {
 				// "Mise à jour " + cpt + " du match : " + m.getId()
 				// + " accomplie");
 			} else {
-				String msg = "Deuxième cond : date compar => "
-						+ (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0)
-						+ "status : " + m.getStatus();
-				resp.getWriter().println(msg);
+				/*
+				 * String msg = "Deuxième cond : date compar => " +
+				 * (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0) +
+				 * "status : " + m.getStatus();
+				 */
+				// resp.getWriter().println(msg);
 				// Logger.writeLog(this, msg);
 
 			}
-			resp.getWriter().println("Fin de la tâche cron");
+			// resp.getWriter().println("Fin de la tâche cron");
 			// Logger.writeLog(this, "Fin de la tâche cron");
 		}
 	}

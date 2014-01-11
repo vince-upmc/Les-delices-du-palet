@@ -30,6 +30,7 @@ public class Pari {
 	@Persistent
 	private Date date;
 
+	@Persistent
 	public boolean isDone;
 
 	public enum BetObjective {
@@ -88,7 +89,7 @@ public class Pari {
 	public boolean isBetSuccessful() {
 		// Récupérer le match
 		PersistenceManager pm = PMF.get().getPersistenceManager();
-		Match m = pm.getObjectById(Match.class, match.getId());
+		Match m = pm.getObjectById(Match.class, match);
 
 		// Récupérer le score du match
 		Score s = m.getBoxScore();

@@ -25,7 +25,7 @@ public class TeamUpdater extends DataUpdater<LeagueType> {
 	public void updateContent() throws UpdateFailureException {
 		URL s = null;
 		try {
-			s = UrlFactory.createLeagueHierarchyRequest(Infos.TEST_NHL_API_KEY);
+			s = UrlFactory.createLeagueHierarchyRequest(Infos.NHL_API_KEY);
 		} catch (MalformedURLException e) {
 			String msg = "URL mal formée : " + e.getMessage();
 			Logger.writeLog(msg);

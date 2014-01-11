@@ -23,7 +23,7 @@ public class StandingsUpdater extends DataUpdater<LeagueType> {
 		try {
 			// 2013 ?
 			s = UrlFactory.createStandingsRequest(2013,
-					UrlFactory.NhlSeason.REGULAR, Infos.TEST_NHL_API_KEY);
+					UrlFactory.NhlSeason.REGULAR, Infos.NHL_API_KEY);
 		} catch (MalformedURLException e) {
 			String msg = "URL mal formée : " + e.getMessage();
 			Logger.writeLog(msg);
