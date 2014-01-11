@@ -13,8 +13,24 @@ public class BetUpdater {
 	static void updateBet(Match m, Pari bet) {
 		bet.setStatus(Estatus.Done);
 
-		double modifier = 2.0;
-		boolean betSuccessful = false;
+		double modifier;
+		
+		int betkind = bet.getBetkind();
+		//Choisir modifier en fonction de betkin
+		switch(betkind){
+		case (0) : modifier = 2;break;
+		case (1) : modifier = 2;break;
+		case (2) : modifier = 2;break;
+		case (3) : modifier = 3;break;
+		case (4) : modifier = 4;break;
+		case (5) : modifier = 5;break;
+		case (6) : modifier = 3;break;
+		case (7) : modifier = 4;break;
+		case (8) : modifier = 5;break;
+		default: modifier = 2;break;
+		}
+
+		boolean betSuccessful = bet.isBetSuccessful();
 
 		if (betSuccessful) {
 			PersistenceManager pm = PMF.get().getPersistenceManager();
