@@ -42,7 +42,7 @@
 					}
 			%>
 			<li><a style="font-size: 14px" href="/profil.jsp">Bonjour <%=user.getNickname()%></a></li>
-			<li><%=dbuser.getCredit()%><img
+			<li><span id="credit"><%=dbuser.getCredit()%></span><img
 				style="position: relative; top: 2px" src="/images/credit.png" /></li>
 			<li><a href="<%=userService.createLogoutURL("/")%>">Déconnexion</a></li>
 

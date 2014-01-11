@@ -1,3 +1,5 @@
+<%@page import="com.delices.datastore.contents.Pari"%>
+<%@page import="javax.jdo.Query"%>
 <%@page import="java.util.Calendar"%>
 <%@page import="java.text.SimpleDateFormat"%>
 <%@page import="java.text.DateFormat"%>
@@ -11,6 +13,7 @@
 <html>
 <head>
 <%@include file="WEB-INF/templates/head.jsp"%>
+<link rel="stylesheet" href="/styles/form.css" type="text/css">
 <script src="/scripts/matchDisplayer.js"></script>
 <script src="/scripts/pari.js"></script>
 <title>Les Délices du Palet - Détails de match</title>
@@ -95,61 +98,86 @@
 					<td class="match-category">Différences de but</td>
 					<td id="away-goals_diff"></td>
 				</tr>
-				<%
-					if (Calendar.getInstance().getTime().compareTo(m.getStartingTime()) < 0) {
-				%>
 
-				<tr>
-					<td colspan=3>
-
-						<button id="pari_button" onclick="fetch_pari()">Afficher
-							les paris</button>
-					</td>
-				</tr>
-				<%
-					}
-				%>
 			</table>
 
-			<div id="pari_box" style="visibility: hidden; padding-bottom: 50px;">
-
-				<input type="radio" id="bet0" name="type_pari" value="victoire_home"
-					checked /> Parier sur la victoire de <span class="home-name"></span><br />
-				<input type="radio" id="bet1" name="type_pari" value="victoire_away" />
-				Parier sur la victoire de <span class="away-name"></span><br /> <input
-					type="radio" id="bet2" name="type_pari" value="match_nul" />
-				Parier sur un match nul<br /> <input type="radio" id="bet3"
-					name="type_pari" value="victoire_home_ecart" /> Parier sur la
-				victoire de <span class="home-name"></span> avec un écart de <select
-					id="ecart_home" name="ecart"><option value="1-3">1
-						à 3 points</option>
-					<option value="4-7">4 à 7 points</option>
-					<option value="8+">8 points ou plus</option></select><br /> <input
-					type="radio" id="bet4" name="type_pari" value="victoire_away_ecart" />
-				Parier sur la victoire de <span class="away-name"></span> avec un
-				écart de <select id="ecart_away" name="ecart"><option
-						value="1-3">1 à 3 points</option>
-					<option value="4-7">4 à 7 points</option>
-					<option value="8+">8 points ou plus</option></select><br /> <br /> Mise: <input
-					type="text" id="mise" name="mise" value="1" />
-
-				<%
-					try {
-						user.getUserId();
-				%>
-				<input type="button" value="Valider le pari"
-					onclick="parier('<%=request.getParameter("match-id")%>', <%=user.getUserId()%>)" />
-				<%
-					} catch (Exception e) {
-				%>
-				<input type="button" value="Valider le pari"
-					onclick="parier('<%=request.getParameter("match-id")%>', -1)" />
-				<%
+			<%
+				//Check si l'utilisateur n'a pas déjà un pari d'actif sur ce match
+				boolean aPariActif = false;
+				Query q = pm.newQuery(Pari.class);
+				q.setFilter("user == currentUser");
+				q.declareParameters("com.delices.datastore.contents.User currentUser");
+				@SuppressWarnings("unchecked")
+				List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
+				for (Pari p : paris) {
+					if (p.getMatch().equals(m.getKey())) {
+						aPariActif = true;
+						break;
 					}
-				%>
+
+				}
+				if (aPariActif) {
+			%>
+			<div>Vous avez un pari d'actif sur ce match.</div>
+			<a href="/">Blabla</a>
+
+			<%
+				} else if (user == null) {
+			%>
+			<a id="login_required"
+				href="<%=userService.createLoginURL(request.getRequestURI()
+						+ "?" + request.getQueryString())%>">Connectez-vous
+				pour pouvoir parier</a>
+			<%
+				} else if (dbuser.getCredit() == 0) {
+			%>
+			<div>Vous n'avez pas assez de crédit pour parier.</div>
+			<%
+				} else if (Calendar.getInstance().getTime()
+						.compareTo(m.getStartingTime()) < 0) {
+			%>
+			<div id="reponse" style="display: none"></div>
+			<form id="bet-form" action="" method="get">
+				<fieldset>
+					<legend>Pariez sur ce match</legend>
+
+					<label for="team-id">Équipe gagnante</label> <select id="team-id"
+						name="team-id" onchange="disableDifference(this.value)">
+						<option value="<%=home.getId()%>"><%=home.getName()%></option>
+						<option value="<%=away.getId()%>"><%=away.getName()%></option>
+						<option value="tie">Match nul</option>
+					</select> <label for="difference">Écarts de buts</label> <select
+						id="difference" onchange="calculateModifier()" name="difference">
+						<option value="none">-</option>
+						<option value="oneToThree">1 à 3 points</option>
+						<option value="fourToSeven">4 à 7 points</option>
+						<option value="eightOrMore">8 points ou plus</option>
+					</select> <label for="mise">Mise de départ</label> <select name="mise"
+						id="mise" onchange="calculateModifier()">
+						<%
+							for (int i = 1; i <= dbuser.getCredit() && i <= 5; i++) {
+						%>
+						<option value="<%=i%>"><%=i%></option>
+						<%
+							}
+						%>
+					</select>
+
+					<div>
+						Gain potentiel : <span id="modifier"></span><img
+							style="position: relative; top: 2px" src="/images/credit.png" />
+					</div>
 
 
-			</div>
+					<input type="hidden" name="match-id" value="<%=m.getId()%>" /> <input
+						class="unlabeled" type="submit" value="Pariez!" />
+				</fieldset>
+			</form>
+
+			<%
+				}
+			%>
+
 		</div>
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>
 		<div class="clear"></div>

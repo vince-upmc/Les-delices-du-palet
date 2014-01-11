@@ -21,7 +21,7 @@
 				<input type="submit" value="update" />
 			</form>
 
-			<form method="GET" action="/testpari">
+			<form method="GET" action="/pari">
 				<fieldset>
 					<legend>Test de création de pari</legend>
 

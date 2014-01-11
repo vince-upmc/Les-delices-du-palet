@@ -1,4 +1,4 @@
-package com.delices.services;
+package com.delices.utils;
 
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;

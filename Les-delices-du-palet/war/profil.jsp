@@ -13,36 +13,37 @@
 <body>
 	<%@include file="WEB-INF/templates/menu.jsp"%>
 	<%
-	boolean userExist = false;
-	if (dbuser == null)
-	{
+		boolean userExist = false;
+			if (dbuser == null)
+			{
 	%>
-	<script>window.location.href="/";</script>
+	<script>
+		window.location.href = "/";
+	</script>
 	<%
-	    userExist = false;
-	} 
-	else{
-		userExist = true;
-	}
-	if(userExist){
+		userExist = false;
+		} else {
+			userExist = true;
+		}
+		if (userExist) {
 	%>
 	<div id="main-content">
 		<div class="left-panel">
 			<h1>Profil</h1>
 			<div>
 				Crédit actuel :
-				<%=dbuser.getCredit()%><img style="position: relative; top: 2px"
-					src="/images/credit.png" />
+				<%=dbuser.getCredit()%>
+				<img style="position: relative; top: 2px" src="/images/credit.png" />
 			</div>
 			<%
 				Query q = pm.newQuery(Pari.class);
-				q.setFilter("user == currentUser");
-				q.declareParameters("com.delices.datastore.contents.User currentUser");
-				
-				@SuppressWarnings("unchecked")
-				List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
-				int wins = 0;
-				int cpt = 0;
+					q.setFilter("user == currentUser");
+					q.declareParameters("com.delices.datastore.contents.User currentUser");
+
+					@SuppressWarnings("unchecked")
+					List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
+					int wins = 0;
+					int cpt = 0;
 			%>
 
 			<div>
@@ -50,39 +51,45 @@
 				<ul>
 					<%
 						for (Pari p : paris) {
-							if (p.getStatus() != Pari.Estatus.Done) {
+								if (!p.isDone) {
 					%>
 					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
 					</li>
 					<%
 						}
-						}
+							}
 					%>
 				</ul>
 			</div>
 			<div>
 				Paris terminés :
 				<ul>
-				<%
-				for (Pari p : paris) {
-					cpt++;
-					if (p.getStatus() == Pari.Estatus.Done) {
-			%>
-				<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
-				</li>
-				<%
-					}
-					}
-					Double percent =  cpt > 0 ? ((double) wins) / ((double) cpt) * 100 : 100;
-				%>
+					<%
+						for (Pari p : paris) {
+								cpt++;
+								if (p.isDone) {
+					%>
+					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
+					</li>
+					<%
+						}
+							}
+							Double percent = cpt > 0 ? ((double) wins) / ((double) cpt)
+									* 100 : 100;
+					%>
 				</ul>
 			</div>
-			<div>Pourcentage de réussite : <%= percent.toString() %>%</div>
+			<div>
+				Pourcentage de réussite :
+				<%=percent.toString()%>%
+			</div>
 		</div>
 		<%@include file="WEB-INF/templates/dayMatches.jsp"%>
 		<div class="clear"></div>
 	</div>
 	<%@include file="WEB-INF/templates/footer.jsp"%>
-	<% } %>
+	<%
+		}
+	%>
 </body>
 </html>

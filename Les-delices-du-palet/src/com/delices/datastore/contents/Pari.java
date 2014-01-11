@@ -10,17 +10,10 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.delices.datastore.PMF;
-import com.delices.utils.Logger;
 import com.google.appengine.api.datastore.Key;
 
 @PersistenceCapable
 public class Pari {
-
-	public enum Estatus {
-		Waiting, // Le match n'a pas commencé
-		Started, // Le match est en cours
-		Done; // Le match est terminé
-	}
 
 	@PrimaryKey
 	@Persistent(valueStrategy = IdGeneratorStrategy.IDENTITY)
@@ -37,43 +30,35 @@ public class Pari {
 	@Persistent
 	private Date date;
 
-	// betkind 0 = Victoire home, 1 = Victoire away, 2 = nul, 3 = home ecart n°1
-	@Persistent
-	private int betkind;
+	public boolean isDone;
+
+	public enum BetObjective {
+		Home, Away, Tie;
+	}
+
+	public enum Difference {
+		None, OneToThree, FourToSeven, EightOrMore;
+	}
 
 	@Persistent
-	private Estatus status;
+	private BetObjective objective;
 
 	@Persistent
-	private boolean payed;
+	private Difference difference;
 
-	public Pari(Key user, Key match, int mise, int betkind) {
+	public Pari(Key user, Key match, int mise, BetObjective objective,
+			Difference diff) {
 		this.user = user;
 		this.match = match;
 		this.mise = mise;
-		this.status = Estatus.Waiting;
 		this.date = Calendar.getInstance().getTime();
-		this.setBetkind(betkind);
-		this.payed = false;
+		this.objective = objective;
+		this.difference = diff;
+		this.isDone = false;
 	}
 
 	public int getMise() {
 		return mise;
-	}
-
-	public void setMise(int mise) {
-		if (status != Estatus.Waiting) {
-			Logger.writeLog("Attention, la mise est modifiée mais le match est déjà commencé ou terminé");
-		}
-		this.mise = mise;
-	}
-
-	public Estatus getStatus() {
-		return status;
-	}
-
-	public void setStatus(Estatus status) {
-		this.status = status;
 	}
 
 	public Long getId() {
@@ -92,40 +77,66 @@ public class Pari {
 		return match;
 	}
 
-	public int getBetkind() {
-		return betkind;
+	public boolean isDone() {
+		return isDone;
 	}
 
-	public void setBetkind(int betkind) {
-		this.betkind = betkind;
+	public void setDone(boolean isDone) {
+		this.isDone = isDone;
 	}
-
+	
 	public boolean isBetSuccessful() {
-		//Récupérer le match
+		// Récupérer le match
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		Match m = pm.getObjectById(Match.class, match.getId());
-		
-		//Récupérer le score du match
+
+		// Récupérer le score du match
 		Score s = m.getBoxScore();
 		int homescore = s.getHomeScore();
 		int awayscore = s.getAwayScore();
-		
-		boolean isSuccessfull = false;
-		//Comparer le pari avec le score et dire si on est successfull
-		switch(betkind){
-		case (0) : isSuccessfull = (homescore > awayscore);break;//home win
-		case (1) : isSuccessfull = (homescore < awayscore);break;//away win
-		case (2) : isSuccessfull = (homescore == awayscore);break;//match nul
-		case (3) : isSuccessfull = (homescore > awayscore && homescore < awayscore+4);break;//home win ecart 1-3
-		case (4) : isSuccessfull = (homescore > awayscore+3 && homescore < awayscore+8);break;//home win ecart 4-7
-		case (5) : isSuccessfull = (homescore > awayscore+7);break;//home win ecart 8+
-		case (6) : isSuccessfull = (awayscore > homescore && awayscore < homescore+4);break;//away win ecart 1-3
-		case (7) : isSuccessfull = (awayscore > homescore+3 && awayscore < homescore+8);break;//away win ecart 4-7
-		case (8) : isSuccessfull = (awayscore > homescore+7);break;//away win ecart 8+
-		default: isSuccessfull = false;break;
+
+		boolean isHome = true;
+		switch (objective) {
+		case Home:
+			isHome = true;
+			break;
+		case Away:
+			isHome = false;
+			break;
+		case Tie:
+			return homescore == awayscore;
 		}
-		
-		return isSuccessfull;
+
+		switch (difference) {
+		case None:
+			return (isHome && homescore > awayscore)
+					|| (!isHome && awayscore > homescore);
+		case OneToThree:
+			return (isHome && homescore > awayscore && homescore < awayscore + 4)
+					|| (!isHome && awayscore > homescore && awayscore < homescore + 4);
+		case FourToSeven:
+			return (isHome && homescore > awayscore && homescore < awayscore + 7)
+					|| (!isHome && awayscore > homescore && awayscore < homescore + 7);
+		case EightOrMore:
+			return (isHome && homescore > awayscore + 8)
+					|| (!isHome && awayscore > homescore + 8);
+		}
+		// Dead code
+		return false;
+	}
+
+	public int getWinningSum() {
+		switch (difference) {
+		case None:
+			return mise;
+		case OneToThree:
+			return mise * 2;
+		case FourToSeven:
+			return mise * 3;
+		case EightOrMore:
+			return mise * 4;
+		}
+		return mise;
 	}
 
 }

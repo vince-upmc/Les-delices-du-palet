@@ -32,7 +32,7 @@ public class ScoreUpdater extends HttpServlet {
 		c.set(Calendar.HOUR, c.get(Calendar.HOUR) - 2);
 		c.set(Calendar.MINUTE, c.get(Calendar.MINUTE) - 30);
 		Date twoHoursAndAHalfAgo = c.getTime();
-		
+
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 
 		Query q = pm.newQuery(Match.class);
@@ -66,9 +66,10 @@ public class ScoreUpdater extends HttpServlet {
 					new GameUpdater(m).updateContent();
 
 					Query q2 = pm.newQuery(Pari.class);
-					q2.setFilter("match == " + m.getKey());
-					List<Pari> lp = (List<Pari>)q2.execute();
-					for (Pari pari : lp){
+					q2.setFilter("match == m.getKey()");
+					q2.declareParameters("com.delices.datastore.contents.Match m");
+					List<Pari> lp = (List<Pari>) q2.execute(m);
+					for (Pari pari : lp) {
 						BetUpdater.updateBet(m, pari);
 					}
 

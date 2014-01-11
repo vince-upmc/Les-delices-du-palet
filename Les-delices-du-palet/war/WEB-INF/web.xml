@@ -36,6 +36,17 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>PartialUpdate</servlet-name>
 		<url-pattern>/partial_update</url-pattern>
 	</servlet-mapping>
+	
+	<!-- Crée un pari -->
+	<servlet>
+		<servlet-name>Pari</servlet-name>
+		<servlet-class>com.delices.services.PariServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>Pari</servlet-name>
+		<url-pattern>/pari</url-pattern>
+	</servlet-mapping>
+	
 
 	<!-- Tests -->
 	<servlet>
@@ -54,15 +65,6 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	<servlet-mapping>
 		<servlet-name>DisplaySched</servlet-name>
 		<url-pattern>/testdisplaysched</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>Pari</servlet-name>
-		<servlet-class>com.delices.services.TestPari</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Pari</servlet-name>
-		<url-pattern>/testpari</url-pattern>
 	</servlet-mapping>
 
 	<servlet>

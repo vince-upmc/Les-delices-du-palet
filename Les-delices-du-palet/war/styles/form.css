@@ -12,7 +12,7 @@ form label {
 	margin: 5px 5px 5px 0px;
 }
 
-form input {
+form input, form select {
 	display: block;
 	margin: 5px 5px 5px 0px;
 }
