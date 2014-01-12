@@ -9,6 +9,11 @@ import javax.servlet.http.HttpServletResponse;
 
 import com.delices.datastore.updaters.PartialSeasonScheduleUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
+/**
+ * initialisation du calendrier des matchs
+ * @author yoyo
+ *
+ */
 
 @SuppressWarnings("serial")
 public class InitSchedule extends HttpServlet {

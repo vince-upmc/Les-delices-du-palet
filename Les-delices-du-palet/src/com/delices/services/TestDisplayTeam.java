@@ -15,7 +15,9 @@ import com.delices.datastore.contents.Team;
 import com.delices.datastore.updaters.StandingsUpdater;
 import com.delices.datastore.updaters.TeamUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
-
+/**
+ * mise à jour des équipes
+ */
 @SuppressWarnings("serial")
 public class TestDisplayTeam extends HttpServlet {
 	@SuppressWarnings("unchecked")

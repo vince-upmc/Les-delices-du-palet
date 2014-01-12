@@ -10,7 +10,11 @@ import javax.servlet.http.HttpServletResponse;
 import com.delices.datastore.updaters.StandingsUpdater;
 import com.delices.datastore.updaters.TeamUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
-
+/**
+ * mise à jour des équipes
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class UpdateTeam extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {

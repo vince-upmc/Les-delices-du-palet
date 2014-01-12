@@ -8,7 +8,11 @@ import javax.jdo.annotations.PrimaryKey;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
-
+/**
+ * stockage des scores des matchs dans le datastore
+ * @author yoyo
+ *
+ */
 @PersistenceCapable
 public class Score {
 
@@ -49,7 +53,11 @@ public class Score {
 	public void setAwayScore(int awayScore) {
 		this.awayScore = awayScore;
 	}
-
+	/**
+	 * retourne un Json contenant le score de home et away
+	 * @return
+	 * @throws JSONException
+	 */
 	public JSONObject toJSON() throws JSONException {
 		JSONObject obj = new JSONObject();
 

@@ -7,8 +7,19 @@ import com.delices.datastore.contents.Match;
 import com.delices.datastore.contents.Pari;
 import com.delices.datastore.contents.User;
 
-public class BetUpdater {
+/**
+ * Classe du backend pour attribuer les gains des paris gagnés
+ * @author yoyo
+ *
+ */
 
+public class BetUpdater {
+	
+	/**
+	 *
+	 * Met à jour le crédit d'un joueur si son pari est gagné
+	 * */
+	
 	static void updateBet(Match m, Pari bet) {
 
 		bet.setDone(true);

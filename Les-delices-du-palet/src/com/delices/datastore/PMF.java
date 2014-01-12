@@ -1,5 +1,9 @@
 package com.delices.datastore;
-
+/**
+ * Classe de configuration du datastore
+ * @author yoyo
+ *
+ */
 import javax.jdo.JDOHelper;
 import javax.jdo.PersistenceManagerFactory;
 

@@ -16,6 +16,12 @@ import com.delices.utils.Logger;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
 
+/**
+ * renvoi d'un match au format Json en passant
+ * l'id en paramètre
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class GetMatch extends HttpServlet {
 	@Override

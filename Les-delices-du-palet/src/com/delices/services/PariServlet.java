@@ -22,7 +22,13 @@ import com.google.appengine.api.datastore.KeyFactory;
 import com.google.appengine.api.users.User;
 import com.google.appengine.api.users.UserService;
 import com.google.appengine.api.users.UserServiceFactory;
-
+/**
+ * servlet pour la gestion des paris
+ * vérification de la validité du pari
+ * création du pari suivant la mise, le match et le type de pari
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class PariServlet extends HttpServlet {
 	public void doGet(HttpServletRequest req, HttpServletResponse resp)

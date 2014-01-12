@@ -1,7 +1,11 @@
 package com.delices.utils;
 
 import javax.servlet.http.HttpServlet;
-
+/**
+ * classe pour l'enregistrement des logs
+ * @author yoyo
+ *
+ */
 public class Logger {
 
 	public static void writeLog(String entry) {

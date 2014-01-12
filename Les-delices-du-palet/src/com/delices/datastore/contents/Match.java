@@ -11,7 +11,11 @@ import javax.jdo.annotations.PrimaryKey;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
-
+/**
+ * stockage des matchs dans le datastore
+ * @author yoyo
+ *
+ */
 @PersistenceCapable
 public class Match implements Comparable<Match> {
 
@@ -92,7 +96,13 @@ public class Match implements Comparable<Match> {
 				+ ", status=" + status + ", title=" + title + ", startingTime="
 				+ startingTime + ", boxscore=" + boxScore + "]";
 	}
-
+	/**
+	 * retourne un Json contenant l'équipe home et away
+	 * @param homejson
+	 * @param awayjson
+	 * @return
+	 * @throws JSONException
+	 */
 	public JSONObject toJSON(JSONObject homejson, JSONObject awayjson)
 			throws JSONException {
 
@@ -109,7 +119,10 @@ public class Match implements Comparable<Match> {
 
 		return obj;
 	}
-
+	/**
+	 * 
+	 * compare les dates de début avec un match passé en paramètre
+	 */
 	@Override
 	public int compareTo(Match o) {
 		return this.getStartingTime().compareTo(o.getStartingTime());

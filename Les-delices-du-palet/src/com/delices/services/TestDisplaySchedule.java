@@ -20,7 +20,11 @@ import com.delices.datastore.updaters.SeasonScheduleUpdater;
 import com.delices.datastore.updaters.StandingsUpdater;
 import com.delices.datastore.updaters.TeamUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
-
+/**
+ * mise à jour du calendrier
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class TestDisplaySchedule extends HttpServlet {
 	@SuppressWarnings("unchecked")

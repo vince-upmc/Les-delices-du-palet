@@ -16,7 +16,11 @@ import com.delices.datastore.contents.Match;
 import com.delices.datastore.contents.Team;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
-
+/**
+ * servlet de récupération des prochains matchs non joués
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class NextMatchs extends HttpServlet {
 	@SuppressWarnings("unchecked")

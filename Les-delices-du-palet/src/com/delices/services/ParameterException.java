@@ -3,7 +3,7 @@ package com.delices.services;
 public class ParameterException extends Exception {
 
 	/**
-	 * 
+	 * classe d'exception pour les paramètres passés dans les formulaires
 	 */
 	private static final long serialVersionUID = 1L;
 
