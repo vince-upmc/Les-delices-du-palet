@@ -2,6 +2,7 @@ package com.delices.utils;
 
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
+import java.util.Locale;
 
 import javax.jdo.PersistenceManager;
 
@@ -23,7 +24,7 @@ public class Tools {
 		return json;
 	}
 
-	static DateFormat df = new SimpleDateFormat("dd/MM hh:mm");
+	final static DateFormat df = new SimpleDateFormat("dd/MM HH:mm", Locale.FRANCE);
 
 	public static String betPrettyPrinter(Pari b) {
 		PersistenceManager pm = PMF.get().getPersistenceManager();

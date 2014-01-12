@@ -26,7 +26,6 @@
 		<div class="left-panel">
 			<div class="match-content">
 				<%
-					DateFormat format = new SimpleDateFormat("dd MMMM yyyy\nhh:mm");
 					Match m = pm.getObjectById(Match.class,
 							request.getParameter("match-id"));
 					Team home = pm.getObjectById(Team.class, m.getHome());

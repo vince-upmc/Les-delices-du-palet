@@ -2,6 +2,7 @@ package com.delices.datastore.contents;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 
 import javax.jdo.annotations.PersistenceCapable;
 import javax.jdo.annotations.Persistent;
@@ -95,7 +96,7 @@ public class Match implements Comparable<Match> {
 	public JSONObject toJSON(JSONObject homejson, JSONObject awayjson)
 			throws JSONException {
 
-		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM hh:mm");
+		SimpleDateFormat sdf = new SimpleDateFormat("dd-MM HH:mm", Locale.FRANCE);
 
 		JSONObject obj = new JSONObject();
 		obj.put("id", getId());
