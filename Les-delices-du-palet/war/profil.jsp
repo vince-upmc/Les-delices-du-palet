@@ -39,7 +39,7 @@
 			</h3></div>
 			</div>
 			<%
-				DateFormat profileFormat = new SimpleDateFormat("dd-MM hh:mm", Locale.FRANCE);
+				DateFormat profileFormat = new SimpleDateFormat("dd-MM HH:mm", Locale.FRANCE);
 				Query q = pm.newQuery(Pari.class);
 				q.setFilter("user == currentUser");
 				q.declareParameters("com.delices.datastore.contents.User currentUser");

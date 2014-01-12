@@ -7,9 +7,11 @@
 }
 
 .match-panel {
+	width:100%;
 	background: #EEEEEE;
 	border-collapse: collapse;
 	border: 1px solid grey;
+	margin-bottom:20px;
 }
 
 .match-panel th {
@@ -34,4 +36,8 @@
 
 .match-panel .match-category {
 	font-weight: bold;
+}
+
+#bet-form {
+	
 }

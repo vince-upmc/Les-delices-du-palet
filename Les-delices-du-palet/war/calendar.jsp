@@ -70,7 +70,7 @@
 				<!-- Hard include, sinon ça déploy pas -->
 				<table class="calendar">
 					<%
-						DateFormat hourFormat = new SimpleDateFormat("hh : mm",
+						DateFormat hourFormat = new SimpleDateFormat("HH : mm",
 								Locale.FRANCE);
 						DateFormat calendarDateFormat = new SimpleDateFormat(
 								"EEEE dd MMMM", Locale.FRANCE);
