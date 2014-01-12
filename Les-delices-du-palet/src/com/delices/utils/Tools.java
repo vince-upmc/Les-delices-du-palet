@@ -23,7 +23,7 @@ public class Tools {
 		return json;
 	}
 
-	static DateFormat df = new SimpleDateFormat("dd MMMM yyyy\nhh:mm");
+	static DateFormat df = new SimpleDateFormat("dd/MM hh:mm");
 
 	public static String betPrettyPrinter(Pari b) {
 		PersistenceManager pm = PMF.get().getPersistenceManager();
@@ -31,15 +31,15 @@ public class Tools {
 		Team home = pm.getObjectById(Team.class, m.getHome());
 		Team away = pm.getObjectById(Team.class, m.getAway());
 
-		String res = df.format(m.getStartingTime()) + " : Somme engagée : "
-				+ b.getMise() + " " + home.getName() + " vs " + away.getName();
+		String res = df.format(m.getStartingTime()) + " - Mise de : "
+				+ b.getMise() + ", " + home.getName() + " vs " + away.getName();
 		if (m.getStatus().equals("closed")) {
-			res += " score final : " + m.getBoxScore().getHomeScore() + " - "
+			res += " Score final : " + m.getBoxScore().getHomeScore() + " - "
 					+ m.getBoxScore().getAwayScore();
 		}
 
 		return res
-				+ " : "
+				+ " => "
 				+ (b.isDone ? (b.isBetSuccessful() ? "Pari réussi"
 						: "Pari échoué") : "Pari en cours");
 

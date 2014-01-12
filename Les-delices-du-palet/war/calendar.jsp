@@ -34,7 +34,8 @@
 				} catch (NumberFormatException e) {
 					timeDiff = 0;
 				}
-				Calendar c1 = Calendar.getInstance(TimeZone.getTimeZone("Europe/Paris"), Locale.FRANCE);
+				Calendar c1 = Calendar.getInstance(
+						TimeZone.getTimeZone("Europe/Paris"), Locale.FRANCE);
 				c1.add(Calendar.DATE, timeDiff);
 				c1.set(Calendar.HOUR_OF_DAY, 0);
 				Date d1 = c1.getTime();
@@ -49,24 +50,30 @@
 
 				List<Match> matchList = (List<Match>) q.execute(d1, d2);
 			%>
-			<h1><%=c1.get(Calendar.DAY_OF_MONTH) + " "
+			<h1><%=c1.get(Calendar.DAY_OF_MONTH)
+					+ " "
 					+ c1.getDisplayName(Calendar.MONTH, Calendar.LONG,
-							Locale.FRANCE) + " - "
-					+ c2.get(Calendar.DAY_OF_MONTH) + " "
+							Locale.FRANCE)
+					+ " - "
+					+ c2.get(Calendar.DAY_OF_MONTH)
+					+ " "
 					+ c2.getDisplayName(Calendar.MONTH, Calendar.LONG,
 							Locale.FRANCE)%></h1>
 			<div class="nav">
-				<a href="/calendar.jsp?timeDiff=<%=timeDiff - 7%>">&lt;&lt;&lt; Previous 7
-					days</a> <a style="float:right;" href="/calendar.jsp?timeDiff=<%=timeDiff + 7%>">Next 7
-					days &gt;&gt;&gt;</a>
+				<a href="/calendar.jsp?timeDiff=<%=timeDiff - 7%>">&lt;&lt;&lt;
+					Previous 7 days</a> <a style="float: right;"
+					href="/calendar.jsp?timeDiff=<%=timeDiff + 7%>">Next 7 days
+					&gt;&gt;&gt;</a>
 			</div>
 
 			<div class="calendar-wrapper" style="width: 90%; margin: auto">
 				<!-- Hard include, sinon ça déploy pas -->
 				<table class="calendar">
 					<%
-						DateFormat hourFormat = new SimpleDateFormat("hh : mm", Locale.FRANCE);
-						DateFormat calendarDateFormat = new SimpleDateFormat("EEEE dd MMMM", Locale.FRANCE);
+						DateFormat hourFormat = new SimpleDateFormat("hh : mm",
+								Locale.FRANCE);
+						DateFormat calendarDateFormat = new SimpleDateFormat(
+								"EEEE dd MMMM", Locale.FRANCE);
 						c1.setTime(c2.getTime());
 						c1.add(Calendar.DAY_OF_MONTH, -1);
 						for (Match m : matchList) {
