@@ -1,11 +1,4 @@
-clé de test NHL :
+Application Web de pari en ligne
+-------------------
 
-hrbhfjmfrewem2pgmvvqxg7z
-
-clé NBA :
-
-API KEY: w94v4gmxdbz7x5ug3zkhemtv
-
-clé NHL :
-
-API KEY: mg43gpa7cspytfudm557xaew
+Site de l'application : http://les-delices-du-palet.appspot.com
