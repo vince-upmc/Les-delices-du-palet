@@ -1,3 +1,4 @@
+<%@page import="com.delices.utils.Tools"%>
 <%@page import="org.omg.CORBA.UserException"%>
 <%@page import="com.delices.datastore.contents.Pari"%>
 <%@page import="javax.jdo.Query"%>
@@ -14,8 +15,8 @@
 	<%@include file="WEB-INF/templates/menu.jsp"%>
 	<%
 		boolean userExist = false;
-			if (dbuser == null)
-			{
+		if (dbuser == null)
+		{
 	%>
 	<script>
 		window.location.href = "/";
@@ -53,7 +54,7 @@
 						for (Pari p : paris) {
 								if (!p.isDone) {
 					%>
-					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
+					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=Tools.betPrettyPrinter(p)%></a>
 					</li>
 					<%
 						}
@@ -69,7 +70,7 @@
 								cpt++;
 								if (p.isDone) {
 					%>
-					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=p.getDate()%></a>
+					<li><a href="/match.jsp?match-id=<%=p.getMatch().getName()%>"><%=Tools.betPrettyPrinter(p)%></a>
 					</li>
 					<%
 						}

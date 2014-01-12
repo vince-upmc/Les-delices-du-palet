@@ -85,11 +85,15 @@ public class Pari {
 	public void setDone(boolean isDone) {
 		this.isDone = isDone;
 	}
-	
+
 	public boolean isBetSuccessful() {
 		// Récupérer le match
 		PersistenceManager pm = PMF.get().getPersistenceManager();
 		Match m = pm.getObjectById(Match.class, match);
+		return isBetSuccessful(m);
+	}
+
+	public boolean isBetSuccessful(Match m) {
 
 		// Récupérer le score du match
 		Score s = m.getBoxScore();

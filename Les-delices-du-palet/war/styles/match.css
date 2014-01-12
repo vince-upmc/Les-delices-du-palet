@@ -1,16 +1,19 @@
 @CHARSET "ISO-8859-1";
 
+.match-content {
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+}
+
 .match-panel {
-	width:90%;
-	background:#EEEEEE;
-	margin:auto;
-	margin-top:20px;
-	border-collapse:collapse;
-	border:1px solid grey;
+	background: #EEEEEE;
+	border-collapse: collapse;
+	border: 1px solid grey;
 }
 
 .match-panel th {
-	padding:15px 0px 15px 0px;
+	padding: 15px 0px 15px 0px;
 }
 
 .match-panel td {
@@ -19,16 +22,16 @@
 }
 
 .match-header {
-	background:#CCCCCC;
-	border:2px solid grey;
+	background: #CCCCCC;
+	border: 2px solid grey;
 }
 
 .match-panel a {
-	text-decoration:none;
-	font-size:20px;
-	color:#333333;
+	text-decoration: none;
+	font-size: 20px;
+	color: #333333;
 }
 
 .match-panel .match-category {
-	font-weight:bold;
+	font-weight: bold;
 }
