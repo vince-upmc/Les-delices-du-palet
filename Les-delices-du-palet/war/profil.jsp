@@ -90,9 +90,9 @@
 					<tr>
 					<td><%
 						switch (p.getBetObjective()) {
-						case Home:%><%=home.getName()%><%;
-						case Away:%><%=away.getName()%><%;
-						case Tie:%>Match nul<%;
+						case Home:%><%=home.getName()%><%; break;
+						case Away:%><%=away.getName()%><%; break;
+						case Tie:%>Match nul<%; break;
 						default:%>?<%;
 						}
 					%></td>
