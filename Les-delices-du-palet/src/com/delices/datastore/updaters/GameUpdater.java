@@ -42,7 +42,8 @@ public class GameUpdater extends DataUpdater<GameType> {
 			if (in != null) {
 				GameType game = super.unmarshallContent(in, "game");
 				match.setStatus(game.getStatus());
-				// On met à jour l'heure de début, si jamais le match a été reporté
+				// On met à jour l'heure de début, si jamais le match a été
+				// reporté
 				match.setStartingTime(game.getScheduled().toGregorianCalendar()
 						.getTime());
 				for (TeamType t : game.getTeam()) {
@@ -58,8 +59,8 @@ public class GameUpdater extends DataUpdater<GameType> {
 						Logger.writeLog(msg);
 						throw new UpdateFailureException(msg);
 					}
+					
 				}
-
 				Logger.writeLog("Points mis-à-jour avec succès");
 			}
 		} catch (Exception e) {

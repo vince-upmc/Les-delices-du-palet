@@ -1,5 +1,13 @@
+<%@page import="com.delices.datastore.updaters.GameUpdater"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
+<%@page import="com.delices.datastore.contents.Pari"%>
+<%@page import="javax.jdo.Query"%>
+<%@page import="java.util.Calendar"%>
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.text.DateFormat"%>
+<%@page import="com.delices.datastore.contents.Match"%>
+<%@page import="com.delices.datastore.contents.Team"%>
 
 <!DOCTYPE html>
 <html>
@@ -13,6 +21,23 @@
 	<div id="main-content">
 		<div class="left-panel">
 			<h1>Test</h1>
+
+			<%
+				Match m = pm.getObjectById(Match.class,
+						"8ad01387-cd94-4c0c-938f-d7d0c552b34b");
+				if (request.getParameter("bla") != null){
+					pm.currentTransaction().begin();
+					new GameUpdater(m).updateContent();
+					pm.currentTransaction().commit();
+				}
+				Team home = pm.getObjectById(Team.class, m.getHome());
+				Team away = pm.getObjectById(Team.class, m.getAway());
+			%>
+			<div><%="status : " + m.getStatus() + " - " + home.getName()
+					+ " vs " + away.getName() + " result : "
+					+ m.getBoxScore().getHomeScore() + " - "
+					+ m.getBoxScore().getAwayScore()%></div>
+
 			<form method="GET" action="/testdisplay">
 				<input type="submit" value="display" />
 			</form>

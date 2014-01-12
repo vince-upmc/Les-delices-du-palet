@@ -38,7 +38,7 @@ public class ScoreUpdater extends HttpServlet {
 		Query q = pm.newQuery(Match.class);
 
 		q.setOrdering("this.startingTime asc");
-		q.setFilter("this.startingTime > startupDate");
+		q.setFilter("this.startingTime >= startupDate");
 		// Impossible de faire 2 comparaisons sur un même champ..
 		// ça m'soule, on fait sans.
 		/*
@@ -63,14 +63,18 @@ public class ScoreUpdater extends HttpServlet {
 					// + m.getStartingTime());
 					resp.getWriter().println(
 							"Mise à jour du match du : " + m.getStartingTime());
+					pm.currentTransaction().begin();
 					new GameUpdater(m).updateContent();
-
+					pm.currentTransaction().commit();
+					
 					Query q2 = pm.newQuery(Pari.class);
 					q2.setFilter("match == key");
 					q2.declareParameters("com.google.appengine.api.datastore.Key m");
 					List<Pari> lp = (List<Pari>) q2.execute(m.getKey());
 					for (Pari pari : lp) {
+						pm.currentTransaction().begin();
 						BetUpdater.updateBet(m, pari);
+						pm.currentTransaction().commit();
 					}
 
 				} catch (UpdateFailureException e) {
@@ -108,8 +112,8 @@ public class ScoreUpdater extends HttpServlet {
 	private static Date getServeurStartupDate() {
 		Calendar c = Calendar.getInstance();
 		// bonne année!
-		c.set(2014, 1, 1, 0, 0, 0);
-		c.set(Calendar.MONTH, Calendar.JANUARY);
+		c.set(2013, 12, 31, 23, 59, 59);
+		c.set(Calendar.MONTH, Calendar.DECEMBER);
 		return c.getTime();
 	}
 

@@ -13,20 +13,33 @@
 
 		<button onclick="driver()">Launch</button>
 		<script>
+			var init = 1;
 			function driver() {
-				for (i = 5; i <= 10; i++) {
+				$.ajax({
+					type : "GET",
+					url : "/admin/updateTeam",
+					async : false,
+					error : function() {
+						$("#main-content").append("Erreur dans la mise à jour des équipes<br/>");
+						throw "Impossible de continuer";
+					},
+					success : function() {
+						$("#main-content").append("Equipes et standings mises à jour<br/>");
+					}
+				});
+				for (i = init; i <= 10; i++) {
 					$.ajax({
 						type : "GET",
-						url : "/partial_update?sched-id=" + i,
+						url : "/admin/partial_update?sched-id=" + i,
 						async : true, //Safe!
-						error: merde,
+						error : merde,
 						success : ok
 					});
 				}
 			}
-			var cpt = 4;
-			function merde(){
-				$("#main-content").append("error : "+ (++cpt));	
+			var cpt = init - 1;
+			function merde() {
+				$("#main-content").append("error : " + (++cpt));
 			}
 			function ok() {
 				$("#main-content").append(

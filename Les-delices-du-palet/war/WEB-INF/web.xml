@@ -34,9 +34,9 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 	</servlet>
 	<servlet-mapping>
 		<servlet-name>PartialUpdate</servlet-name>
-		<url-pattern>/partial_update</url-pattern>
+		<url-pattern>/admin/partial_update</url-pattern>
 	</servlet-mapping>
-	
+
 	<!-- Crée un pari -->
 	<servlet>
 		<servlet-name>Pari</servlet-name>
@@ -46,36 +46,27 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
 		<servlet-name>Pari</servlet-name>
 		<url-pattern>/pari</url-pattern>
 	</servlet-mapping>
-	
 
-	<!-- Tests -->
+	<!-- Mets à jour les équipes -->
 	<servlet>
-		<servlet-name>Display</servlet-name>
-		<servlet-class>com.delices.services.TestDisplayTeam</servlet-class>
+		<servlet-name>UpdateTeam</servlet-name>
+		<servlet-class>com.delices.services.UpdateTeam</servlet-class>
 	</servlet>
 	<servlet-mapping>
-		<servlet-name>Display</servlet-name>
-		<url-pattern>/testdisplay</url-pattern>
+		<servlet-name>UpdateTeam</servlet-name>
+		<url-pattern>/admin/updateTeam</url-pattern>
 	</servlet-mapping>
 
-	<servlet>
-		<servlet-name>DisplaySched</servlet-name>
-		<servlet-class>com.delices.services.TestDisplaySchedule</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>DisplaySched</servlet-name>
-		<url-pattern>/testdisplaysched</url-pattern>
-	</servlet-mapping>
-
-	<servlet>
-		<servlet-name>Update</servlet-name>
-		<servlet-class>com.delices.services.TestUpdateTeam</servlet-class>
-	</servlet>
-	<servlet-mapping>
-		<servlet-name>Update</servlet-name>
-		<url-pattern>/testupdate</url-pattern>
-	</servlet-mapping>
-
+	<!-- Securities -->
+	<security-constraint>
+		<web-resource-collection>
+			<web-resource-name>Protected Area</web-resource-name>
+			<url-pattern>/admin/*</url-pattern>
+		</web-resource-collection>
+		<auth-constraint>
+			<role-name>admin</role-name>
+		</auth-constraint>
+	</security-constraint>
 
 	<!-- CRON TASKS (exécutées sur l'app engine) -->
 	<security-constraint>
