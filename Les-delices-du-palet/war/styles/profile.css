@@ -1,0 +1,41 @@
+@CHARSET "ISO-8859-1";
+
+.title-wrapper {
+	width: 50%;
+	display:inline-block;
+}
+
+.profile-credit {
+	width:49%;
+	display:inline-block;
+	text-align:right;
+}
+
+.profile-wrapper {
+	width: 90%;
+	margin:auto;
+}
+
+
+.profile-wrapper table {
+	background:#EEEEEE;
+	text-align:center;
+	margin-bottom:20px;
+	width:100%;
+	border-collapse:collapse;
+	border:1px solid #AAAAAA;
+}
+
+.profile-wrapper th {
+	background:#AAAAAA;
+}
+
+.profile-wrapper a {
+	text-decoration:none;
+	color:black;
+}
+
+.bet-title {
+	background:#CCCCCC;
+	color:#444444;
+}

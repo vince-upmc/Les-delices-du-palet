@@ -1,1 +1,1 @@
-<footer>&copy; mes couilles</footer>
+<footer>&copy; Les délices du palet</footer>

@@ -81,6 +81,20 @@ public class Pari {
 	public boolean isDone() {
 		return isDone;
 	}
+	
+	public BetObjective getBetObjective () {
+		return objective;
+	}
+	
+	public String getDifferenceDescr () {
+		switch (difference) {
+		case None : return "-";
+		case OneToThree : return "1-3";
+		case FourToSeven : return "4-7";
+		case EightOrMore : return "8+";
+		default : return "Pari mystique";
+		}
+	}
 
 	public void setDone(boolean isDone) {
 		this.isDone = isDone;
