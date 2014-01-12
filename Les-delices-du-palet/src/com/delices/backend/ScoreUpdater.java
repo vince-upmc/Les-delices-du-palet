@@ -1,5 +1,9 @@
 package com.delices.backend;
-
+/**
+ * Classe du backend pour la mise à jour des scores
+ * @author yoyo
+ *
+ */
 import java.io.IOException;
 import java.util.Calendar;
 import java.util.Date;

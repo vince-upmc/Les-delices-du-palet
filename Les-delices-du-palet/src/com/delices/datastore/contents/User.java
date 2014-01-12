@@ -8,7 +8,11 @@ import javax.jdo.annotations.Persistent;
 import javax.jdo.annotations.PrimaryKey;
 
 import com.google.appengine.api.datastore.Key;
-
+/**
+ * stockage des données utilisateur dans le datastore
+ * @author yoyo
+ *
+ */
 @PersistenceCapable
 public class User {
 

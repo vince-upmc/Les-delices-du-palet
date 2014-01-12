@@ -7,7 +7,11 @@ import javax.jdo.annotations.PrimaryKey;
 import com.google.appengine.api.datastore.Key;
 import com.google.appengine.labs.repackaged.org.json.JSONException;
 import com.google.appengine.labs.repackaged.org.json.JSONObject;
-
+/**
+ * stockage des equipes dans le datastore
+ * @author yoyo
+ *
+ */
 @PersistenceCapable
 public class Team {
 

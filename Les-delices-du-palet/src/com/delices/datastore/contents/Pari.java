@@ -11,7 +11,11 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.delices.datastore.PMF;
 import com.google.appengine.api.datastore.Key;
-
+/**
+ * stockage des paris dans le datastore
+ * @author yoyo
+ *
+ */
 @PersistenceCapable
 public class Pari {
 
@@ -99,7 +103,11 @@ public class Pari {
 	public void setDone(boolean isDone) {
 		this.isDone = isDone;
 	}
-
+	/**
+	 * retourne true si le pari est gagné,
+	 * false sinon
+	 * @return
+	 */
 	public boolean isBetSuccessful() {
 		// Récupérer le match
 		PersistenceManager pm = PMF.get().getPersistenceManager();
@@ -143,7 +151,10 @@ public class Pari {
 		// Dead code
 		return false;
 	}
-
+	/**
+	 * retourne la somme gagnée en fonction de la mise de départ
+	 * @return
+	 */
 	public int getWinningSum() {
 		switch (difference) {
 		case None:

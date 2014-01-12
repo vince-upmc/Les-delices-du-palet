@@ -10,7 +10,11 @@ import javax.servlet.http.HttpServletResponse;
 import com.delices.datastore.updaters.StandingsUpdater;
 import com.delices.datastore.updaters.UpdateFailureException;
 import com.delices.utils.Logger;
-
+/**
+ * Classe du backend mettant à jour le classement
+ * @author yoyo
+ *
+ */
 @SuppressWarnings("serial")
 public class RankingUpdater extends HttpServlet {
 
