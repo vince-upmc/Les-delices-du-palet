@@ -11,10 +11,12 @@ import javax.jdo.annotations.PrimaryKey;
 
 import com.delices.datastore.PMF;
 import com.google.appengine.api.datastore.Key;
+
 /**
  * stockage des paris dans le datastore
+ * 
  * @author yoyo
- *
+ * 
  */
 @PersistenceCapable
 public class Pari {
@@ -85,27 +87,33 @@ public class Pari {
 	public boolean isDone() {
 		return isDone;
 	}
-	
-	public BetObjective getBetObjective () {
+
+	public BetObjective getBetObjective() {
 		return objective;
 	}
-	
-	public String getDifferenceDescr () {
+
+	public String getDifferenceDescr() {
 		switch (difference) {
-		case None : return "-";
-		case OneToThree : return "1-3";
-		case FourToSeven : return "4-7";
-		case EightOrMore : return "8+";
-		default : return "Pari mystique";
+		case None:
+			return "-";
+		case OneToThree:
+			return "1-3";
+		case FourToSeven:
+			return "4-7";
+		case EightOrMore:
+			return "8+";
+		default:
+			return "Pari mystique";
 		}
 	}
 
 	public void setDone(boolean isDone) {
 		this.isDone = isDone;
 	}
+
 	/**
-	 * retourne true si le pari est gagné,
-	 * false sinon
+	 * retourne true si le pari est gagné, false sinon
+	 * 
 	 * @return
 	 */
 	public boolean isBetSuccessful() {
@@ -142,8 +150,10 @@ public class Pari {
 			return (isHome && homescore > awayscore && homescore < awayscore + 4)
 					|| (!isHome && awayscore > homescore && awayscore < homescore + 4);
 		case FourToSeven:
-			return (isHome && homescore > awayscore && homescore < awayscore + 7)
-					|| (!isHome && awayscore > homescore && awayscore < homescore + 7);
+			return (isHome && homescore > awayscore
+					&& homescore <= awayscore + 7 && homescore >= awayscore + 4)
+					|| (!isHome && awayscore > homescore
+							&& awayscore <= homescore + 7 && awayscore >= homescore + 4);
 		case EightOrMore:
 			return (isHome && homescore > awayscore + 8)
 					|| (!isHome && awayscore > homescore + 8);
@@ -151,8 +161,10 @@ public class Pari {
 		// Dead code
 		return false;
 	}
+
 	/**
 	 * retourne la somme gagnée en fonction de la mise de départ
+	 * 
 	 * @return
 	 */
 	public int getWinningSum() {

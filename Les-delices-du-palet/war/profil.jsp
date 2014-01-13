@@ -17,8 +17,7 @@
 	<%@include file="WEB-INF/templates/menu.jsp"%>
 	<%
 		boolean userExist = false;
-			if (dbuser == null)
-			{
+		if (dbuser == null) {
 	%>
 	<script>
 		window.location.href = "/";
@@ -155,8 +154,7 @@
 							<td><%=p.getMise() + " / "%> <%
  	if (p.isBetSuccessful(m)) {
  %><%=p.getWinningSum()%> <%
- 	}
- 				{
+ 	} else {
  %>0<%
  	}
  %></td>
