@@ -1,4 +1,5 @@
 package com.delices.backend;
+
 /**
  * Classe du backend pour la mise à jour des scores
  * @author yoyo
@@ -71,6 +72,9 @@ public class ScoreUpdater extends HttpServlet {
 					new GameUpdater(m).updateContent();
 					pm.currentTransaction().commit();
 					
+					if (!m.getStatus().equals("closed"))
+						continue;
+
 					Query q2 = pm.newQuery(Pari.class);
 					q2.setFilter("match == key");
 					q2.declareParameters("com.google.appengine.api.datastore.Key m");
