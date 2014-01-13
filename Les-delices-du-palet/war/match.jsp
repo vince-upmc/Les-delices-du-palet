@@ -93,40 +93,41 @@
 				</table>
 
 				<%
-					//Check si l'utilisateur n'a pas déjà un pari d'actif sur ce match
-					boolean aPariActif = false;
-					Query q = pm.newQuery(Pari.class);
-					q.setFilter("user == currentUser");
-					q.declareParameters("com.delices.datastore.contents.User currentUser");
-					@SuppressWarnings("unchecked")
-					List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
-					Pari pari = null;
-					for (Pari p : paris) {
-						if (p.getMatch().equals(m.getKey())) {
-							pari = p;
-							break;
-						}
-
-					}
-					if (pari != null) {
-				%>
-				<div>Vous avez un pari d'actif sur ce match.</div>
-				<div><%=Tools.betPrettyPrinter(pari)%></div>
-
-				<%
-					} else if (user == null) {
+					if (user == null) {
 				%>
 				<a id="login_required"
 					href="<%=userService.createLoginURL(request.getRequestURI()
 						+ "?" + request.getQueryString())%>">Connectez-vous
 					pour pouvoir parier</a>
 				<%
+					} else {
+						//Check si l'utilisateur n'a pas déjà un pari d'actif sur ce match
+						boolean aPariActif = false;
+						Query q = pm.newQuery(Pari.class);
+						q.setFilter("user == currentUser");
+						q.declareParameters("com.delices.datastore.contents.User currentUser");
+						@SuppressWarnings("unchecked")
+						List<Pari> paris = (List<Pari>) q.execute(dbuser.getKey());
+						Pari pari = null;
+						for (Pari p : paris) {
+							if (p.getMatch().equals(m.getKey())) {
+								pari = p;
+								break;
+							}
+
+						}
+						if (pari != null) {
+				%>
+				<div>Vous avez un pari d'actif sur ce match.</div>
+				<div><%=Tools.betPrettyPrinter(pari)%></div>
+
+				<%
 					} else if (dbuser.getCredit() == 0) {
 				%>
 				<div>Vous n'avez pas assez de crédit pour parier.</div>
 				<%
 					} else if (Calendar.getInstance().getTime()
-							.compareTo(m.getStartingTime()) < 0) {
+								.compareTo(m.getStartingTime()) < 0) {
 				%>
 				<div id="reponse" style="display: none"></div>
 				<form id="bet-form" action="" method="get">
@@ -167,6 +168,7 @@
 				</form>
 
 				<%
+					}
 					}
 
 					if (m.getStatus().equals("closed")) {
