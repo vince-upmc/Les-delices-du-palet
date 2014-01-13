@@ -45,7 +45,6 @@ public class ScoreUpdater extends HttpServlet {
 		q.setOrdering("this.startingTime asc");
 		q.setFilter("this.startingTime >= startupDate");
 		// Impossible de faire 2 comparaisons sur un même champ..
-		// ça m'soule, on fait sans.
 		/*
 		 * && " + "this.startingTime < twoHoursAndAHalfAgo");
 		 */
@@ -58,7 +57,7 @@ public class ScoreUpdater extends HttpServlet {
 		final int MAX_UPDATE = 5;
 		int cpt = 0;
 		for (Match m : l) {
-			if (m.getStartingTime().compareTo(twoHoursAndAHalfAgo) < 0
+			if (m.getStartingTime().before(twoHoursAndAHalfAgo)
 					&& (!m.getStatus().equals("closed")) && cpt < MAX_UPDATE) {
 				// Logger.writeLog(this, "Mise à jour du match : " + m.getId());
 				// resp.getWriter().println("Mise à jour du match : " +
